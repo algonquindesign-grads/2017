@@ -64,3 +64,9 @@ background-color: #2c2c2c;
 .text-black {
   color: #000
 }
+
+/* Type */
+
+.display-font {
+  font-family: 'Work Sans', sans-serif;
+}
