@@ -13,11 +13,14 @@ html {
   background-color: #fff;
 }
 
-.footer ul, .footer ol, .no-bullets {
+ul, ol, .no-bullets {
   list-style-type: none;
 
 }
 
+.wrapper {
+  max-width: 60em;
+}
 .float-left {
   float: left;
 }
@@ -82,6 +85,9 @@ background-color: #2c2c2c;
 /* Navbar */
 
 
-.loacation ul {
+nav ul {
   list-style-type: none;
 }
+
+
+
