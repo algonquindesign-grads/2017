@@ -9,6 +9,8 @@ The 2017 Algonquin Design Grad website.
 ## Team Members
 
 - [@thomasjbradley](https://github.com/thomasjbradley)
+- [@hellachella](https://github.com/hellachella)
+- [@robcodonnell](https://github.com/robcodonnell)
 
 ---
 
