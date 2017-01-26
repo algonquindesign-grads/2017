@@ -5,15 +5,21 @@
   <title>Grad</title>
   <meta content="width=device-width,initial-scale=1" name="viewport">
   <link href="css/typography.css" rel="stylesheet">
-  <link href="css/grids.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Overpass:300,400,700,900" rel="stylesheet">
 </head>
 
-<body>
+<body class="bg-dark-grey">
+  <div class="wrapper bg-lightgrey">
 
-{{content}}
+    {{content}}
+
+ {% include footer.html %}
+  </div>
+
+
 
 </body>
 </html>
