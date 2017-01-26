@@ -10,14 +10,17 @@ html {
 
 html {
   font-family: 'Overpass', sans-serif;
-  color: #464646;
+  background-color: #fff;
 }
 
-ul, ol, {
+.footer ul, .footer ol, .no-bullets {
   list-style-type: none;
-  padding: 0;
+
 }
 
+.float-left {
+  float: left;
+}
 
  /*Colour*/
 
@@ -69,4 +72,16 @@ background-color: #2c2c2c;
 
 .display-font {
   font-family: 'Work Sans', sans-serif;
+}
+
+.text-light {
+  font-weight: 300;
+}
+
+
+/* Navbar */
+
+
+.loacation ul {
+  list-style-type: none;
 }
