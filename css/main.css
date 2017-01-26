@@ -1,0 +1,14 @@
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+html {
+  font-family: 'Overpass', sans-serif;
+
+}
