@@ -114,7 +114,7 @@ padding: 0;
 -webkit-filter: blur(2px);
 filter: blur(2px);
 
-border-bottom: 1px dashed rgba(255,255,255, 0.8);
+border-bottom: 1px dashed rgba(255,255,255, 0.5);
 
 animation: lamp 300ms ease-out forwards;
 }
@@ -149,15 +149,18 @@ filter: blur(7px);
 
 -webkit-filter: blur(0px);
 filter: blur(0px);
-color: #ff6460;
-
-
 }
+
+90% {
+  color: #fff;
+}
+
 100% {
-    opacity: 1;
+opacity: 1;
 -webkit-filter: blur(0px);
 filter: blur(0px);
-color: #ff6460;
+color: #fff;
+
 
 }
 }
