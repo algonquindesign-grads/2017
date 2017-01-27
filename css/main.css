@@ -6,7 +6,10 @@ html {
 
 a {
   text-decoration: none;
+
 }
+
+
 
 *, *::before, *::after {
   box-sizing: inherit;
@@ -21,6 +24,9 @@ ul, .no-bullets, .location ul {
   list-style-type: none;
 }
 
+ul li:hover{
+
+}
 .wrapper {
   max-width: 60em;
 }
@@ -96,4 +102,62 @@ ul, .no-bullets, .location ul {
 
 .nav p {
 padding: 0;
+}
+
+.nav a {
+  color: rgba(255,255,255,0.5);
+}
+
+
+.nav a:hover {
+  opacity: 1;
+-webkit-filter: blur(2px);
+filter: blur(2px);
+
+border-bottom: 1px dashed rgba(255,255,255, 0.8);
+
+animation: lamp 300ms ease-out forwards;
+}
+
+@keyframes lamp {
+0% {
+    opacity: .5;
+-webkit-filter: blur(0px);
+filter: blur(0px);
+}
+
+
+13% {
+  -webkit-filter: blur(7px);
+filter: blur(7px);
+}
+
+15% {
+  -webkit-filter: blur(15px);
+filter: blur(15px);
+}
+
+
+20% {
+    opacity: .95;
+-webkit-filter: blur(7px);
+filter: blur(7px);
+
+}
+
+70% {
+
+-webkit-filter: blur(0px);
+filter: blur(0px);
+color: #ff6460;
+
+
+}
+100% {
+    opacity: 1;
+-webkit-filter: blur(0px);
+filter: blur(0px);
+color: #ff6460;
+
+}
 }

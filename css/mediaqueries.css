@@ -9,14 +9,20 @@ figure img {
   display: block;
 }
 
+
+
 .menu {
-  vertical-align: bottom;
-  text-align: right;
+  vertical-align: middle;
+  text-align: center;
 }
 
 /*sm*/
 @media only screen and (min-width: 25em) {
 
+.menu {
+  vertical-align: bottom;
+  text-align: right;
+}
 
 }
 
