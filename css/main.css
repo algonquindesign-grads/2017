@@ -4,6 +4,10 @@ html {
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
 *, *::before, *::after {
   box-sizing: inherit;
 }
@@ -13,26 +17,27 @@ html {
   background-color: #fff;
 }
 
-ul, .no-bullets {
+ul, .no-bullets, .location ul {
   list-style-type: none;
-
 }
 
 .wrapper {
   max-width: 60em;
 }
+
 .float-left {
   float: left;
 }
 
- /*Colour*/
+ /* Colour */
 
 .bg-black {
   background-color: #000;
 }
 
 .bg-grey-black {
-background-color: #2c2c2c;
+  background-color: #2c2c2c;
+
 }
 
 .bg-ultra-dark-grey {
@@ -85,11 +90,10 @@ background-color: #2c2c2c;
 /* Navbar */
 
 
-nav ul {
-  list-style-type: none;
+.nav {
+  overflow: hidden;
 }
 
-nav i img {
-  margin: 0 auto;
+.nav p {
+padding: 0;
 }
-

@@ -1,51 +1,44 @@
-  .nav {
-  background-color: pink;
 
+figure {
+  margin: 0 auto;
+  padding: 2em 0;
 }
-  .nav figure{
-  margin: 1em auto 0;
 
+figure img {
+  margin: 0 auto;
+  display: block;
 }
+
+.menu {
+  vertical-align: bottom;
+  text-align: right;
+}
+
 /*sm*/
 @media only screen and (min-width: 25em) {
 
 
-
-.nav {
-  text-align: center;
-  font-size: .8333rem;
-  line-height: 1.3rem;
-}
-
-.nav {
-  background-color: red;
-}
 }
 
 /* med */
 @media only screen and (min-width: 38em) {
-.nav figure{
-  margin: 0 auto;
-  pad-top: 1em;
-}
 
-.nav {
-  background-color: green;
-}
 
-.nav {
-  text-align: left;
-  font-size: .6944rem;
-  line-height: 1.3rem;
-}
 
 
 }
 
 /* l */
 @media only screen and (min-width: 60em) {
-.nav {
-  background-color: blue;
-}
+
+  .nav {
+    background-color: blue;
+  }
 
 }
+
+
+
+/** Test **/
+
+
