@@ -99,7 +99,9 @@ ul li:hover{
 .nav {
   overflow: hidden;
 }
-
+.nav {
+  transition: all 500ms linear;
+}
 .nav p {
 padding: 0;
 }
