@@ -93,76 +93,9 @@ ul li:hover{
 }
 
 
-/* Navbar */
+/* MAIN PAGE */
 
-
-.nav {
-  overflow: hidden;
-}
-.nav {
-  transition: all 500ms linear;
-}
-.nav p {
-padding: 0;
-}
-
-.nav a {
-  color: rgba(255,255,255,0.5);
-}
-
-
-.nav a:hover {
-  opacity: 1;
--webkit-filter: blur(2px);
-filter: blur(2px);
-
-border-bottom: 1px dashed rgba(255,255,255, 0.5);
-
-animation: lamp 300ms ease-out forwards;
-}
-
-@keyframes lamp {
-0% {
-    opacity: .5;
--webkit-filter: blur(0px);
-filter: blur(0px);
-}
-
-
-13% {
-  -webkit-filter: blur(7px);
-filter: blur(7px);
-}
-
-15% {
-  -webkit-filter: blur(15px);
-filter: blur(15px);
-}
-
-
-20% {
-    opacity: .95;
--webkit-filter: blur(7px);
-filter: blur(7px);
-
-}
-
-70% {
-
--webkit-filter: blur(0px);
-filter: blur(0px);
-}
-
-90% {
-  color: #fff;
-}
-
-100% {
-opacity: 1;
--webkit-filter: blur(0px);
-filter: blur(0px);
-color: #fff;
-
-
-}
+.portfolio-spread {
+  padding: 0;
+  margin: 0;
 }
