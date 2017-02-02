@@ -2,16 +2,17 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Grad</title>
-  <meta content="width=device-width,initial-scale=1" name="viewport">
-  <link href="css/typography.css" rel="stylesheet">
-  <link href="css/grid.css" rel="stylesheet">
-  <link href="css/modules.css" rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet">
-  <link href="css/mediaqueries.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{% if page.title %}{{page.title}}{% endif %}</title>
+  <link href="{{site.baseurl}}/css/modules.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/grid.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/typography.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/mediaqueries.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Overpass:300,400,700,900" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Work+Sans:900" rel="stylesheet">
-
+  <link href="{{site.baseurl}}/img/favicon.ico" rel="shortcut icon">
+  <meta name="description" content="{{page.meta}}">
 </head>
 
 <body class="bg-dark-grey">
