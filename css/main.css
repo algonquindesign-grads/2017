@@ -93,9 +93,18 @@ ul li:hover{
 }
 
 
-/* MAIN PAGE */
+/* MAIN GRAD PAGE */
 
 .portfolio-spread {
   padding: 0;
   margin: 0;
+}
+
+.bio-name {
+  top: 2em;
+
+}
+
+.bio-name h2 {
+  line-height: .75;
 }

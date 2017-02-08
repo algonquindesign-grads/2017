@@ -1,44 +1,48 @@
 ---
 layout: gradlayout
-
+firstname: Bill
+lastname: Murray
 specialty-1: beer
 specialty-2: cheese
 specialty-3: carbs
+
 ---
 
 
-<section class="bio grid">
+<section class="bio grid relative ">
   <div class="unit bio-image xs-1 s-1 m-1-2 l-1-2">
     <img class="img-flex" src="http://www.placehold.it/200x300" alt="bio image">
   </div>
 
-  <div class="unit xs-1 s-1 m-1-2 l-1-2 bio-info">
-    <div class="specialty text-upper">
-    <p>{{ page.specialty-1}}/{{ page.specialty-2}}/{{ page.specialty-3}}</p>
+  <div class="unit xs-1 s-1 m-1-2 l-1-2 absolute pin-c bio-info">
+    <div class="display-font text-upper bio-name text-red">
+      <h2 class="yotta push-0">Bill</h2>
+      <h2 class="yotta push-0">Murray</h2>
     </div>
-  </div>
 
-  <div class="bio-social">
-    <ul class="list-group-inline">
-      <li>
-        <i class="icon i-32">
-          <img src="http://placehold.it/32x32" alt="fb">
-        </i>
-      </li>
+    <div class="specialty text-right text-upper">
+      <p>{{ page.specialty-1}}/{{ page.specialty-2}}/{{ page.specialty-3}}</p>
+    </div>
 
-      <li>
-        <i class="icon i-32">
-          <img src="http://placehold.it/32x32" alt="fb">
-        </i>
-      </li>
-
-      <li>
-        <i class="icon i-32">
-          <img src="http://placehold.it/32x32" alt="fb">
-        </i>
-      </li>
-
-    </ul>
+    <div class="bio-social">
+      <ul class="list-group-inline">
+        <li>
+          <i class="icon i-32">
+            <img src="http://placehold.it/32x32" alt="fb">
+          </i>
+        </li>
+        <li>
+          <i class="icon i-32">
+            <img src="http://placehold.it/32x32" alt="fb">
+          </i>
+        </li>
+        <li>
+          <i class="icon i-32">
+            <img src="http://placehold.it/32x32" alt="fb">
+          </i>
+        </li>
+      </ul>
+    </div>
   </div>
 </section>
 
