@@ -1,8 +1,7 @@
-markdown: redcarpet
+
 baseurl: "/2017"
 exclude: ['README.md']
 collections:
   designers:
     output: true
     permalink: /designers/:path/
-
