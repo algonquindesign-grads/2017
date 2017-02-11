@@ -9,7 +9,9 @@ figure img {
   display: block;
 }
 
-
+.bottom-logo i {
+  margin: 0 auto;
+}
 
 /* Navbar */
 
@@ -121,6 +123,11 @@ color: #fff;
   }
 
 }
+
+
+
+
+
 
 
 
