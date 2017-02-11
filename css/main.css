@@ -91,19 +91,13 @@ ul li:hover{
   font-weight: 300;
 }
 
+.text-bold {
+  font-weight: 700;
+}
+
 
 /* MAIN GRAD PAGE */
 
-.portfolio-spread {
+.bio-portfolio figure {
   padding: 0;
-  margin: 0;
-}
-
-.bio-name {
-  top: 2em;
-
-}
-
-.bio-name h2 {
-  line-height: .75;
 }

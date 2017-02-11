@@ -5,33 +5,52 @@
 /* med */
 @media only screen and (min-width: 38em) {
 
+  .bio-specialty {
+    padding: .5em 1em;
+  }
+
 .bio-image {
-  padding: 3.5em .5em 1em 3.5em;
+  padding: 2em 0 1em 0;
 }
-
-
-/* l */
-@media only screen and (min-width: 60em) {
-
 
 .bio-name {
  top: 2em;
 }
 
-
 .bio-name h2 {
-  font-size: 3.5832rem;
-  line-height: 4.875rem;
+  line-height: 2.75rem;
+}
+
+
+}
+/* l */
+@media only screen and (min-width: 60em) {
+
+.bio-blurb {
+  width: 75%;
+}
+
+
+  .bio-image {
+    padding: 2em .5em 1.5em 3.5em;
   }
 
-.bio-portfolio {
-  padding: 0 3em;
+  .bio-name {
+    top: 5em;
+  }
 
-}
+  .bio-name h2 {
+    font-size: 3.5832rem;
+    line-height: 2.975rem;
+    }
 
-.bio-portfolio figure {
-  padding: 0 .5em 1em;
-}
+  .bio-portfolio {
+    padding: 0 3em;
+  }
+
+  .bio-portfolio figure {
+    padding: 0 .5em 1em;
+  }
 
 }
 
