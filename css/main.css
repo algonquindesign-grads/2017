@@ -101,3 +101,7 @@ ul li:hover{
 .bio-portfolio figure {
   padding: 0;
 }
+
+.bio-vid {
+  max-width: 100%;
+}
