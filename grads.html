@@ -13,7 +13,9 @@ linkedin: "www.linkedinlink.com"
 behance: "www.behancelink.com"
 twitter: "www.twitterlink.com"
 portrait: "https://unsplash.it/g/500/600/?random"
-description: "Ryan is an avid learner & product designer. He loves working with startups & has had the privilege of helping talented teams ship over half a dozen mobile & web apps to 300k+ users during his short career."
+description: "An avid learner & product designer.
+I love working with startups & have had the privilege of helping talented teams
+ship over 6 mobile & web apps to 300k+ users during my short career."
 image-1: "https://unsplash.it/g/200/200/?random"
 image-2: "https://unsplash.it/200/200/?random"
 image-3: "https://unsplash.it/g/200/200/?random"
@@ -25,8 +27,12 @@ vimeo-link: "https://vimeo.com/82295259"
 
 <section class="bio grid grid-bottom relative">
 
-    <div class="unit unit-xs-hidden unit-s-hidden m-1 bio-name absolute">
+    <div class="unit unit-xs-hidden unit-s-hidden l-1 bio-name absolute">
       <h2 class="display-font text-upper text-center text-red push-0">{{ page.longname }}</h2>
+    </div>
+
+    <div class="unit unit-xs-hidden unit-s-hidden m-1  unit-l-hidden bio-name absolute">
+      <h2 class="display-font text-upper text-center text-red push-0">{{ page.shortname }}</h2>
     </div>
 
     <div class="unit bio-image xs-1 s-1 m-1-2 l-1-2">
@@ -40,7 +46,7 @@ vimeo-link: "https://vimeo.com/82295259"
 
     <p class="push-0 text-bold text-upper ">{{ page.specialty-1 }}/{{ page.specialty-2 }}/{{ page.specialty-3 }}</p>
 
-    <p class="milli bio-blurb text-left">{{ page.description }}</p>
+    <p class="milli push-1-4 bio-blurb text-left">{{ page.description }}</p>
     <ul class="list-group-inline push-1-2">
         <li class="instagram">
           <i class="icon i-32">
@@ -63,10 +69,8 @@ vimeo-link: "https://vimeo.com/82295259"
           </i>
         </li>
     </ul>
-    <p class="push-1-4">{{ page.email}}</p>
-    <a href="{{ page.link }}"><p class="push-1-2">{{ page.link }}</p></a>
-
-
+    <p class="push-1-4 micro">{{ page.email}}</p>
+    <a href="{{ page.link }}"><p class="push-1-2 micro">{{ page.link }}</p></a>
   </div>
 
 

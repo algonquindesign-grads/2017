@@ -1,6 +1,7 @@
 /*sm*/
 @media only screen and (min-width: 25em) {
 
+}
 
 /* med */
 @media only screen and (min-width: 38em) {
@@ -9,12 +10,11 @@
     padding: .5em 1em;
   }
 
-.bio-image, {
-  padding: 2em 0 1em 0;
-}
+
 
 .bio-name {
- top: 2.5em;
+ top: 2em;
+
 }
 
 .bio-name h2 {
@@ -22,31 +22,37 @@
 }
 
 .bio-blurb {
+  font-size: .6944rem;
+  line-height: 1.3rem;
+  width: 100%;
+}
 
+.bio-portfolio {
+  padding: 1em;
 }
 }
 
 
-}
+
 /* l */
 @media only screen and (min-width: 60em) {
 
-.bio-blurb {
-  width: 75%;
-}
-
+  .bio-blurb {
+    width: 90%;
+  }
 
   .bio-image {
     padding: 2em .5em 3em 3.5em;
   }
 
   .bio-name {
-    top: 5em;
+ top: 5em;
   }
 
   .bio-name h2 {
+
     font-size: 3.5832rem;
-    line-height: 2.975rem;
+    line-height: 3.45832rem;
     }
 
   .bio-portfolio {
@@ -58,7 +64,7 @@
     padding: 0 .5em 1em;
   }
 
-.bio-specialty {
+  .bio-specialty {
   padding: 0 0 3em 0;
 }
 
