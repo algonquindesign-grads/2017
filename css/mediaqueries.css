@@ -24,7 +24,7 @@
 .bio-blurb {
   font-size: .6944rem;
   line-height: 1.3rem;
-  width: 100%;
+  width: 80%;
 }
 
 .bio-portfolio {
@@ -38,7 +38,7 @@
 @media only screen and (min-width: 60em) {
 
   .bio-blurb {
-    width: 90%;
+    width: 80%;
   }
 
   .bio-image {
