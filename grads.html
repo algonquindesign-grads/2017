@@ -2,9 +2,9 @@
 layout: gradlayout
 longname: "Chelle<br> Lorenzen"
 shortname: "Bill M."
-specialty-1: beer
-specialty-2: cheese
-specialty-3: carbs
+specialty-1: Illustration
+specialty-2: Type
+specialty-3: UX/UI
 link: "www.fake.fake"
 email: "fake@fake.com"
 instagram: "www.instagramp.com"
@@ -12,11 +12,12 @@ facebook: "www.facebooklink.com"
 linkedin: "www.linkedinlink.com"
 behance: "www.behancelink.com"
 twitter: "www.twitterlink.com"
+portrait: "https://unsplash.it/g/500/600"
 description: "Crucial facts about me: I have an obsession with tattoo culture, I'm fueled primarily by coffee and definitely air-guitar alone in my room."
-image-1: "http://www.image.whatev-1"
-image-2: "http://www.image.whatev-1"
-image-3: "http://www.image.whatev-1"
-image-4: "http://www.image.whatev-1"
+image-1: "https://unsplash.it/200/200"
+image-2: "https://unsplash.it/g/200/200"
+image-3: "https://unsplash.it/200/200"
+image-4: "https://unsplash.it/200/200"
 vimeo: "vimeolink.com"
 
 ---
@@ -29,15 +30,15 @@ vimeo: "vimeolink.com"
     </div>
 
     <div class="unit bio-image xs-1 s-1 m-1-2 l-1-2">
-      <img class="img-flex" src="http://www.placehold.it/250x300" alt="bio image">
+      <img class="img-flex" src="{{ page.portrait }}" alt="bio image">
     </div>
 
 
   <div class="milli unit kilo island-1-2 bio-specialty xs-1 s-1 m-1-2 l-1-2">
-    <p class="push-0 text-bold text-upper ">{{ page.specialty-1}}/{{ page.specialty-2}}/{{ page.specialty-3}}</p>
+    <p class="push-0 text-bold text-upper ">{{ page.specialty-1 }}/{{ page.specialty-2 }}/{{ page.specialty-3 }}</p>
 
     <p class="bio-blurb text-left">{{ page.description }}</p>
-      <ul class="list-group-inline push-1-2">
+    <ul class="list-group-inline push-1-2">
         <li>
           <i class="icon i-32">
             <img src="http://placehold.it/32x32" alt="fb">
@@ -62,6 +63,7 @@ vimeo: "vimeolink.com"
     <p class="push-1-2">{{ page.email}}</p>
     <a href="{{ page.link }}"><p class="push-1-2">{{ page.link }}</p></a>
 
+
   </div>
 
 
@@ -69,22 +71,25 @@ vimeo: "vimeolink.com"
 
 <section class="bio-portfolio grid bg-lightgrey">
 
+
       <figure class="push-0 bio-port-1 unit xs-1 s-1-2 m-1-4 l-1-4">
-        <img class="img-flex" src="http://www.placehold.it/100x100">
+        <img class="img-flex" src="{{ page.image-1 }}">
       </figure>
 
       <figure class="bio-port-2 unit xs-1 s-1-2 m-1-4 l-1-4">
-        <img class="img-flex" src="http://www.placehold.it/100x100">
+        <img class="img-flex" src="{{ page.image-2 }}">
       </figure>
 
 
       <figure class="bio-port-3 unit xs-1 s-1-2 m-1-4 l-1-4">
-        <img class="img-flex" src="http://www.placehold.it/100x100">
+        <img class="img-flex" src="{{ page.image-3 }}">
       </figure>
 
 
       <figure class="bio-port-4 unit xs-1 s-1-2 m-1-4 l-1-4">
-        <img class="img-flex" src="http://www.placehold.it/100x100">
+        <img class="img-flex" src="{{ page.image-4 }}">
       </figure>
+
+
 
 </section>

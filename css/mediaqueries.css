@@ -14,7 +14,7 @@
 }
 
 .bio-name {
- top: 2em;
+ top: 2.5em;
 }
 
 .bio-name h2 {
@@ -32,7 +32,7 @@
 
 
   .bio-image {
-    padding: 2em .5em 1.5em 3.5em;
+    padding: 2em .5em 3em 3.5em;
   }
 
   .bio-name {
@@ -45,12 +45,17 @@
     }
 
   .bio-portfolio {
-    padding: 0 3em;
+    padding: 3em 3em;
+    background-color: #e9e9e9;
   }
 
   .bio-portfolio figure {
     padding: 0 .5em 1em;
   }
+
+.bio-specialty {
+  padding: 0 0 3em 0;
+}
 
 }
 
