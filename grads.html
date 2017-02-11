@@ -1,6 +1,6 @@
 ---
 layout: gradlayout
-longname: "Bill<br> Murray"
+longname: "Jimbob<br> Murray"
 shortname: "Bill M."
 specialty-1: beer
 specialty-2: cheese
@@ -22,21 +22,23 @@ vimeo: "vimeolink.com"
 ---
 
 
-<section class="bio grid relative ">
-  <div class="unit bio-image xs-1 s-1 m-1-2 l-1-2">
-    <img class="img-flex" src="http://www.placehold.it/200x300" alt="bio image">
-  </div>
+<section class="bio grid relative">
 
-  <div class="unit xs-1 s-1 m-1-2 l-1-2 absolute pin-c bio-info">
-    <div class="display-font text-upper bio-name text-red">
-      <h2 class="yotta push-0">Bill<br>Murray</h2>
+    <div class="unit unit-xs-hidden unit-s-hidden m-1 bio-name absolute">
+      <h2 class="display-font text-upper text-center text-red push-0">{{ page.longname }}</h2>
     </div>
 
-    <div class="specialty text-right text-upper">
+    <div class="unit bio-image xs-1 s-1 m-1-2 l-1-2">
+      <img class="img-flex" src="http://www.placehold.it/250x300" alt="bio image">
+    </div>
+
+    <div class="unit xs-1 s-1 m-1-2 l-1-2">
       <p>{{ page.specialty-1}}/{{ page.specialty-2}}/{{ page.specialty-3}}</p>
-    </div>
 
-    <div class="bio-social">
+
+
+
+    <div class="unit bio-social">
       <ul class="list-group-inline">
         <li>
           <i class="icon i-32">
@@ -56,24 +58,28 @@ vimeo: "vimeolink.com"
       </ul>
     </div>
   </div>
+
 </section>
 
-<section class="bio-portfolio grid bg-lightgrey pad-t">
+<section class="bio-portfolio grid bg-lightgrey">
 
-    <div class="unit xs-1 s-1-2 m-1-4 l-1-4">
-      <img class="img-flex" src="http://www.placehold.it/100x100">
-    </div>
+      <figure class="bio-port-1 unit xs-1 s-1-2 m-1-4 l-1-4">
+        <img class="img-flex" src="http://www.placehold.it/100x100">
+      </figure>
 
-    <div class="unit xs-1 s-1-2 m-1-4 l-1-4">
-      <img class="img-flex" src="http://www.placehold.it/100x100">
-    </div>
+      <figure class="bio-port-2 unit xs-1 s-1-2 m-1-4 l-1-4">
+        <img class="img-flex" src="http://www.placehold.it/100x100">
+      </figure>
 
-    <div class="unit xs-1 s-1-2 m-1-4 l-1-4">
-      <img class="img-flex" src="http://www.placehold.it/100x100">
-    </div>
 
-    <div class="unit xs-1 s-1-2 m-1-4 l-1-4">
-      <img class="img-flex" src="http://www.placehold.it/100x100">
-    </div></div>
+      <figure class="bio-port-3 unit xs-1 s-1-2 m-1-4 l-1-4">
+        <img class="img-flex" src="http://www.placehold.it/100x100">
+      </figure>
+
+
+      <figure class="bio-port-4 unit xs-1 s-1-2 m-1-4 l-1-4">
+        <img class="img-flex" src="http://www.placehold.it/100x100">
+      </figure>
+
 
 </section>
