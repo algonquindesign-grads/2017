@@ -38,7 +38,7 @@ background-color: #f6f6f6
 }
 
 .bg-red {
-background-color: #ff6460;
+background-color: #f16462;
 }
 
 .bg-white {
@@ -54,7 +54,7 @@ color: #fff;
 }
 
 .text-red {
-color: #ff6460;
+color: #f16462;
 }
 
 .text-black {
@@ -67,7 +67,7 @@ color: #000
   background-size: cover;
 }
 
-.about,
+/*.about,
 .grads,
 .events,
 .profs,
@@ -75,6 +75,7 @@ color: #000
  {
   height: 100vh;
 }
+*/
 
 .title {
   position: relative;
@@ -162,6 +163,7 @@ color: #000
 .work {
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 900;
+	line-height: 1.1;
 }
 
 .overpass {
