@@ -67,7 +67,12 @@ color: #000
   background-size: cover;
 }
 
-.about {
+.about,
+.grads,
+.events,
+.profs,
+.sponsors
+ {
   height: 100vh;
 }
 
