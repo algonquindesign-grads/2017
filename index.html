@@ -42,9 +42,9 @@ meta:
     <h2 class="gutter-double giga">Events</h2>
   </div>
 
-  {% for data in site.data.pieces %}
+  {% for data in site.data.events %}
     {% assign item = data[1] %}
-      <div class="event-info">
+      <div class="event-info unit unit-xs-1">
         <h3 class="event-title">{{item.title}}</h2>
         <p class="event-date">{{item.date}}</p>
         <p class="event-desc">{{item.desc}}</p>
