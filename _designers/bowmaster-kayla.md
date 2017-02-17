@@ -4,8 +4,8 @@ layout: grads
 longname: "Kayla <br> Bowmaster"
 longname-oneline: "Kayla Bowmaster"
 shortname: "Kayla B."
-specialty-1: UI/UX
-specialty-2: Branding
+specialty-1: UI/UX/
+specialty-2: Branding/
 specialty-3: Illustration
 link: "http://kaybow.design"
 linkname: "kaybow.design"

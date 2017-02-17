@@ -4,9 +4,9 @@ layout: grads
 longname: "Cassandra <br> Barbe"
 longname-oneline: "Cassandra Barbe"
 shortname: "Cassandra B."
-specialty-1: Branding
-specialty-2: UI/UX
-specialty-3: Photography
+specialty-1: Branding/
+specialty-2: UI/UX/
+specialty-3: Photography/
 link: "http://cassandrabarbe.ca"
 linkname: cassandrabarbe.ca
 email: "cassandra.barbe@gmail.com"

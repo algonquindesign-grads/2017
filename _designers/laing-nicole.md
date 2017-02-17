@@ -4,8 +4,8 @@ layout: grads
 longname: "Nicole <br> Laing"
 longname-oneline: "Nicole Laing"
 shortname: "Nicole L."
-specialty-1: Web Design
-specialty-2: UI/UX
+specialty-1: Web Design/
+specialty-2: UI/UX/
 specialty-3: Print
 link: "http://nicolelaing.ca"
 linkname: "nicolelaing.ca"

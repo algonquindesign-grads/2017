@@ -4,8 +4,8 @@ layout: grads
 longname: "Sage <br> Mosurinjohn"
 longname-oneline: "Sage Mosurinjohn"
 shortname: "Sage M."
-specialty-1: Print
-specialty-2: Typography
+specialty-1: Print/
+specialty-2: Typography/
 specialty-3: Branding
 link: "http://designedbysage.ca"
 linkname: "designedbysage.ca"

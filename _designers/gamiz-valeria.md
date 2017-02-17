@@ -4,8 +4,8 @@ layout: grads
 longname: "Valeria <br> Gamiz"
 longname-oneline: "Valeria Gamiz"
 shortname: "Valeria G."
-specialty-1: Branding
-specialty-2: UI/UX
+specialty-1: Branding/
+specialty-2: UI/UX/
 specialty-3: Print
 link: "http://www.gamizvaleria.com"
 linkname: gamizvaleria.com

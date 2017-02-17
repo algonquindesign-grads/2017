@@ -4,8 +4,8 @@ layout: grads
 longname: "Heather <br> Sanders"
 longname-oneline: "Heather Sanders"
 shortname: "Heather S."
-specialty-1: Branding
-specialty-2: Illustration
+specialty-1: Branding/
+specialty-2: Illustration/
 specialty-3: Print
 link: "https://heathersanders.myportfolio.com"
 linkname: portfolio

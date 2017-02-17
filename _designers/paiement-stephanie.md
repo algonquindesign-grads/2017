@@ -4,8 +4,8 @@ layout: grads
 longname: "Stephanie <br> Paiement"
 longname-oneline: "Stephanie Paiement"
 shortname: "Stephanie P."
-specialty-1: Motion
-specialty-2: UI/UX
+specialty-1: Motion/
+specialty-2: UI/UX/
 specialty-3: Illustration
 link: "http://stephaniepaiement.ca"
 linkname: "stephaniepaiement.ca"

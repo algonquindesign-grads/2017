@@ -4,8 +4,8 @@ layout: grads
 longname: "Celena <br> Dick"
 longname-oneline: "Celena Dick"
 shortname: "Celena D."
-specialty-1: Branding
-specialty-2: Print
+specialty-1: Branding/
+specialty-2: Print/
 specialty-3: Illustration
 link: "http://celenastefanie.ca"
 linkname: celenastefanie.ca

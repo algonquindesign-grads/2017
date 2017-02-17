@@ -4,8 +4,8 @@ layout: grads
 longname: "Assem <br> El-Merhi"
 longname-oneline: "Assem El-Merhi"
 shortname: "Assem E."
-specialty-1: UI/UX
-specialty-2: Branding
+specialty-1: UI/UX/
+specialty-2: Branding/
 specialty-3: Motion
 link: "http://assemel-merhi.ca"
 linkname: "assemel-merhi.ca"

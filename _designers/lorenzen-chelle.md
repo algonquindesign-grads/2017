@@ -4,8 +4,8 @@ layout: grads
 longname: "Chelle <br> Lorenzen"
 longname-oneline: "Chelle Lorenzen"
 shortname: "Chelle L."
-specialty-1: Illustration
-specialty-2: Motion
+specialty-1: Illustration/
+specialty-2: Motion/
 specialty-3: Web
 link: "http://www.chellelorenzen.com"
 linkname: "chellelorenzen.com"

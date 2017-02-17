@@ -4,7 +4,7 @@ layout: grads
 longname: "Ashley <br> Murray"
 longname-oneline: "Ashley Murray"
 shortname: "Ashley M."
-specialty-1: UI/UX
+specialty-1: UI/UX/
 specialty-2: Motion
 link: "http://ashtastic.ca"
 linkname: "ashtastic.ca"

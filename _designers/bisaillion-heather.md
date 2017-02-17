@@ -4,8 +4,8 @@ layout: grads
 longname: "Heather <br> Bisaillion"
 longname-oneline: "Heather Bisaillion"
 shortname: "Heather B."
-specialty-1: Print
-specialty-2: Illustration
+specialty-1: Print/
+specialty-2: Illustration/
 specialty-3: Branding
 link: "http://heatherbisaillion.ca"
 linkname: "heatherbisaillion.ca"

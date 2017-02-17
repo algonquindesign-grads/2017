@@ -4,8 +4,8 @@ layout: grads
 longname: "Evan <br> Lefebvre"
 longname-oneline: "Evan Lefebvre"
 shortname: "Evan L."
-specialty-1: Branding
-specialty-2: Illustration
+specialty-1: Branding/
+specialty-2: Illustration/
 specialty-3: Photography
 link: "http://evanthefive.com"
 linkname: "evanthefive.com"

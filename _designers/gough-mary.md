@@ -4,8 +4,8 @@ layout: grads
 longname: "Mary <br> Gough"
 longname-oneline: "Mary Gough"
 shortname: "Mary G."
-specialty-1: Branding
-specialty-2: Illustration
+specialty-1: Branding/
+specialty-2: Illustration/
 specialty-3: Print
 link: "http://marygough.ca"
 linkname: marygough.ca

@@ -4,8 +4,8 @@ layout: grads
 longname: "Erin <br> Milling"
 longname-oneline: "Erin Milling"
 shortname: "Erin M."
-specialty-1: Branding
-specialty-2: Motion
+specialty-1: Branding/
+specialty-2: Motion/
 specialty-3: Photography
 link: "http://erinmillingdesign.ca"
 linkname: "erinmillingdesign.ca"

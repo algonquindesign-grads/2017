@@ -4,8 +4,8 @@ layout: grads
 longname: "Maggie <br> Paquette"
 longname-oneline: "Maggie Paquette"
 shortname: "Maggie P."
-specialty-1: Web Design
-specialty-2: UI/UX
+specialty-1: Web Design/
+specialty-2: UI/UX/
 specialty-3: Illustration
 link: "http://maggiepaquette.net"
 linkname: "maggiepaquette.net"

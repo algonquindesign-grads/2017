@@ -4,8 +4,8 @@ layout: grads
 longname: "Eryn <br> Jones"
 longname-oneline: "Eryn Jones"
 shortname: "Eryn J."
-specialty-1: Branding
-specialty-2: Illustration
+specialty-1: Branding/
+specialty-2: Illustration/
 specialty-3: Print
 link: "http://erynjones.ca"
 linkname: "erynjones.ca"

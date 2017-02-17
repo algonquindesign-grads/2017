@@ -4,8 +4,8 @@ layout: grads
 longname: "Pamela <br> Azzi"
 longname-oneline: "Pamela Azzi"
 shortname: "Pamela A."
-specialty-1: Web Design
-specialty-2: Branding
+specialty-1: Web Design/
+specialty-2: Branding/
 specialty-3: Illustration
 link: "http://pamelaazzi.ca"
 linkname: "pamelaazzi.ca"

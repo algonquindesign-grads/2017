@@ -4,7 +4,7 @@ layout: grads
 longname: "Charles <br> Keil"
 longname-oneline: "Charles Keil"
 shortname: "Charles K."
-specialty-1: UI/UX
+specialty-1: UI/UX/
 specialty-2: Motion
 link: "http://charleskeil.ca"
 linkname: "charleskeil.ca"

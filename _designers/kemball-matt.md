@@ -4,8 +4,8 @@ layout: grads
 longname: "Matt <br> Kemball"
 longname-oneline: "Matt Kemball"
 shortname: "Matt K."
-specialty-1: Motion
-specialty-2: UI/UX
+specialty-1: Motion/
+specialty-2: UI/UX/
 specialty-3: Illustration
 link: "http://mattkemball.ca"
 linkname: mattkemball.ca

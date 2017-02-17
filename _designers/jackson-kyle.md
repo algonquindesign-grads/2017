@@ -4,7 +4,7 @@ layout: grads
 longname: "Kyle <br> Jackson"
 longname-oneline: "Kyle Jackson"
 shortname: "Kyle J."
-specialty-1: Motion
+specialty-1: Motion/
 specialty-2: UI/UX
 link: "http://kylejackson.me"
 linkname: "kylejackson.me"

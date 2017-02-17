@@ -4,8 +4,8 @@ layout: grads
 longname: "Olivia <br> Arden"
 longname-oneline: "Olivia Arden"
 shortname: "Olivia A."
-specialty-1: Branding
-specialty-2: Illustration
+specialty-1: Branding/
+specialty-2: Illustration/
 specialty-3: Print
 link: "https://drive.google.com/file/d/0ByCIzHXwZZf6THl0LTY2S0xuOUU/view?usp=sharing"
 linkname: Portfolio

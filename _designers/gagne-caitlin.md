@@ -4,8 +4,8 @@ layout: grads
 longname: "Caitlin <br> Gagné"
 longname-oneline: "Caitlin Gagné"
 shortname: "Caitlin G."
-specialty-1: Motion
-specialty-2: Illustration
+specialty-1: Motion/
+specialty-2: Illustration/
 specialty-3: Print
 link: "http://caitlingagne.work"
 linkname: "caitlingagne.work"

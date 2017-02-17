@@ -4,8 +4,8 @@ layout: grads
 longname: "Jam <br> Abalos"
 longname-oneline: "Jam Abalos"
 shortname: "Jam A."
-specialty-1: Motion
-specialty-2: Print
+specialty-1: Motion/
+specialty-2: Print/
 specialty-3: Branding
 link: "http://jamabalos.ca"
 linkname: "jamabalos.ca"

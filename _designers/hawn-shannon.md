@@ -4,8 +4,8 @@ layout: grads
 longname: "Shannon <br> Hawn"
 longname-oneline: "Shannon Hawn"
 shortname: "Shannon H."
-specialty-1: Branding
-specialty-2: Illustration
+specialty-1: Branding/
+specialty-2: Illustration/
 specialty-3: Print
 link: "http://shannonhawn.myportfolio.com"
 linkname: portfolio

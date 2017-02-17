@@ -4,7 +4,7 @@ layout: grads
 longname: "Rob <br> O'Donnell"
 longname-oneline: "Rob O'Donnell"
 shortname: "Rob O."
-specialty-1: Web
+specialty-1: Web/
 specialty-2: Branding
 link: "http://robodonnell.ca"
 linkname: "robodonnell.ca"

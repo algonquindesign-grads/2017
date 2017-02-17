@@ -4,8 +4,8 @@ layout: grads
 longname: "Alisha <br> Arial"
 longname-oneline: "Alisha Arial"
 shortname: "Alisha A."
-specialty-1: Branding
-specialty-2: UI/UX
+specialty-1: Branding/
+specialty-2: UI/UX/
 specialty-3: Print
 link: "http://arialalisha.ca"
 linkname: "arialalisha.ca"

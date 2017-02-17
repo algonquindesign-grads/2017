@@ -4,8 +4,8 @@ layout: grads
 longname: "Jennifer <br> Falanga"
 longname-oneline: "Jennifer Falanga"
 shortname: "Jennifer F."
-specialty-1: Branding
-specialty-2: Print
+specialty-1: Branding/
+specialty-2: Print/
 specialty-3: Typography
 link: "http://jenniferyaya.ca"
 linkname: "jenniferyaya.ca"
