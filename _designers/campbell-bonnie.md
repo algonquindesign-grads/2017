@@ -14,6 +14,6 @@ linkedin: "https://www.linkedin.com/in/bonnie-campbell-1b2224113?trk=hp-identity
 behance: "https://www.behance.net/bonniecampbell"
 vimeo-link: "https://vimeo.com/user47962248"
 description: "Motion designer extraordinaire, animal rights activist and movie buff! I love making people smile with my creations, and pride myself on my resourcefulness to learn and explore new techniques."
-vimeo-link: "http://www.vimeolink.com"
+vimeo-link: "192188984"
 meta: "Motion designer extraordinaire, animal rights activist and movie buff! I love making people smile with my creations, and pride myself on my resourcefulness to learn and explore new techniques."
 ---
