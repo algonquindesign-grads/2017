@@ -1,7 +1,7 @@
 ---
 
 layout: grads
-longname: "Celena <br> Dick"
+longname: "Celena<br> Dick"
 longname-oneline: "Celena Dick"
 shortname: "Celena D."
 specialty-1: Branding/
