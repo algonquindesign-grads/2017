@@ -30,6 +30,10 @@
 .bio-portfolio {
   padding: 1em;
 }
+ .bio-image {
+    padding: 1em .5em 0 1em;
+  }
+
 }
 
 

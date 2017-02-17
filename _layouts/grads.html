@@ -1,27 +1,6 @@
 ---
 layout: gradlayout
-longname: "Kayla<br>Bowmaster"
-longname-oneline: "Kayla Bowmaster"
-shortname: "Kayla B."
-specialty-1: Illustration
-specialty-2: Type
-specialty-3: UX/UI
-link: "www.fake.fake"
-email: "fake@fake.com"
-instagram: "www.instagramp.com"
-facebook: "www.facebooklink.com"
-linkedin: "www.linkedinlink.com"
-behance: "www.behancelink.com"
-twitter: "www.twitterlink.com"
-portrait: "https://unsplash.it/g/500/600/?random"
-description: "An avid learner & product designer.
-I love working with startups & have had the privilege of helping talented teams
-ship over 6 mobile & web apps to 300k+ users during my short career."
-image-1: "https://unsplash.it/g/200/200/?random"
-image-2: "https://unsplash.it/200/200/?random"
-image-3: "https://unsplash.it/g/200/200/?random"
-image-4: "https://unsplash.it/200/200/?random"
-vimeo-link: "https://vimeo.com/82295259"
+
 
 ---
 
@@ -37,7 +16,7 @@ vimeo-link: "https://vimeo.com/82295259"
     </div>
 
     <div class="unit bio-image xs-1 s-1 m-1-2 l-1-2">
-      <img class="img-flex" src="{{ page.portrait }}" alt="bio image">
+      <img class="img-flex" src="https://grads.images.algonquindesign.ca/2017/portraits-rectangle/{{ page.slug }}.jpg" alt="bio image">
     </div>
 
 
@@ -88,7 +67,11 @@ vimeo-link: "https://vimeo.com/82295259"
         <img class="img-flex" src="{{ page.image-2 }}">
       </figure>
 
-
+ {% if page.vimeo-link %}
+ <div class="unit bio-vid xs-1 s-1 m-1-2 l-1-2">
+  <iframe src="{{ page.vimeo-link }}" width="100%" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+{% else %}
       <figure class="bio-port-3 unit xs-1 s-1-2 m-1-4 l-1-4">
         <img class="img-flex" src="{{ page.image-3 }}">
       </figure>
@@ -97,10 +80,6 @@ vimeo-link: "https://vimeo.com/82295259"
       <figure class="bio-port-4 unit xs-1 s-1-2 m-1-4 l-1-4">
         <img class="img-flex" src="{{ page.image-4 }}">
       </figure>
+{% endif %}
 
-<div class="unit bio-vid xs-1 s-1 m-1-2 l-1-2">
-<iframe src="https://player.vimeo.com/video/82295259" width="100%" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-
-</div>
 </section>
