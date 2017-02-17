@@ -6,6 +6,23 @@
 /* med */
 @media only screen and (min-width: 38em) {
 
+  .bio {
+    padding: 0 0 1.5em 0 ;
+  }
+
+.bio-port-1, .bio-port-3 {
+  padding: 0 .5em 1em 0;
+}
+
+.bio-port-2, .bio-port-4 {
+  padding: 0 0 1em .5em;
+}
+
+.bio-portfolio{
+background-color: #e9e9e9;
+}
+
+
   .bio-specialty {
     padding: .5em 1em;
   }
@@ -19,6 +36,7 @@
 
 .bio-name h2 {
   line-height: 2.75rem;
+
 }
 
 .bio-blurb {
@@ -28,10 +46,10 @@
 }
 
 .bio-portfolio {
-  padding: 1em;
+  padding: 2em;
 }
  .bio-image {
-    padding: 1em .5em 0 1em;
+    padding: 1em 0 0 2em ;
   }
 
 }
@@ -46,7 +64,7 @@
   }
 
   .bio-image {
-    padding: 2em .5em 3em 3.5em;
+    padding: 2em .5em 2em 3em;
   }
 
   .bio-name {
@@ -65,11 +83,11 @@
   }
 
   .bio-portfolio figure, .bio-vid {
-    padding: 0 .5em 1em;
+    padding: 0;
   }
 
   .bio-specialty {
-  padding: 0 0 3em 0;
+  padding: 0 0 2em .5em;
 }
 
 }

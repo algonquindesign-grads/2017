@@ -14,8 +14,9 @@ linkedin: "www.linkedinlink.com"
 behance: "www.behancelink.com"
 twitter: "www.twitterlink.com"
 description: "An avid learner & product designer.
-I love working with startups & have had the privilege of helping talented teams
-ship over 6 mobile & web apps to 300k+ users during my short career."
+  I love working with startups & have had the privilege of helping talented teams
+  ship over 6 mobile & web apps to 300k+ users during my short career."
 vimeo-link: "203391178"
+
 ---
 
