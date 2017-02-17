@@ -1,11 +1,9 @@
 ---
 layout: gradlayout
-
-
 ---
 
 
-<section class="bio grid grid-bottom relative">
+<section class="bio embed grid grid-bottom relative">
 
     <div class="unit unit-xs-hidden unit-s-hidden l-1 bio-name absolute">
       <h2 class="display-font text-upper text-center text-red push-0">{{ page.longname }}</h2>
@@ -59,25 +57,25 @@ layout: gradlayout
 <section class="bio-portfolio grid bg-lightgrey">
 
 
-      <figure class="push-0 bio-port-1 unit xs-1 s-1-2 m-1-4 l-1-4">
+      <figure class="push-0 bio-port-1 unit xs-1 s-1-2 m-1-2 l-1-2">
         <img class="img-flex" src="https://grads.images.algonquindesign.ca/2017/portfolios/{{ page.slug }}-1.jpg">
       </figure>
 
-      <figure class="bio-port-2 unit xs-1 s-1-2 m-1-4 l-1-4">
+      <figure class="bio-port-2 unit xs-1 s-1-2 m-1-2 l-1-2">
         <img class="img-flex" src="https://grads.images.algonquindesign.ca/2017/portfolios/{{ page.slug }}-2.jpg">
       </figure>
 
  {% if page.vimeo-link %}
- <div class="unit bio-vid xs-1 s-1 m-1-2 l-1-2">
+ <div class="unit bio-vid xs-1 s-1 m-1 l-1">
   <iframe src="https://player.vimeo.com/video/{{ page.vimeo-link}}" width="100%" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
 {% else %}
-      <figure class="bio-port-3 unit xs-1 s-1-2 m-1-4 l-1-4">
+      <figure class="bio-port-3 unit xs-1 s-1-2 m-1-2 l-1-2">
         <img class="img-flex" src="https://grads.images.algonquindesign.ca/2017/portfolios/{{ page.slug }}-3.jpg">
       </figure>
 
 
-      <figure class="bio-port-4 unit xs-1 s-1-2 m-1-4 l-1-4">
+      <figure class="bio-port-4 unit xs-1 s-1-2 m-1-2 l-1-2">
         <img class="img-flex" src="https://grads.images.algonquindesign.ca/2017/portfolios/{{ page.slug }}-4.jpg">
       </figure>
 {% endif %}

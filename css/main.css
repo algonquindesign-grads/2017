@@ -17,6 +17,10 @@ a {
   background-color: #ff6460;
 }
 
+.bio-name {
+  mix-blend-mode: multiply;
+}
+
 *, *::before, *::after {
   box-sizing: inherit;
 }

@@ -1,8 +1,8 @@
 ---
 layout: grads
-longname: "Kayla<br>Bowmaster"
-longname-oneline: "Kayla Bowmaster"
-shortname: "Kayla B."
+longname: "Chloe<br>Ashton"
+longname-oneline: "Chloe Ashton"
+shortname: "Chloe A."
 specialty-1: Illustration
 specialty-2: Type
 specialty-3: UX/UI
