@@ -16,6 +16,6 @@ twitter: "www.twitterlink.com"
 description: "An avid learner & product designer.
 I love working with startups & have had the privilege of helping talented teams
 ship over 6 mobile & web apps to 300k+ users during my short career."
-vimeo-link: "https://vimeo.com/82295259"
+vimeo-link: "203391178"
 ---
 
