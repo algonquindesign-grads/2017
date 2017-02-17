@@ -2,7 +2,7 @@
 
 layout: grads
 longname: "Sarah <br> Dowling"
-longname: "Sarah Dowling"
+longname-oneline: "Sarah Dowling"
 shortname: "Sarah D."
 specialty-1: UI/UX
 specialty-2: Motion
