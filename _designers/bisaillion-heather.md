@@ -7,7 +7,8 @@ shortname: "Heather B."
 specialty-1: Print
 specialty-2: Illustration
 specialty-3: Branding
-link: "heatherbisaillion.ca"
+link: "http://heatherbisaillion.ca"
+linkname: "heatherbisaillion.ca"
 email: "heather.bisaillion@gmail.com"
 instagram: "https://www.instagram.com/heatherbisaillion/"
 linkedin: "https://www.linkedin.com/in/heather-bisaillion-754348b5/"

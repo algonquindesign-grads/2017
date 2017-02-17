@@ -7,7 +7,7 @@ shortname: "Jam A."
 specialty-1: Motion
 specialty-2: Print
 specialty-3: Branding
-link: "http://www.jamabalos.ca"
+link: "http://jamabalos.ca"
 linkname: "jamabalos.ca"
 email: "jam.abalos@hotmail.com"
 linkedin: "https://ca.linkedin.com/in/jamabalos"

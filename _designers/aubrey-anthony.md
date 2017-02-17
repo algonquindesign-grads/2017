@@ -8,6 +8,7 @@ specialty-1: Branding
 specialty-2: Illustration
 specialty-3: Print
 link: "http://anthonyaubrey.ca"
+linkname: "anthonyaubrey.ca"
 email: "anthonyaubrey245@gmail.com"
 instagram: "https://www.instagram.com/anthonyaubrey_/?hl=en"
 linkedin: "https://www.linkedin.com/in/anthony-aubrey-41603a114/"
