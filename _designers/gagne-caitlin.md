@@ -2,7 +2,7 @@
 
 layout: grads
 longname: "Caitlin <br> Gagné"
-longname: "Caitlin Gagné"
+longname-oneline: "Caitlin Gagné"
 shortname: "Caitlin G."
 specialty-1: Motion
 specialty-2: Illustration

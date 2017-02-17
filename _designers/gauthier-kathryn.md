@@ -2,7 +2,7 @@
 
 layout: grads
 longname: "Kathryn <br> Gauthier"
-longname: "Kathryn Gauthier"
+longname-oneline: "Kathryn Gauthier"
 shortname: "Kathryn G."
 specialty-1: Web Design
 specialty-2: UI/UX

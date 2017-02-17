@@ -2,7 +2,7 @@
 
 layout: grads
 longname: "Desiree <br> Deschenes"
-longname: "Desiree Deschenes"
+longname-oneline: "Desiree Deschenes"
 shortname: "Desiree D."
 specialty-1: Branding
 specialty-2: Illustration

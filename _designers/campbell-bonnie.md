@@ -2,7 +2,7 @@
 
 layout: grads
 longname: "Bonnie <br> Campbell"
-longname: "Bonnie Campbell"
+longname-oneline: "Bonnie Campbell"
 shortname: "Bonnie C."
 specialty-1: Motion
 specialty-2: Photography
