@@ -31,6 +31,8 @@ html {
   background-color: #fff;
 }
 
+
+
 ul, .no-bullets, .location ul {
   list-style-type: none;
 }
@@ -71,6 +73,10 @@ ul li:hover{
 
 .bg-red {
   background-color: #ff6460;
+}
+
+.bg-pale-red {
+  background-color: #fabeb3;
 }
 
 .bg-white {

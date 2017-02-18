@@ -65,12 +65,10 @@
   .bio {
     background-color: #fff;
     padding: 0 0 1.5em 0;
-    background-image: url(https://grads.images.algonquindesign.ca/2017/textures/ink-texture-red.jpg);
+  }
 
-    background-repeat: no-repeat;
-    background-position: 42em -13em;
-
-
+  .bio-vid {
+    padding: 1em 2em;
   }
   .bio-port-1,
   .bio-port-3 {
@@ -142,10 +140,11 @@
 
     background-color: #e9e9e9;
   }
-  .bio-portfolio figure,
-  .bio-vid {
+  .bio-portfolio figure {
     padding: 0;
   }
+
+
   .bio {
     padding: 0 0 2em .5em;
   background-position: 45em -6em;
