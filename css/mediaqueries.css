@@ -15,8 +15,8 @@
   font-size: 1rem;
 }
 .bio-blurb {
-  max-width: 60%;
-  padding: 2em 0 2em 0;
+  max-width: 70%;
+  padding: 1em 0 1em 0;
   font-size: 1rem;
   font-weight: 300;
 }
@@ -84,7 +84,7 @@
     background-color: #464646;
   }
   .bio-specialty {
-    padding: .5em 1em;
+   padding: 1em 1em;
   font-size: .8333rem;
   line-height: 1.3rem;
   }
