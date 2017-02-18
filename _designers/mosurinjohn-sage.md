@@ -1,7 +1,7 @@
 ---
 
 layout: grads
-longname: "Sage Mosurinjohn"
+longname: "Sage<br>Mosurin<br>-john"
 longname-oneline: "Sage Mosurinjohn"
 shortname: "Sage M."
 specialty-1: Print/
