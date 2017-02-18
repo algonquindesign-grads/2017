@@ -15,5 +15,5 @@ linkedin: "https://ca.linkedin.com/in/shannon-shaw-5335b6113"
 vimeo: "https://vimeo.com/user47722297"
 description: "I believe that curiosity and creativity go hand-in-hand and I approach every situation with an open mind."
 meta: "I believe that curiosity and creativity go hand-in-hand and I approach every situation with an open mind."
-
+vimeo-link: "195376865"
 ---

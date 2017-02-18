@@ -15,5 +15,5 @@ behance: "https://www.behance.net/kyle_jackson"
 vimeo: "https://vimeo.com/kylemjackson"
 description: "Always striving for better and never settling for less. When I'm not designing, I often find myself playing, following, or watching sports."
 meta: "Always striving for better and never settling for less. When I'm not designing, I often find myself playing, following, or watching sports."
-
+vimeo-link: "202052510"
 ---

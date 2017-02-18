@@ -15,5 +15,5 @@ linkedin: "https://ca.linkedin.com/in/erin-milling-b33088106"
 vimeo: "https://vimeo.com/user48221143"
 description: Hey there, I'm Erin! You can find me taking pictures of bugs, petting your cat, eating mountains of guac or standing on one leg.
 meta: "Hey there, I'm Erin! You can find me taking pictures of bugs, petting your cat, eating mountains of guac or standing on one leg."
-
+vimeo-link: "195395141"
 ---

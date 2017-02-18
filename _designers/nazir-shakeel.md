@@ -15,5 +15,5 @@ behance: "https://www.behance.net/shakeelnaz290c"
 vimeo: "https://vimeo.com/user36647247"
 description: "I have a high passion for design technology, illustration and motion graphics. I also love watching everything related to MMA or basketball."
 meta: "I have a high passion for design technology, illustration and motion graphics. I also love watching everything related to MMA or basketball."
-
+vimeo-link: "188773495"
 ---

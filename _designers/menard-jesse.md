@@ -14,5 +14,5 @@ instagram: "www.instagram.com/academyawardwinnerjessemenard"
 vimeo: "www.vimeo.com/jessemenard"
 description: "Looking forward to building a design career made up of happy little accidents."
 meta: "Looking forward to building a design career made up of happy little accidents."
-
+vimeo-link: "190755422"
 ---

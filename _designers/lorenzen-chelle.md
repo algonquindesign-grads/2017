@@ -15,5 +15,5 @@ linkedin: "https://ca.linkedin.com/in/chelle-lorenzen-2608618a"
 behance: "https://www.behance.net/hellachella"
 description: "Graphic Design Program Den Mother. I wear army boots."
 meta: "Graphic Design Program Den Mother. I wear army boots."
-
+vimeo-link: "199558864"
 ---

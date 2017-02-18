@@ -16,5 +16,5 @@ behance: "https://www.behance.net/sarahdowling"
 vimeo: "https://vimeo.com/user48214227"
 description: "Asking why & creating bridges between art & science drives me as a passionate designer. I love communicating the way I think—visually."
 meta: "Asking why & creating bridges between art & science drives me as a passionate designer. I love communicating the way I think—visually."
-
+vimeo-link: "195348144"
 ---
