@@ -10,9 +10,22 @@
   background-color: #ff6460;
  }
 
+
+.bio-specialty {
+  font-size: 1rem;
+}
+.bio-blurb {
+  max-width: 60%;
+  padding: 2em 0 2em 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
  /*sm*/
 
  @media only screen and (min-width: 25em) {
+
+
+
 
  }
 
@@ -50,7 +63,14 @@
     }
   }
   .bio {
+    background-color: #fff;
     padding: 0 0 1.5em 0;
+    background-image: url(https://grads.images.algonquindesign.ca/2017/textures/ink-texture-red.jpg);
+
+    background-repeat: no-repeat;
+    background-position: 42em -13em;
+
+
   }
   .bio-port-1,
   .bio-port-3 {
@@ -61,11 +81,14 @@
     padding: 1em 2em .5em .5em;
   }
   .bio-portfolio {
-    background-color: #e9e9e9;
+    background-color: #464646;
   }
   .bio-specialty {
     padding: .5em 1em;
+  font-size: .8333rem;
+  line-height: 1.3rem;
   }
+
   .bio-name {
     top: 1em;
   }
@@ -76,8 +99,11 @@
   .bio-blurb {
     font-size: .6944rem;
     line-height: 1.3rem;
-    width: 88%;
+    max-width: 88%;
+    padding: 0;
   }
+
+
   .bio-portfolio {
     padding: 0em;
   }
@@ -85,16 +111,17 @@
     padding: 1em 0 0 2em;
   }
  }
- /* l */
 
   .bio-port-1,
   .bio-port-3 {
-    padding: 1.5em 1em .5em 3em;
+    padding: 1.5em 1em 0 2em;
   }
   .bio-port-2,
   .bio-port-4 {
-    padding: 1.5em 3em 1em 1em;
+    padding: 1.5em 2em 1em 1em;
   }
+
+ /* l */
 
  @media only screen and (min-width: 60em) {
   .bio-blurb {
@@ -119,7 +146,21 @@
   .bio-vid {
     padding: 0;
   }
-  .bio-specialty {
+  .bio {
     padding: 0 0 2em .5em;
+  background-position: 45em -6em;
+
   }
+
+  .sm-name {
+
+  font-size: 3rem;
+  line-height: 0rem;
+  }
+
+  .m-name {
+  font-size: 5rem;
+  line-height: 0rem;
+  }
+
  }
