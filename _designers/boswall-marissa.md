@@ -1,7 +1,7 @@
 ---
 
 layout: grads
-longname: "Marissa <br> Boswall"
+longname: "Marissa<br>Boswall"
 longname-oneline: "Marissa Boswall"
 shortname: "Marissa B."
 specialty-1: Print/

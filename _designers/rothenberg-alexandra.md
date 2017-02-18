@@ -1,7 +1,7 @@
 ---
 
 layout: grads
-longname: "Alexandra <br> Rothenberg"
+longname: "Alexandra<br>Rothenberg"
 longname-oneline: "Alexandra Rothenberg"
 shortname: "Alexandra R."
 specialty-1: UI/UX/

@@ -1,7 +1,7 @@
 ---
 
 layout: grads
-longname: "Assem <br> El-Merhi"
+longname: "<div class='text-right gutter-2'><span class='m-name push-0'>Assem<br>El-Merhi</span></div>"
 longname-oneline: "Assem El-Merhi"
 shortname: "Assem E."
 specialty-1: UI/UX/
