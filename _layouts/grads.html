@@ -4,6 +4,9 @@ layout: gradlayout
 
 
 <section class="bio embed grid grid-bottom relative">
+    <div class="circle absolute unit bg-darkgrey">
+    </div>
+
 
     <div class="unit unit-xs-hidden unit-s-hidden l-1 bio-name absolute">
       <h2 class="display-font grad-name text-upper text-center text-red push-0">{{ page.longname }}</h2>
@@ -14,14 +17,15 @@ layout: gradlayout
     </div>
 
     <div class="unit bio-image xs-1 s-1 m-1-2 l-1-2">
-      <img class="img-flex" src="https://grads.images.algonquindesign.ca/2017/portraits-rectangle/{{ page.slug }}.jpg" alt="bio image">
+      <img class="img-flex bg-red" src="https://grads.images.algonquindesign.ca/2017/portraits-rectangle/{{ page.slug }}.jpg" alt="bio image">
     </div>
 
 
 
+
   <div class="milli unit kilo island-1-2 bio-specialty xs-1 s-1 m-1-2 l-1-2">
-    <h2 class="push-l unit-s-1 unit-m-hidden unit-l-hidden push-0 display-font text-red push-0">{{ page.shortname }}</h2>
-    <hr class="bio-hr push-0 unit-xs-hidden l-1">
+    <h2 class="bio-name-sm exa push-l unit-s-1 unit-m-hidden unit-l-hidden push-0 display-font text-red">{{ page.shortname }}</h2>
+    <hr class="bio-hr push-0 unit-xs-hidden m-1">
     <p class="push-0 text-bold text-upper ">{{ page.specialty-1 }}{{ page.specialty-2 }}{{ page.specialty-3 }}</p>
 
     <p class="milli push-1-4 bio-blurb text-left">{{ page.description }}</p>

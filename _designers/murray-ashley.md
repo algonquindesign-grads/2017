@@ -14,7 +14,7 @@ facebook: "https://www.facebook.com/tastic.ash"
 linkedin: "www.linkedin.com/in/ashmurray"
 behance: "https://www.behance.net/ashtastic"
 vimeo: "https://vimeo.com/ashtastic"
-description: "A lover of design, a challenge warrior and master collaborator. I stretch the boundaries, armed with weird and logical creativity. Ash Tastic is my moniker. Life’s a party and I’m a designer."
+description: "A lover of design, a challenge warrior & master collaborator. I stretch the boundaries, armed with weird & logical creativity. Ash Tastic is my moniker. Life’s a party & I’m a designer."
 meta: "A lover of design, a challenge warrior and master collaborator. I stretch the boundaries, armed with weird and logical creativity. Ash Tastic is my moniker. Life’s a party and I’m a designer."
 vimeo-link: "188666897"
 ---

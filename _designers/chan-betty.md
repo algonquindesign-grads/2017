@@ -6,7 +6,7 @@ longname-oneline: "Betty Chan"
 shortname: "Betty C."
 specialty-1: Motion/
 specialty-2: Illustration
-link: "bettychan.ca"
+link: "https://chan0369.github.io/portfolio/"
 linkname: "bettychan.ca"
 email: "chanbikyen.betty@gmail.com"
 instagram: "https://www.instagram.com/bchan94/"
