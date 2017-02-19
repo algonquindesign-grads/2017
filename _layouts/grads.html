@@ -23,10 +23,14 @@ layout: gradlayout
     <h2 class="bio-name-sm exa push-l unit-s-1 unit-m-hidden unit-l-hidden push-0 display-font text-red">{{ page.shortname }}</h2>
     <hr class="bio-hr push-1-2 unit-xs-hidden l-1">
     <p class="push-0 text-bold text-upper ">{{ page.specialty-1 }}{{ page.specialty-2 }}{{ page.specialty-3 }}</p>
-    <a href="{{ page.link }}"><p class="push-0 milli"><span class="micro text-grey text-bold">www—</span> {{ page.linkname }}</p></a>
-    <a class="pushi-0 milli" href="mailto:{{ page.email }}"1 target="_top"><span class="micro text-grey text-bold">email—</span> {{ page.longname-oneline }}</a>
+    {% if page.link %}
+    <a href="{{ page.link }}"><p class="push-0 milli"><span class="micro text-grey text-bold">www— </span> {{ page.linkname }}</p></a>
+    {% endif %}
+    {% if page.email %}
+    <a class="pushi-0 milli" href="mailto:{{ page.email }}"1 target="_top"><span class="micro text-grey text-bold">email— </span> {{ page.longname-oneline }}</a>
+    {% endif %}
     <p class="milli push-1-4 bio-blurb text-left">{{ page.description }}</p>
-    <ul class="list-group-inline bio-social-media push-1-2">
+    <ul class="list-group-inline bio-social-media push-0">
       {% if page.linkedin %}
         <li>
           <i class="icon i-48 push-0">
@@ -80,11 +84,11 @@ layout: gradlayout
         <img class="bio-port-2 img-flex" src="https://grads.images.algonquindesign.ca/2017/portfolios/{{ page.slug }}-02.jpg">
       </figure>
 
-{% if page.vimeo-link %}
+  {% if page.vimeo-link %}
   <div class="unit bio-vid xs-1 s-1 m-1 l-1">
     <iframe src="https://player.vimeo.com/video/{{ page.vimeo-link}}" width="100%" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
   </div>
-{% else %}
+  {% else %}
   <figure class="unit xs-1 s-1-2 m-1-2 l-1-2">
      <img class="img-flex bio-port-3" src="https://grads.images.algonquindesign.ca/2017/portfolios/{{ page.slug }}-03.jpg">
   </figure>
@@ -92,6 +96,6 @@ layout: gradlayout
   <figure class="unit xs-1 s-1-2 m-1-2 l-1-2">
     <img class="bio-port-4 img-flex" src="https://grads.images.algonquindesign.ca/2017/portfolios/{{ page.slug }}-04.jpg">
   </figure>
-{% endif %}
+  {% endif %}
 
 </section>

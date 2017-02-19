@@ -82,8 +82,8 @@
     background-color: #464646;
   }
   .bio-specialty {
-   padding: 1em 1em;
-  font-size: .8333rem;
+   padding: 1em 1em 0 1em;
+  font-size: .6944rem;
   line-height: 1.3rem;
   }
 
@@ -108,7 +108,7 @@
   .bio-image {
     padding: 1em 0 0 2em;
   }
- }
+
 
   .bio-port-1,
   .bio-port-3 {
@@ -124,9 +124,11 @@
  @media only screen and (min-width: 60em) {
   .bio-blurb {
     width: 80%;
+      font-size: .8333rem;
+  line-height: 1.3rem;
   }
   .bio-image {
-    padding: 2em .5em 2em 3em;
+    padding: 2em .5em 0em 3em;
   }
   .bio-name {
     top: 5em;
