@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>{% if page.title %}{{page.title}}{% endif %}</title>
+  <title>{% if page.longname-oneline %}{{page.longname-oneline}}, Designer{% endif %}</title>
   <link href="{{site.baseurl}}/css/modules.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/grid.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/typography.css" rel="stylesheet">
@@ -18,12 +18,11 @@
 
 <body class="bg-dark-grey">
   <div class="wrapper bg-lightgrey">
-
    {% include nav-portfolio.html %}
 
     {{content}}
 
- {% include footer.html %}
+    {% include footer.html %}
   </div>
 
 

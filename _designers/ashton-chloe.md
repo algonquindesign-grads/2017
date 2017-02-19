@@ -16,5 +16,5 @@ linkedin: "https://ca.linkedin.com/in/chloexashton"
 behance: "https://www.behance.net/chloexashton"
 description: "Designer, coffee addict, cat mom, book nerd, harry potter fangirl, animal lover + sushi eater."
 meta: "Designer, coffee addict, cat mom, book nerd, harry potter fangirl, animal lover + sushi eater."
-vimeo-link: 202987231
+
 ---
