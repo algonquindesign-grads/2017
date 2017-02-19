@@ -4,6 +4,7 @@ layout: grads
 longname: "Sarah <br> Tierney"
 longname-oneline: "Sarah Tierney"
 shortname: "Sarah T."
+images: true
 specialty-1: Illustration/
 specialty-2: Branding/
 specialty-3: Motion

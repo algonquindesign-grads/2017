@@ -4,6 +4,7 @@ layout: grads
 longname: "Shogo <br> Shimizu"
 longname-oneline: "Shogo <br> Shimizu"
 shortname: "Shogo S."
+images: true
 specialty-1: Experience Design/
 specialty-2: Motion
 link: "http://shogo.ca"

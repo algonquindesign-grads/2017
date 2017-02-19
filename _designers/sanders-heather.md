@@ -4,6 +4,7 @@ layout: grads
 longname: "Heather <br> Sanders"
 longname-oneline: "Heather Sanders"
 shortname: "Heather S."
+images: true
 specialty-1: Branding/
 specialty-2: Illustration/
 specialty-3: Print

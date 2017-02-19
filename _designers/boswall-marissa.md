@@ -4,6 +4,7 @@ layout: grads
 longname: "Marissa<br>Boswall"
 longname-oneline: "Marissa Boswall"
 shortname: "Marissa B."
+images: true
 specialty-1: Print/
 specialty-2: Photography/
 specialty-3: Typography

@@ -4,6 +4,7 @@ layout: grads
 longname: "Evan <br> Lefebvre"
 longname-oneline: "Evan Lefebvre"
 shortname: "Evan L."
+images: true
 specialty-1: Branding/
 specialty-2: Illustration/
 specialty-3: Photography

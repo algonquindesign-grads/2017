@@ -4,6 +4,7 @@ layout: grads
 longname: "Monica <br> Winter"
 longname-oneline: "Monica Winter"
 shortname: "Monica W."
+images: true
 specialty-1: Branding/
 specialty-2: Illustration/
 specialty-3: Print

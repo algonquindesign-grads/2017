@@ -4,6 +4,7 @@ layout: grads
 longname: "Shannon <br> Hawn"
 longname-oneline: "Shannon Hawn"
 shortname: "Shannon H."
+images: true
 specialty-1: Branding/
 specialty-2: Illustration/
 specialty-3: Print

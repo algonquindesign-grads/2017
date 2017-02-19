@@ -4,6 +4,7 @@ layout: grads
 longname: "Taylor <br> Sargent"
 longname-oneline: "Taylor Sargent"
 shortname: "Taylor S."
+images: true
 specialty-1: Web Design/
 specialty-2: Branding/
 specialty-3: Print

@@ -4,6 +4,7 @@ layout: grads
 longname: "Sam <br> Zahir"
 longname-oneline: "Sam <br> Zahir"
 shortname: "Sam Z."
+images: true
 specialty-1: Motion/
 specialty-2: UI/UX/
 specialty-3: Branding

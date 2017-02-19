@@ -4,6 +4,7 @@ layout: grads
 longname: "Heather <br> Bisaillion"
 longname-oneline: "Heather Bisaillion"
 shortname: "Heather B."
+images: true
 specialty-1: Print/
 specialty-2: Illustration/
 specialty-3: Branding

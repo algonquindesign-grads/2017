@@ -4,6 +4,7 @@ layout: grads
 longname: "Shakeel <br> Nazir"
 longname-oneline: "Shakeel Nazir"
 shortname: "Shakeel N."
+images: true
 specialty-1: Web Design/
 specialty-2: Branding/
 specialty-3: Motion

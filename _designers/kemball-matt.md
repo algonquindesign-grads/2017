@@ -4,6 +4,7 @@ layout: grads
 longname: "Matt <br> Kemball"
 longname-oneline: "Matt Kemball"
 shortname: "Matt K."
+images: true
 specialty-1: Motion/
 specialty-2: UI/UX/
 specialty-3: Illustration

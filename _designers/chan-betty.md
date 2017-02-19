@@ -4,6 +4,7 @@ layout: grads
 longname: "Betty <br> Chan"
 longname-oneline: "Betty Chan"
 shortname: "Betty C."
+images: true
 specialty-1: Motion/
 specialty-2: Illustration
 link: "https://chan0369.github.io/portfolio/"

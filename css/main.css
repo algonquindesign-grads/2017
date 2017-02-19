@@ -35,7 +35,6 @@ a {
 }
 
 
-
 *, *::before, *::after {
   box-sizing: inherit;
 }
@@ -134,6 +133,3 @@ ul li:hover{
   padding: 0;
 }
 
-.bio-vid {
-  max-width: 100%;
-}

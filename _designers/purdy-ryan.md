@@ -4,6 +4,7 @@ layout: grads
 longname: "Ryan <br> Purdy"
 longname-oneline: "Ryan Purdy"
 shortname: "Ryan P."
+images: true
 specialty-1: Web Design/
 specialty-2: UI/UX
 link: "http://ryanpurdy.ca"

@@ -4,6 +4,7 @@ layout: grads
 longname: "Celena<br> Dick"
 longname-oneline: "Celena Dick"
 shortname: "Celena D."
+images: true
 specialty-1: Branding/
 specialty-2: Print/
 specialty-3: Illustration

@@ -4,6 +4,7 @@ layout: grads
 longname: "Mukkadas <br> Siddiqui"
 longname-oneline: "Mukkadas Siddiqui"
 shortname: "Mukkadas S."
+images: true
 specialty-1: Print/
 specialty-2: UI/UX/
 specialty-3: Branding

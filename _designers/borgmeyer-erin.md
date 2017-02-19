@@ -4,6 +4,7 @@ layout: grads
 longname: "Erin <br> Borgmeyer"
 longname-oneline: "Erin Borgmeyer"
 shortname: "Erin B."
+images: true
 specialty-1: Branding/
 specialty-2: Typography/
 specialty-3: Web Design

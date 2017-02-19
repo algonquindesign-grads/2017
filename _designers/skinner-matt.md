@@ -4,6 +4,7 @@ layout: grads
 longname: "Matt <br> Skinner"
 longname-oneline: "Matt Skinner"
 shortname: "Matt S."
+images: true
 specialty-1: Motion/
 specialty-2: UI/UX/
 specialty-3: Photography

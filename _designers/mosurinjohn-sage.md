@@ -5,6 +5,7 @@ longname: "<div class='text-right gutter-2'><span class='m-name push-0'>Sage<br>
           <span class='sm-name push-0'>Mosurinjohn</span></div>"
 longname-oneline: "Sage Mosurinjohn"
 shortname: "Sage M."
+images: true
 specialty-1: Print/
 specialty-2: Typography/
 specialty-3: Branding

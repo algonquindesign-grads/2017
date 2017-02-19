@@ -4,6 +4,7 @@ layout: grads
 longname: "Valeria <br> Gamiz"
 longname-oneline: "Valeria Gamiz"
 shortname: "Valeria G."
+images: true
 specialty-1: Branding/
 specialty-2: UI/UX/
 specialty-3: Print

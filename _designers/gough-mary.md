@@ -4,6 +4,7 @@ layout: grads
 longname: "Mary <br> Gough"
 longname-oneline: "Mary Gough"
 shortname: "Mary G."
+images: true
 specialty-1: Branding/
 specialty-2: Illustration/
 specialty-3: Print

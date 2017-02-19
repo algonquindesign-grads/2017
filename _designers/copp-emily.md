@@ -4,6 +4,7 @@ layout: grads
 longname: "Emily <br> Copp"
 longname-oneline: "Emily Copp"
 shortname: "Emily C."
+images: true
 specialty-1: Branding/
 specialty-2: Motion/
 specialty-3: Illustration

@@ -4,6 +4,7 @@ layout: grads
 longname: "Kate <br> Smerdon"
 longname-oneline: "Kate Smerdon"
 shortname: "Kate S."
+images: true
 specialty-1: Branding/
 specialty-2: Typography/
 specialty-3: Illustration

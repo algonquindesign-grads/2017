@@ -20,18 +20,33 @@
   font-size: 1rem;
   font-weight: 300;
 }
+
+.bio-vid iframe {
+  width: 100%;
+  height: 360;
+}
+
+
  /*sm*/
 
  @media only screen and (min-width: 25em) {
 
+  .bio-vid iframe {
 
-
+  height: 400px;
+}
 
  }
 
  /* med */
 
  @media only screen and (min-width: 38em) {
+
+  .bio-vid iframe {
+  width: 100%;
+  height: 400px
+}
+
   .circle {
     background-color: #ff6460;
     top: 2em;
@@ -79,7 +94,7 @@
     padding: 1em 2em .5em .5em;
   }
   .bio-portfolio {
-    background-color: #464646;
+    background-color: #f2f2f2;
   }
   .bio-specialty {
    padding: 1em 1em 0 1em;
@@ -106,7 +121,7 @@
     padding: 0em;
   }
   .bio-image {
-    padding: 1em 0 0 2em;
+    padding: 1.5em 0 0 2em;
   }
 
 
@@ -119,9 +134,20 @@
     padding: 1.5em 2em 1em 1em;
   }
 
+
+}
+
+
  /* l */
 
+
+
  @media only screen and (min-width: 60em) {
+
+    .bio-vid iframe {
+  width: 100%;
+  height: 600px
+}
   .bio-blurb {
     width: 80%;
       font-size: .8333rem;
@@ -158,6 +184,7 @@
   font-size: 3rem;
   line-height: 0rem;
   }
+
 
   .m-name {
   font-size: 5rem;

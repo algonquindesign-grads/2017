@@ -3,6 +3,7 @@ layout: grads
 longname: "Chloe<br>Ashton"
 longname-oneline: "Chloe Ashton"
 shortname: "Chloe A."
+images: true
 specialty-1: Illustration
 specialty-2: Type
 specialty-3: UX/UI

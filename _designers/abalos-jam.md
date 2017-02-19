@@ -4,6 +4,7 @@ layout: grads
 longname: "Jam <br> Abalos"
 longname-oneline: "Jam Abalos"
 shortname: "Jam A."
+images: true
 specialty-1: Motion/
 specialty-2: Print/
 specialty-3: Branding

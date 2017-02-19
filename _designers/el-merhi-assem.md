@@ -4,6 +4,7 @@ layout: grads
 longname: "<div class='text-right gutter-2'><span class='m-name push-0'>Assem<br>El-Merhi</span></div>"
 longname-oneline: "Assem El-Merhi"
 shortname: "Assem E."
+images: true
 specialty-1: UI/UX/
 specialty-2: Branding/
 specialty-3: Motion

@@ -4,6 +4,7 @@ layout: grads
 longname: "Stephanie <br> Paiement"
 longname-oneline: "Stephanie Paiement"
 shortname: "Stephanie P."
+images: true
 specialty-1: Motion/
 specialty-2: UI/UX/
 specialty-3: Illustration

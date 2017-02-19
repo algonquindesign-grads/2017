@@ -4,6 +4,7 @@ layout: grads
 longname: "Shannon <br> Shaw"
 longname-oneline: "Shannon Shaw"
 shortname: "Shannon S."
+images: true
 specialty-1: UI/UX/
 specialty-2: Motion/
 specialty-3: Illustration

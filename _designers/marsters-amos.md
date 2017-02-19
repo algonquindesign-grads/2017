@@ -4,6 +4,7 @@ layout: grads
 longname: "Amos <br> Marsters"
 longname-oneline: "Amos Marsters"
 shortname: "Amos M."
+images: true
 specialty-1: Branding/
 specialty-2: UI/UX/
 specialty-3: Print

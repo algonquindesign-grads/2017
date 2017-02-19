@@ -4,6 +4,7 @@ layout: grads
 longname: "Jesse <br> Menard"
 longname-oneline: "Jesse Menard"
 shortname: "Jesse M."
+images: true
 specialty-1: Motion/
 specialty-2: UI/UX/
 specialty-3: Branding

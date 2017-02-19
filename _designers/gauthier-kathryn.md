@@ -4,6 +4,7 @@ layout: grads
 longname: "Kathryn <br> Gauthier"
 longname-oneline: "Kathryn Gauthier"
 shortname: "Kathryn G."
+images: true
 specialty-1: Web Design/
 specialty-2: UI/UX/
 specialty-3: Branding

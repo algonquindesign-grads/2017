@@ -4,6 +4,7 @@ layout: grads
 longname: "Britt <br> Delgaty"
 longname-oneline: "Britt Delgaty"
 shortname: "Britt D."
+images: true
 specialty-1: Branding/
 specialty-2: Illustration/
 specialty-3: Print

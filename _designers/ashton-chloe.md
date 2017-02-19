@@ -4,6 +4,7 @@ layout: grads
 longname: "Chloe <br> Ashton"
 longname-oneline: "Chloe Ashton"
 shortname: "Chloe A."
+images: true
 specialty-1: Branding/
 specialty-2: Illustration/
 specialty-3: Print

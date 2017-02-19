@@ -4,6 +4,7 @@ layout: grads
 longname: "Dom <br> Richichi"
 longname-oneline: "Dom Richichi"
 shortname: "Dom R."
+images: true
 specialty-2: Print/
 specialty-3: Illustration
 link: "http://domrichichi.ca"

@@ -4,6 +4,7 @@ layout: grads
 longname: "Len <br> Bunce"
 longname-oneline: "Len Bunce"
 shortname: "Len B."
+images: true
 specialty-1: Experience Design
 email: "lenbunce@gmail.com"
 instagram: "https://www.instagram.com/lennifer_layne/"

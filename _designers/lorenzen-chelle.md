@@ -4,6 +4,7 @@ layout: grads
 longname: "Chelle <br> Lorenzen"
 longname-oneline: "Chelle Lorenzen"
 shortname: "Chelle L."
+images: true
 specialty-1: Illustration/
 specialty-2: Motion/
 specialty-3: Web

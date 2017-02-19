@@ -4,6 +4,7 @@ layout: grads
 longname: "Anthony <br> Aubrey"
 longname-oneline: "Anthony Aubrey"
 shortname: "Anthony A."
+images: true
 specialty-1: Branding/
 specialty-2: Illustration/
 specialty-3: Print
