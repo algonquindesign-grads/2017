@@ -13,25 +13,20 @@ figure img {
   margin: 0 auto;
 }
 
-/* Navbar */
-
-
-.nav {
+.nav-portfolio{
   overflow: hidden;
 }
-.nav {
+.nav-portfolio  {
   transition: all 500ms linear;
 }
-.nav p {
-padding: 0;
-}
 
-.nav a {
+
+.nav-portfolio a {
   color: rgba(255,255,255,0.5);
 }
 
 
-.nav a:hover {
+.nav-portfolio a:hover {
   opacity: 1;
 -webkit-filter: blur(2px);
 filter: blur(2px);
@@ -89,17 +84,15 @@ color: #fff;
 
 
 
-.menu {
+.menu ul li {
   text-align: right;
-
 }
 
 /*sm*/
 @media only screen and (min-width: 25em) {
 
 .menu {
-  text-align: right;
-  padding-right: 2em;
+  text-align: center;
 }
 
 }
@@ -108,18 +101,16 @@ color: #fff;
 @media only screen and (min-width: 38em) {
 
 .menu {
-
-  padding-top: 0em;
+  text-align: right;
+  padding-right: 2em;
 }
-
 
 }
 
 /* l */
 @media only screen and (min-width: 60em) {
 
-  .nav {
-    background-color: ;
+  .nav-portfoliokground-color: ;
   }
 
 }
@@ -135,9 +126,9 @@ color: #fff;
 
 
 /* Basic Config
- * $nav-size (px) sets the size of the menu button
- * $nav-color (#) is set the be the main color when a background is set
- * $nav-color-active (#) is the color of the button when toggled. If theres no background, it is also the main color when untoggled
+ * .nav-portfolio sets the size of the menu button
+ * .nav-portfolio is set the be the main color when a background is set
+ * .nav-portfolioive (#) is the color of the button when toggled. If theres no background, it is also the main color when untoggled
  * $hasBackground (boolean) sets whether there's a background or not.
  */
 * {
