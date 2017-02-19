@@ -3,7 +3,7 @@
 layout: grads
 longname: "Cassandra <br> Barbe"
 longname-oneline: "Cassandra Barbe"
-shortname: "Cassandra B."
+shortname: "Cass B."
 images: true
 specialty-1: Branding/
 specialty-2: UI/UX/
