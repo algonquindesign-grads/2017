@@ -21,6 +21,20 @@ a {
 .bio-name {
   mix-blend-mode: multiply;
 }
+.bio-specialty li, .bio-specialty ul {
+  padding: 0;
+  opacity:.8;
+}
+
+.bio-social-media img:hover {
+
+  color: rgba(255,255,255,0.5);
+    opacity: 1;
+    -webkit-filter: blur(1px);
+    filter: blur(1px);
+}
+
+
 
 *, *::before, *::after {
   box-sizing: inherit;
