@@ -1,7 +1,7 @@
 ---
 
 layout: grads
-longname: "Mikey <br> Bacque"
+longname: "<i class='push-0 icon i-48'><img src='https://grads.images.algonquindesign.ca/2017/icons/mikey.gif' alt='new designer'></i>Mikey <br>Bacque"
 longname-oneline: "Mikey Bacque"
 shortname: "Mikey B."
 images: true

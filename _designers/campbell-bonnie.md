@@ -5,7 +5,6 @@ longname: "Bonnie <br> Campbell"
 longname-oneline: "Bonnie Campbell"
 shortname: "Bonnie C."
 images: false
-images: true
 specialty-1: Motion/
 specialty-2: Photography
 link: "http://bonbonn.design"
