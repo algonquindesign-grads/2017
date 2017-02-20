@@ -25,7 +25,7 @@
   <div class="unit menu milli text-white text-upper unit-xs-hidden m-1-2 l-1-2 pad-b">
     <ul class="push-0 list-group-inline">
 
-    {% capture designers %}{{page.collection}}{% endcapture %}
+{% capture designers %}{{page.collection}}{% endcapture %}
   {% if page.collection %}
     {% assign document = site[designers]  %}
   {% endif %}
@@ -47,7 +47,7 @@
 
     {% if prevurl %}
 
-    <li><a href="{{prevurl}}" class="prev">Prev <span class="hidden">{{prevurl}}</span></a></li>
+    <li><a href="{{prevurl}}" class="prev">Prev</a></li>
 
     {% endif %}
 
@@ -55,7 +55,7 @@
 
       {% if nexturl %}
 
-      <li><a href="{{nexturl}}" class="nxt">Next <span class="hidden">{{nexturl}}</span></a></li>
+      <li><a href="{{nexturl}}" class="nxt">Next</a></li>
 
       {% endif %}
 
