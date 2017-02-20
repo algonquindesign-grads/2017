@@ -21,13 +21,18 @@ figure {
   color: #fff;
 }
 
-
-.nav-portfolio a:hover {
+.nav-portfolio li a:hover, .footer a:hover {
   opacity: 1;
-
-border-bottom: 1px dashed rgba(255,255,255, 0.5);
-animation: lamp 500ms ease-out forwards;
+  border-bottom: 1px dashed rgba(255,255,255, 0.5);
+  animation: lamp 500ms ease-out forwards;
 }
+
+
+.footer-social a:hover {
+  animation: none;
+
+}
+
 
 @keyframes lamp {
   0% {
