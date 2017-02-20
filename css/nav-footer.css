@@ -4,10 +4,6 @@ figure {
   padding: 0;
 }
 
-figure img {
-  margin: 0 auto;
-  display: block;
-}
 
 .bottom-logo i {
   margin: 0 auto;
@@ -22,7 +18,7 @@ figure img {
 
 
 .nav-portfolio a {
-  color: #fabeb3;
+  color: #fff;
 }
 
 
@@ -66,7 +62,7 @@ animation: lamp 500ms ease-out forwards;
   }
 
   90% {
-    color: #fabeb3;
+    color: rgba(255,255,255,.5);
   }
 
   100% {
@@ -94,15 +90,23 @@ animation: lamp 500ms ease-out forwards;
 
 .menu {
   text-align: right;
-  padding-right: 2em;
+
 }
 
+.menu li {
+  padding: 0 1em;
+}
+.nav-portfolio {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
 }
 
 /* l */
 @media only screen and (min-width: 60em) {
 
-  .nav-portfoliokground-color: ;
-  }
+.nav-portfolio {
+  padding-left: 3em;
+  padding-right: 3em;
+}
 
 }

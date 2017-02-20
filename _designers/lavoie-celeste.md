@@ -5,7 +5,7 @@ longname: "Celeste <br> Lavoie"
 longname-oneline: "Celeste Lavoie"
 shortname: "Celeste L."
 images: true
-specialty-1: Motion
+specialty-1: Motion/
 specialty-2: Illustration/
 specialty-3: Photography
 link: "http://celestelavoie.xyz"

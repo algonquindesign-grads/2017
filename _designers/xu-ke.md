@@ -2,7 +2,7 @@
 
 layout: grads
 longname: "Ke <br> Xu"
-longname-oneline: "Ke <br> Xu"
+longname-oneline: "Ke Xu"
 shortname: "Ke X."
 images: true
 specialty-1: Web Design/

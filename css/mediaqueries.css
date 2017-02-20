@@ -1,4 +1,4 @@
-.nav-portfolioe .bio-name-sm {
+.bio-name-sm {
   line-height: 0em;
   padding-bottom: .5em;
   mix-blend-mode: multiply;
@@ -6,9 +6,6 @@
   color: #ff6460;
  }
 
- .bio-image img {
-  background-color: #ff6460;
- }
 
 
 .bio-specialty {
@@ -198,7 +195,7 @@
   }
 
   .sm-name {
-  font-size: 3rem;
+  font-size: 3.5rem;
   line-height: 0rem;
   }
   .m-name {
