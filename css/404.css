@@ -1,6 +1,6 @@
 .error-404-wrapper {
   width: 50%;
-  margin: 7em auto;
+  margin: 5em auto;
   padding:  auto;
   color: #666;
 }
@@ -45,7 +45,9 @@
  @media only screen and (min-width: 38em) {
 
 .error-404 figure img{
-  padding: 0 2em;
+
+  width: 60%;
+  margin: 0 auto;
 }
 
 }
