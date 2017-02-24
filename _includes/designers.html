@@ -2,7 +2,7 @@
 
   <div class="title unit unit-xs-1-2 island">
     <img class="title-line" src="{{site.baseurl}}/img/rectangle.svg">
-    <h2 class="gutter-double giga">Grads</h2>
+    <h2 class="gutter-double giga">Designers</h2>
   </div>
 
   <div class="specialization-select unit unit-xs-1">
@@ -46,12 +46,11 @@
   </div>
 
   <ul class="gp-designer filter-items">
-    {% for page in site.designers %}
-    <p>{{page.fullname}}</p>
-    <li class="gp-photo" data-category="{{page.specialization[0]}} {{page.specialization[1]}} {{page.specialization[2]}}">
-      <a href="{{site.baseurl}}/{{page.slug}}">
-        <img class="" src="https://grads.images.algonquindesign.ca/2017/portraits-square/{{page.slug}}.jpg" alt="Portrait of {{page.longname-oneline}}">
-        <p class="gp-shortname">{{page.shortname}}</p>
+    {% for designer in site.designers %}
+    <li class="gp-photo" data-category="{{designer.specialization[0]}} {{designer.specialization[1]}} {{designer.specialization[2]}}">
+      <a href="{{site.baseurl}}/{{designer.slug}}">
+        <img class="" src="https://grads.images.algonquindesign.ca/2017/portraits-square/{{designer.slug}}.jpg" alt="Portrait of {{designer.longname-oneline}}">
+        <p class="gp-shortname">{{designer.shortname}}</p>
       </a>
     </li>
     {% endfor %}
