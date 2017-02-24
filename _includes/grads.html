@@ -24,6 +24,7 @@
         <option value="filter-print">Print</option>
         <option value="filter-type">Typography</option>
         <option value="filter-photo">Photography</option>
+        <option value="filter-experience">Experience</option>
       </select>
     </div>
     <div class="unit unit-xs-hidden unit-s-hidden m-1 filter-tabs">
@@ -37,19 +38,17 @@
           <label tabindex="0" aria-label="filter print"class="unit xs-1-4 filter-btn" for="filter-print">Print</label>
           <label tabindex="0" aria-label="filter typography"class="unit xs-1-4 filter-btn" for="filter-type">Typography</label>
           <label tabindex="0" aria-label="filter photography"class="unit xs-1-4 filter-btn" for="filter-photo">Photography</label>
+          <label tabindex="0" aria-label="filter experience"class="unit xs-1-4 filter-btn" for="filter-experience">Experience</label>
           <label tabindex="0" aria-label="filter all"class="unit xs-1 filter-btn" for="filter-all">All</label>
         </div>
       </div>
     </div>
   </div>
 
-<p>
-{{site.page.fullname}}
-</p>
-
   <ul class="gp-designer filter-items">
     {% for page in site.designers %}
-    <li class="gp-photo" data-category="{{page.specialty-1}} {{page.specialty-2}} {{page.specialty-3}}">
+    <p>{{page.fullname}}</p>
+    <li class="gp-photo" data-category="{{page.specialization[0]}} {{page.specialization[1]}} {{page.specialization[2]}}">
       <a href="{{site.baseurl}}/{{page.slug}}">
         <img class="" src="https://grads.images.algonquindesign.ca/2017/portraits-square/{{page.slug}}.jpg" alt="Portrait of {{page.longname-oneline}}">
         <p class="gp-shortname">{{page.shortname}}</p>
