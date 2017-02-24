@@ -7,6 +7,9 @@ shortname: "Rob O."
 images: true
 specialty-1: Web/
 specialty-2: Branding
+specialization:
+  - branding
+  - web
 link: "http://robodonnell.ca"
 linkname: "robodonnell.ca"
 email: "robe.od@gmail.com"

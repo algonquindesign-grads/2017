@@ -7,6 +7,9 @@ shortname: "Dom R."
 images: true
 specialty-2: Print/
 specialty-3: Illustration
+specialization:
+  - print
+  - illustration
 link: "http://domrichichi.ca"
 linkname: "http://domrichichi.ca"
 email: "domrichichi@gmail.com"

@@ -8,6 +8,10 @@ images: true
 specialty-1: Motion/
 specialty-2: UI/UX/
 specialty-3: Branding
+specialization:
+  - branding
+  - ux-ui
+  - motion
 link: "http://jessemenard.ca"
 linkname: "jessemenard.ca"
 email: "menardjesse@gmail.com"

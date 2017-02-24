@@ -8,6 +8,10 @@ images: true
 specialty-1: Web Design/
 specialty-2: Branding/
 specialty-3: Motion
+specialization:
+  - branding
+  - motion
+  - web
 link: "http://shakeelnazir.ca"
 linkname: "shakeelnazir.ca"
 email: "hey@shakeelnazir.ca"

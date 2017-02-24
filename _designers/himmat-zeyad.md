@@ -8,6 +8,10 @@ images: true
 specialty-1: UI/UX/
 specialty-2: Branding/
 specialty-3: Illustration
+specialization:
+  - branding
+  - ux-ui
+  - illustration
 link: "http://www.zhimmat.com"
 linkname: "zhimmat.com"
 email: "zeyad.himmat@live.com"

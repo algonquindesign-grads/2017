@@ -8,6 +8,10 @@ images: true
 specialty-1: Web Design/
 specialty-2: UI/UX/
 specialty-3: Illustration
+specialization:
+  - illustration
+  - ux-ui
+  - web
 link: "http://maggiepaquette.net"
 linkname: "maggiepaquette.net"
 email: "maggie.paquette200@gmail.com"

@@ -8,6 +8,10 @@ images: true
 specialty-1: Illustration/
 specialty-2: Branding/
 specialty-3: Motion
+specialization:
+  - branding
+  - motion
+  - illustration
 link: "http://sarahtierney.ca"
 linkname: "http://sarahtierney.ca"
 email: "tierney.s@live.com"

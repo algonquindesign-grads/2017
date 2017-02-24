@@ -8,6 +8,10 @@ images: true
 specialty-1: Motion/
 specialty-2: Illustration/
 specialty-3: Print
+specialization:
+  - motion
+  - illustration
+  - print
 link: "http://caitlingagne.work"
 linkname: "caitlingagne.work"
 email: "caitlin.gagne@outlook.com"

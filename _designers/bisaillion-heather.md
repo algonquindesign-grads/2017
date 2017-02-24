@@ -8,6 +8,10 @@ images: true
 specialty-1: Print/
 specialty-2: Illustration/
 specialty-3: Branding
+specialization:
+  - branding
+  - illustration
+  - print
 link: "http://heatherbisaillion.ca"
 linkname: "heatherbisaillion.ca"
 email: "heather.bisaillion@gmail.com"

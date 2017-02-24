@@ -8,6 +8,10 @@ images: true
 specialty-1: Branding/
 specialty-2: UI/UX/
 specialty-3: Print
+specialization:
+  - branding
+  - ux-ui
+  - print
 link: "http://amosmarsters.ca"
 linkname: "amosmarsters.ca"
 email: "design@amosmarsters.com"

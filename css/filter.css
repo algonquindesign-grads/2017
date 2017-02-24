@@ -1,0 +1,149 @@
+.filter-tabs {
+  max-width: 45em;
+  margin: 0 auto;
+}
+
+.filter-tabs label {
+  margin: 2px;
+  width: calc(25% - 4px);
+  background-color: rgba(85, 86, 90, 0.7);
+  border: none;
+}
+
+.filter-tabs label:hover {
+  color: #fff;
+  background-color: rgba(0, 162, 156, 0.7);
+  transition: all 250ms ease-in-out;
+}
+
+.filter-tabs label:last-child {
+  width: 100%;
+}
+
+.filter-tabs label:focus {
+  background-color: rgba(0, 162, 156, 0.7);
+  color: #fff;
+}
+
+.filter-tabs .filters {
+  background-color: transparent;
+  border: none;
+}
+
+.filter-radio {
+  left: -50px;
+  position: absolute;
+}
+
+.filters label {
+  cursor: pointer;
+}
+
+/* add .grid selector because that is now the sibling element of the filter. call .grid and its child .filters */
+#filter-all:checked ~ .grid .filters [for="filter-all"],
+#filter-branding:checked ~ .grid .filters [for="filter-branding"],
+#filter-ux:checked ~ .grid .filters [for="filter-ux"],
+#filter-web:checked ~ .grid .filters [for="filter-web"],
+#filter-illustration:checked ~ .grid .filters [for="filter-illustration"],
+#filter-motion:checked ~ .grid .filters [for="filter-motion"],
+#filter-print:checked ~ .grid .filters [for="filter-print"],
+#filter-type:checked ~ .grid .filters [for="filter-type"],
+#filter-photo:checked ~ .grid .filters [for="filter-photo"] {
+  background-color: #00a29c;
+  box-shadow: none;
+  color: white;
+}
+
+/* The ~ sibling selector will select all .filters elements, as long as they follow the preceding value*/
+.filter-items li {
+  transition: opacity 500ms ease-in-out;
+}
+
+.filter-items li:hover p, .filter-items li a:focus p {
+  transition: background-color 250ms ease-in-out;
+  background-color: rgba(0, 162, 156, 0.75);
+  z-index: 3000;
+}
+
+.filter-items > li {
+  opacity: .4;
+}
+
+.filter-items > li:hover img, .filter-items > li a:focus img {
+  top: 0;
+}
+
+.filter-items > li > a:focus {
+  z-index: 2000;
+  outline: 5px solid #eab63f;
+}
+
+#filter-all:checked ~ .filter-items > li {
+  opacity: 1;
+}
+
+#filter-all:checked ~ .filter-items > li:hover img, #filter-all:checked ~ .filter-items > li a:focus img {
+  top: calc(-100% - 1px);
+}
+
+/* > will only select direct child descendant */
+#filter-branding:checked ~ .filter-items > [data-category~="branding"],
+#filter-ux:checked ~ .filter-items > [data-category~="ux-ui"],
+#filter-web:checked ~ .filter-items > [data-category~="web"],
+#filter-illustration:checked ~ .filter-items > [data-category~="illustration"],
+#filter-motion:checked ~ .filter-items > [data-category~="motion"],
+#filter-print:checked ~ .filter-items > [data-category~="print"],
+#filter-type:checked ~ .filter-items > [data-category~="type"],
+#filter-photo:checked ~ .filter-items > [data-category~="photography"] {
+  opacity: 1;
+}
+
+#filter-branding:checked ~ .filter-items > [data-category~="branding"]:hover img, #filter-branding:checked ~ .filter-items > [data-category~="branding"] a:focus img,
+#filter-ux:checked ~ .filter-items > [data-category~="ux-ui"]:hover img,
+#filter-ux:checked ~ .filter-items > [data-category~="ux-ui"] a:focus img,
+#filter-web:checked ~ .filter-items > [data-category~="web"]:hover img,
+#filter-web:checked ~ .filter-items > [data-category~="web"] a:focus img,
+#filter-illustration:checked ~ .filter-items > [data-category~="illustration"]:hover img,
+#filter-illustration:checked ~ .filter-items > [data-category~="illustration"] a:focus img,
+#filter-motion:checked ~ .filter-items > [data-category~="motion"]:hover img,
+#filter-motion:checked ~ .filter-items > [data-category~="motion"] a:focus img,
+#filter-print:checked ~ .filter-items > [data-category~="print"]:hover img,
+#filter-print:checked ~ .filter-items > [data-category~="print"] a:focus img,
+#filter-type:checked ~ .filter-items > [data-category~="type"]:hover img,
+#filter-type:checked ~ .filter-items > [data-category~="type"] a:focus img,
+#filter-photo:checked ~ .filter-items > [data-category~="photography"]:hover img,
+#filter-photo:checked ~ .filter-items > [data-category~="photography"] a:focus img {
+  top: calc(-100% - 1px);
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.filter-btn {
+  text-align: center;
+  background-color: transparent;
+  border: 1px solid #55565a;
+  color: #fff;
+  padding: .5em 1em;
+}
+
+.filters {
+  margin: 0 auto;
+  border: 1px solid #55565a;
+  background-color: rgba(85, 86, 90, 0.5);
+}
+
+.filter-btn:hover {
+  background-color: rgba(0, 162, 156, 0.5);
+  color: #fff;
+}
+
+#filter-select {
+  width: 100%;
+  color: #55565a;
+  font-size: 16px;
+  background-color: transparent;
+  padding: .5em 1em;
+  border: 1px solid #55565a;
+}

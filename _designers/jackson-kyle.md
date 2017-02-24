@@ -7,6 +7,9 @@ shortname: "Kyle J."
 images: true
 specialty-1: Motion/
 specialty-2: UI/UX
+specialization:
+  - ux-ui
+  - motion
 link: "http://kylejackson.me"
 linkname: "kylejackson.me"
 email: "kyle_m_jackson@outlook.com"

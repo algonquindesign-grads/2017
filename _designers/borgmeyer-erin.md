@@ -8,6 +8,10 @@ images: true
 specialty-1: Branding/
 specialty-2: Typography/
 specialty-3: Web Design
+specialization:
+  - branding
+  - type
+  - web
 link: "http://erinelizabethb.ca"
 linkname: "erinelizabethb.ca"
 email: "erin.borgmeyer@gmail.com"

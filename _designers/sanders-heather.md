@@ -8,6 +8,10 @@ images: true
 specialty-1: Branding/
 specialty-2: Illustration/
 specialty-3: Print
+specialization:
+  - branding
+  - illustration
+  - print
 link: "https://heathersanders.myportfolio.com"
 linkname: portfolio
 email: "heather.e.sanders22@gmail.com"

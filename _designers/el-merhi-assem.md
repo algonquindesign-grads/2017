@@ -8,6 +8,10 @@ images: true
 specialty-1: UI/UX/
 specialty-2: Branding/
 specialty-3: Motion
+specialization:
+  - branding
+  - ux-ui
+  - motion
 link: "http://assemel-merhi.ca"
 linkname: "assemel-merhi.ca"
 email: "elme0006@algonquinlive.com"

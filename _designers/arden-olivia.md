@@ -8,6 +8,10 @@ images: true
 specialty-1: Branding/
 specialty-2: Illustration/
 specialty-3: Print
+specialization:
+  - branding
+  - illustration
+  - print
 link: "https://drive.google.com/file/d/0ByCIzHXwZZf6THl0LTY2S0xuOUU/view?usp=sharing"
 linkname: Portfolio
 email: "arde0020@algonquinlive.com"

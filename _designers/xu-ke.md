@@ -8,6 +8,10 @@ images: true
 specialty-1: Web Design/
 specialty-2: Motion/
 specialty-3: Illustration
+specialization:
+  - web
+  - motion
+  - illustration
 link: "http://kexu.ca"
 linkname: "kexu.ca"
 email: "kexudesign@gmail.com"

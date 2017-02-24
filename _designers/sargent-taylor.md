@@ -8,6 +8,10 @@ images: true
 specialty-1: Web Design/
 specialty-2: Branding/
 specialty-3: Print
+specialization:
+  - branding
+  - print
+  - web
 link: "http://taylorsargent.ca"
 linkname: "http://taylorsargent.ca"
 email: "mail@taylorsargent.ca"

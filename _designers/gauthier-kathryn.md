@@ -8,6 +8,10 @@ images: true
 specialty-1: Web Design/
 specialty-2: UI/UX/
 specialty-3: Branding
+specialization:
+  - branding
+  - ux-ui
+  - web
 link: "http://kgauthier.com"
 linkname: kgauthier.com
 email: "kathrynrgauthier@gmail.com"

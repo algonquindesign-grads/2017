@@ -43,16 +43,16 @@
     </div>
   </div>
 
-  <img class="img-flex bg-red" src="https://grads.images.algonquindesign.ca/2017/portraits-rectangle/{{designers.page.slug}}.jpg" alt="Portrait of {{ page.longname-oneline }}">
-  <p>{{site.pages.designers.fullname}}</p>
+<p>
+{{site.page.fullname}}
+</p>
 
-  <ul class="ph-student filter-items ph-padding">
-    {% for page in site.pages %}
-    <li class="" data-category="{{page.specialization-1}} {{student.specialization-2}} {{student.specialization-3}}">
-      <a href="{{site.baseurl}}/{{post.url}}">
-        <img class="img-flex bg-red" src="https://grads.images.algonquindesign.ca/2017/portraits-rectangle/{{ page.slug }}.jpg" alt="Portrait of {{ page.longname-oneline }}">
-        <p class="ph-fullname">{{student.fullname}}</p>
-        <p aria-hidden="true" class="ph-partialname">{{student.shortname}}</p>
+  <ul class="gp-designer filter-items">
+    {% for page in site.designers %}
+    <li class="gp-photo" data-category="{{page.specialty-1}} {{page.specialty-2}} {{page.specialty-3}}">
+      <a href="{{site.baseurl}}/{{page.slug}}">
+        <img class="" src="https://grads.images.algonquindesign.ca/2017/portraits-square/{{page.slug}}.jpg" alt="Portrait of {{page.longname-oneline}}">
+        <p class="gp-shortname">{{page.shortname}}</p>
       </a>
     </li>
     {% endfor %}

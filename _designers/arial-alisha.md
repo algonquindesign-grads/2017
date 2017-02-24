@@ -8,6 +8,10 @@ images: true
 specialty-1: Branding/
 specialty-2: UI/UX/
 specialty-3: Print
+specialization:
+  - branding
+  - ux-ui
+  - print
 link: "http://arialalisha.ca"
 linkname: "arialalisha.ca"
 email: "aria0023@algonquinlive.com"

@@ -8,6 +8,10 @@ images: true
 specialty-1: Print/
 specialty-2: Photography/
 specialty-3: Typography
+specialization:
+  - print
+  - photography
+  - type
 link: "http://marissaboswall.ca"
 linkname: "marissaboswall.ca"
 email: "marissa.boswall96@gmail.com"

@@ -4,63 +4,14 @@ title: Algonquin College Graphic Design Grad Show 2017 · Home
 meta:
 ---
 
-<section class="hero grid clearfix">
+  {% include hero.html %}
 
-</section>
-
-<section class="about grid clearfix">
-  <div class="title unit unit-xs-1-2 island">
-    <img class="title-line" src="{{site.baseurl}}/img/rectangle.svg">
-    <h2 class="gutter-double giga">About</h2>
-  </div>
-
-  <div class="unit unit-xs-1 center-text push-2">
-    <h1 class="work">YOU REALLY NEED TO GET EXCITED WITH ME NOW. <span class="text-red">YEAH, GET EXCITED WITH MEOW.</span></h1>
-  </div>
-  </title>
-
-  <div class="about-date unit unit-xs-1 text-center bg-red text-white pad-t">
-    <h2 class="exa work">MAY 9</h2>
-    <p>7 PM, Horticulture Building<br>1525 Princess Patricia Way<br>Ottawa, ON K1S 5J3</p>
-  </div>
-
-</section>
+  {% include about.html %}
 
   {% include grads.html %}
 
-<section class="events grid clearfix">
+  {% include events.html %}
 
-  <div class="title unit unit-xs-1-2 island">
-    <img class="title-line" src="{{site.baseurl}}/img/rectangle.svg">
-    <h2 class="gutter-double giga">Events</h2>
-  </div>
+  {% include sponsors.html %}
 
-  {% for data in site.data.events %}
-    {% assign item = data[1] %}
-      <div class="event-info unit unit-xs-1">
-        <h3 class="event-title">{{item.title}}</h2>
-        <p class="event-date">{{item.date}}</p>
-        <p class="event-desc">{{item.desc}}</p>
-        <p class="event-loc">{{item.loc}}</p>
-      </div>
-  {% endfor %}
-
-</section>
-
-<section class="sponsors grid clearfix">
-
-  <div class="title unit unit-xs-1-2 island">
-    <img class="title-line" src="{{site.baseurl}}/img/rectangle.svg">
-    <h2 class="gutter-double giga">Sponsors</h2>
-  </div>
-
-</section>
-
-<section class="profs grid clearfix">
-
-  <div class="title unit unit-xs-1-2 island">
-    <img class="title-line" src="{{site.baseurl}}/img/rectangle.svg">
-    <h2 class="gutter-double giga">Profs</h2>
-  </div>
-
-</section>
+  {% include profs.html %}

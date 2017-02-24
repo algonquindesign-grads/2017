@@ -7,6 +7,9 @@ shortname: "Charles K."
 images: true
 specialty-1: UI/UX/
 specialty-2: Motion
+specialization:
+  - motion
+  - ux-ui
 link: "http://charleskeil.ca"
 linkname: "charleskeil.ca"
 email: "ckeil@charleskeil.ca"

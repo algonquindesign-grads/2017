@@ -8,6 +8,10 @@ images: true
 specialty-1: Branding/
 specialty-2: Illustration/
 specialty-3: Print
+specialization:
+  - branding
+  - illustration
+  - print
 link: "http://chloeashton.ca"
 linkname: "chloeashton.ca"
 email: "chloe.ashtn@gmail.com"
