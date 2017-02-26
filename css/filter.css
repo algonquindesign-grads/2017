@@ -12,7 +12,7 @@
 
 .filter-tabs label:hover {
   color: #fff;
-  background-color: rgba(0, 162, 156, 0.7);
+  background-color: #f16462;
   transition: all 250ms ease-in-out;
 }
 
@@ -39,6 +39,8 @@
   cursor: pointer;
 }
 
+/*change so filter selection is a dropdown at all sizes*/
+
 /* add .grid selector because that is now the sibling element of the filter. call .grid and its child .filters */
 #filter-all:checked ~ .grid .filters [for="filter-all"],
 #filter-branding:checked ~ .grid .filters [for="filter-branding"],
@@ -49,9 +51,7 @@
 #filter-print:checked ~ .grid .filters [for="filter-print"],
 #filter-type:checked ~ .grid .filters [for="filter-type"],
 #filter-photo:checked ~ .grid .filters [for="filter-photo"] {
-  background-color: #00a29c;
   box-shadow: none;
-  color: white;
 }
 
 /* The ~ sibling selector will select all .filters elements, as long as they follow the preceding value*/
@@ -61,21 +61,15 @@
 
 .filter-items li:hover p, .filter-items li a:focus p {
   transition: background-color 250ms ease-in-out;
-  background-color: rgba(0, 162, 156, 0.75);
   z-index: 3000;
 }
 
-.filter-items > li {
-  opacity: .4;
-}
-
-.filter-items > li:hover img, .filter-items > li a:focus img {
-  top: 0;
+.filter-items > li > a > p {
+  color: #f16462;
 }
 
 .filter-items > li > a:focus {
   z-index: 2000;
-  outline: 5px solid #eab63f;
 }
 
 #filter-all:checked ~ .filter-items > li {
@@ -87,15 +81,17 @@
 }
 
 /* > will only select direct child descendant */
-#filter-branding:checked ~ .filter-items > [data-category~="branding"],
-#filter-ux:checked ~ .filter-items > [data-category~="ux-ui"],
-#filter-web:checked ~ .filter-items > [data-category~="web"],
-#filter-illustration:checked ~ .filter-items > [data-category~="illustration"],
-#filter-motion:checked ~ .filter-items > [data-category~="motion"],
-#filter-print:checked ~ .filter-items > [data-category~="print"],
-#filter-type:checked ~ .filter-items > [data-category~="type"],
-#filter-photo:checked ~ .filter-items > [data-category~="photography"] {
-  opacity: 1;
+#filter-branding:checked ~ .filter-items > [data-category~="branding"] > p,
+#filter-ux:checked ~ .filter-items > [data-category~="ux-ui"] > p,
+#filter-web:checked ~ .filter-items > [data-category~="web"] > p,
+#filter-illustration:checked ~ .filter-items > [data-category~="illustration"] > p,
+#filter-motion:checked ~ .filter-items > [data-category~="motion"] > p,
+#filter-print:checked ~ .filter-items > [data-category~="print"] > p,
+#filter-type:checked ~ .filter-items > [data-category~="type"] > p,
+#filter-photo:checked ~ .filter-items > [data-category~="photography"] > p
+#filter-experience:checked ~ .filter-items > [data-category~="experience"] > p {
+  background-color: #f16462;
+  color: #fff;
 }
 
 #filter-branding:checked ~ .filter-items > [data-category~="branding"]:hover img, #filter-branding:checked ~ .filter-items > [data-category~="branding"] a:focus img,
@@ -113,7 +109,6 @@
 #filter-type:checked ~ .filter-items > [data-category~="type"] a:focus img,
 #filter-photo:checked ~ .filter-items > [data-category~="photography"]:hover img,
 #filter-photo:checked ~ .filter-items > [data-category~="photography"] a:focus img {
-  top: calc(-100% - 1px);
 }
 
 ul li {

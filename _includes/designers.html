@@ -13,7 +13,7 @@
   </div>
 
   <div class="grid">
-    <div class="unit xs-1 s-1 unit-m-hidden filter-select">
+    <div class="unit xs-1 s-1 unit-m-1 unit-l-1 filter-select">
       <select id="filter-select">
         <option value="filter-all">All</option>
         <option value="filter-branding">Branding</option>
@@ -27,7 +27,8 @@
         <option value="filter-experience">Experience</option>
       </select>
     </div>
-    <div class="unit unit-xs-hidden unit-s-hidden m-1 filter-tabs">
+
+    <div class="unit unit-xs-hidden unit-s-hidden unit-m-hidden unit-l-hidden filter-tabs">
       <div class="filters">
         <div class="grid">
           <label tabindex="0" aria-label="filter branding"class="unit xs-1-4 filter-btn" for="filter-branding">Branding</label>
@@ -43,13 +44,16 @@
         </div>
       </div>
     </div>
+
   </div>
 
-  <ul class="gp-designer filter-items">
+  <ul class="gp-designer filter-items unit unit-xs-1 grid">
     {% for designer in site.designers %}
     <li class="gp-photo" data-category="{{designer.specialization[0]}} {{designer.specialization[1]}} {{designer.specialization[2]}}">
       <a href="{{site.baseurl}}/{{designer.slug}}">
-        <img class="" src="https://grads.images.algonquindesign.ca/2017/portraits-square/{{designer.slug}}.jpg" alt="Portrait of {{designer.longname-oneline}}">
+        <div class="embed embed-1by1">
+          <img class="img-flex embed-item" src="https://grads.images.algonquindesign.ca/2017/portraits-square/{{designer.slug}}-square.jpg" alt="Portrait of {{designer.longname-oneline}}">
+        </div>
         <p class="gp-shortname">{{designer.shortname}}</p>
       </a>
     </li>
