@@ -8,6 +8,10 @@ images: true
 specialty-1: Motion/
 specialty-2: Illustration/
 specialty-3: Photography
+specialization:
+ - illustration
+ - motion
+ - photography
 link: "http://celestelavoie.xyz"
 linkname: "celestelavoie.xyz"
 email: "celeste.lavoie@gmail.com"

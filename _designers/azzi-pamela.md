@@ -8,6 +8,10 @@ images: true
 specialty-1: Web Design/
 specialty-2: Branding/
 specialty-3: Illustration
+specialization:
+ - illustration
+ - branding
+ - web
 link: "http://pamelaazzi.ca"
 linkname: "pamelaazzi.ca"
 email: "pamelaazzi93@gmail.com"

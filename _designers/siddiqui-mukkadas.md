@@ -8,6 +8,10 @@ images: true
 specialty-1: Print/
 specialty-2: UI/UX/
 specialty-3: Branding
+specialization:
+ - print
+ - ux-ui
+ - branding
 link: "http://siddiquimukkadas.ca"
 linkname: "siddiquimukkadas.ca"
 email: "siddiquimukkadas@gmail.com"

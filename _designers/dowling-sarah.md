@@ -8,6 +8,10 @@ images: true
 specialty-1: UI/UX/
 specialty-2: Motion/
 specialty-3: Print
+specialization:
+ - ux-ui
+ - motion
+ - print
 link: "http://www.sarahlouisedowling.ca"
 linkname: "sarahlouisedowling.ca"
 email: "sarah.dowling7@gmail.com"

@@ -8,6 +8,10 @@ images: true
 specialty-1: Branding/
 specialty-2: Illustration/
 specialty-3: Print
+specialization:
+ - illustration
+ - branding
+ - print
 link: "http://shannonhawn.myportfolio.com"
 linkname: portfolio
 email: "shannonhawn@hotmail.com"

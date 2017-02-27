@@ -8,6 +8,10 @@ images: true
 specialty-1: Branding/
 specialty-2: Illustration/
 specialty-3: Photography
+specialization:
+ - illustration
+ - photography
+ - illustration
 link: "http://evanthefive.com"
 linkname: "evanthefive.com"
 email: "evanthefive@gmail.com"

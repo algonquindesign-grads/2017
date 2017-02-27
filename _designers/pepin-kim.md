@@ -8,6 +8,10 @@ images: true
 specialty-1: Web Design/
 specialty-2: UI/UX/
 specialty-3: Photography
+specialization:
+ - ux-ui
+ - photography
+ - web
 link: "http://kimpepin.ca"
 linkname: "kimpepin.ca"
 email: "kim@kimpepin.ca"

@@ -8,6 +8,10 @@ images: true
 specialty-1: Branding/
 specialty-2: Print/
 specialty-3: Illustration
+specialization:
+ - illustration
+ - branding
+ - print
 link: "http://domrichichi.ca"
 linkname: "http://domrichichi.ca"
 email: "domrichichi@gmail.com"

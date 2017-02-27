@@ -7,6 +7,9 @@ shortname: "Bonnie C."
 images: true
 specialty-1: Motion/
 specialty-2: Photography
+specialization:
+ - photography
+ - motion
 link: "http://bonbonn.design"
 linkname: bonbonn.design
 email: "bonniejean@bonbonn.design"

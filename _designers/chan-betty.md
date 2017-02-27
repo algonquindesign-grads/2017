@@ -7,6 +7,9 @@ shortname: "Betty C."
 images: true
 specialty-1: Motion/
 specialty-2: Illustration
+specialization:
+ - illustration
+ - motion
 link: "https://chan0369.github.io/portfolio/"
 linkname: "bettychan.ca"
 email: "chanbikyen.betty@gmail.com"

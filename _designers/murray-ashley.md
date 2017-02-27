@@ -7,6 +7,9 @@ shortname: "Ashley M."
 images: true
 specialty-1: UI/UX/
 specialty-2: Motion
+specialization:
+ - ux-ui
+ - motion
 link: "http://ashtastic.ca"
 linkname: "ashtastic.ca"
 email: "hello@ashtastic.ca"

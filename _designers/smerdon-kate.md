@@ -8,6 +8,10 @@ images: true
 specialty-1: Branding/
 specialty-2: Typography/
 specialty-3: Illustration
+specialization:
+ - illustration
+ - type
+ - branding
 link: "http://katesmerdondesign.ca"
 linkname: "katesmerdondesign.ca"
 email: "katesmerdon.design@gmail.ca"

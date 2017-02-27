@@ -8,6 +8,10 @@ images: true
 specialty-1: UI/UX/
 specialty-2: Motion/
 specialty-3: Illustration
+specialization:
+ - illustration
+ - motion
+ - ux-ui
 link: "http://shannonshaw.design"
 linkname: "shannonshaw.design"
 email: "shaw0106@algonquinlive.com"

@@ -8,6 +8,10 @@ images: true
 specialty-1: Motion/
 specialty-2: UI/UX/
 specialty-3: Photography
+specialization:
+ - ux-ui
+ - motion
+ - photography
 link: "http://mattskinner.design"
 linkname: "mattskinner.design"
 email: "contact@mattskinner.design"

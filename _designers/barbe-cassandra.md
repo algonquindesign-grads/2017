@@ -8,6 +8,10 @@ images: true
 specialty-1: Branding/
 specialty-2: UI/UX/
 specialty-3: Photography/
+specialization:
+ - branding
+ - ux-ui
+ - photography
 link: "http://cassandrabarbe.ca"
 linkname: cassandrabarbe.ca
 email: "cassandra.barbe@gmail.com"
