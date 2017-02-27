@@ -7,3 +7,4 @@
 {% include css/common.css %}
 {% include css/nav-footer.css %}
 {% include css/mediaqueries.css %}
+{% include css/404.css %}
