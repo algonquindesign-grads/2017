@@ -5,11 +5,13 @@ longname: "Dom <br> Richichi"
 longname-oneline: "Dom Richichi"
 shortname: "Dom R."
 images: true
+specialty-1: Branding/
 specialty-2: Print/
 specialty-3: Illustration
 specialization:
   - print
   - illustration
+  - branding
 link: "http://domrichichi.ca"
 linkname: "http://domrichichi.ca"
 email: "domrichichi@gmail.com"
