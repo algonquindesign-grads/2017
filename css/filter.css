@@ -69,8 +69,9 @@
 }
 
 .filter-items li:hover img, .filter-items li a:focus img {
-  transition: width 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
   width: 120%;
+  transform: translate(-5%,-5%);
 }
 
 .filter-items > li > a > p {
@@ -124,30 +125,20 @@ ul li {
   list-style-type: none;
 }
 
-.filter-btn {
-  text-align: center;
-  background-color: transparent;
-  border: 1px solid #55565a;
-  color: #fff;
-  padding: .5em 1em;
-}
-
-.filters {
-  margin: 0 auto;
-  border: 1px solid #55565a;
-  background-color: rgba(85, 86, 90, 0.5);
-}
-
-.filter-btn:hover {
-  background-color: rgba(0, 162, 156, 0.5);
-  color: #fff;
-}
-
 #filter-select {
-  width: 100%;
-  color: #55565a;
+  transform: translatex(-50%);
+  width: 80%;
+  color: #f16462;
   font-size: 16px;
   background-color: transparent;
-  padding: .5em 1em;
-  border: 1px solid #55565a;
+  padding: 1em 2em;
+  border: 3px solid #f16462;
+  border-radius: 15px;
+  position: absolute;
+  left: 50%;
+  height: 40px;
+}
+
+.specialization-select {
+  margin-bottom: 4em;
 }
