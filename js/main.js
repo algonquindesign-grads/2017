@@ -8,17 +8,31 @@ var $dataPhoto = $('[data-category*=photo]');
 var $dataIll = $('[data-category*=illustration]');
 var $dataMotion = $('[data-category*=motion]');
 
-var $filterBrand = $('("#filter-select").val("filter-branding");');
+var $all = $('.gp-photo');
 
-$filterBrand.click(function() {
-  $dataWeb.css("opacity", ".4");
-  $dataPrint.css("opacity", ".4");
-  $dataType.css("opacity", ".4");
-  $dataUx.css("opacity", ".4");
-  $dataExp.css("opacity", ".4");
-  $dataPhoto.css("opacity", ".4");
-  $dataIll.css("opacity", ".4");
-  $dataMotion.css("opacity", ".4");
+$('#filter-select').on('change', function () {
+  $all.css('opacity', 1);
+
+  switch ($(this).val()) {
+    case 'filter-branding':
+      $dataBranding.css('opacity', .4);
+    case 'filter-web':
+      $dataWeb.css('opacity', .4);
+    case 'filter-print':
+      $dataPrint.css('opacity', .4);
+    case 'filter-type':
+      $dataType.css('opacity', .4);
+    case 'filter-ux':
+      $dataUx.css('opacity', .4);
+    case 'filter-experience':
+      $dataExp.css('opacity', .4);
+    case 'filter-photo':
+      $dataPhoto.css('opacity', .4);
+    case 'filter-illustration':
+      $dataIll.css('opacity', .4);
+    case 'filter-motion':
+      $dataMotion.css('opacity', .4);
+  }
 });
 
 function openNav() {

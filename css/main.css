@@ -89,6 +89,7 @@ color: #000
 
 .nav {
 	position: fixed;
+	height: 120px;
 	z-index: 1000000;
 }
 
@@ -270,8 +271,12 @@ select {
 	}
 }
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 75em) {
 	.gp-photo {
-		width: calc(100% / 5);
+		width: calc(100% / 6);
+	}
+
+	.about-date {
+		padding-top: 3rem;
 	}
 }
