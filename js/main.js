@@ -16,22 +16,31 @@ $('#filter-select').on('change', function () {
   switch ($(this).val()) {
     case 'filter-branding':
       $dataBranding.css('opacity', .4);
+      break;
     case 'filter-web':
       $dataWeb.css('opacity', .4);
+      break;
     case 'filter-print':
       $dataPrint.css('opacity', .4);
+      break;
     case 'filter-type':
       $dataType.css('opacity', .4);
+      break;
     case 'filter-ux':
       $dataUx.css('opacity', .4);
+      break;
     case 'filter-experience':
       $dataExp.css('opacity', .4);
+      break;
     case 'filter-photo':
       $dataPhoto.css('opacity', .4);
+      break;
     case 'filter-illustration':
       $dataIll.css('opacity', .4);
+      break;
     case 'filter-motion':
       $dataMotion.css('opacity', .4);
+      break;
   }
 });
 
