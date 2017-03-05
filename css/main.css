@@ -67,15 +67,9 @@ color: #000
   background-size: cover;
 }
 
-/*.about,
-.grads,
-.events,
-.profs,
-.sponsors
- {
+.about {
   height: 100vh;
 }
-*/
 
 .title {
   position: relative;
@@ -84,8 +78,8 @@ color: #000
 
 .title-line {
   position: absolute;
-  left: -1rem;
-  width: 70px;
+  left: 0;
+  width: 40px;
   top: 35px;
 }
 
@@ -192,4 +186,19 @@ color: #000
 .grad-selector-title {
 	color: #f16462;
 	font-size: 20px;
+}
+
+@media only screen and (min-width: 38em) {
+	.about {
+		height: auto;
+	}
+
+	.about-splash {
+		height: 100vh;
+	}
+
+	.about .unit .work {
+		font-size: 4rem;
+		margin: auto 1rem;
+	}
 }
