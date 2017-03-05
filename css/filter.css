@@ -57,7 +57,6 @@
 .filter-items li {
   transition: opacity 500ms ease-in-out;
   background-color: #f16462;
-  opacity: 1;
 }
 
 .filter-items li:hover p, .filter-items li a:focus p {
@@ -82,13 +81,6 @@
   z-index: 2000;
 }
 
-#filter-all:checked ~ .filter-items > li {
-  opacity: 1;
-}
-
-#filter-all:checked ~ .filter-items > li:hover img, #filter-all:checked ~ .filter-items > li a:focus img {
-  top: calc(-100% - 1px);
-}
 
 /* > will only select direct child descendant */
 #filter-branding:checked ~ .filter-items > [data-category~="branding"] ,
@@ -100,8 +92,8 @@
 #filter-type:checked ~ .filter-items > [data-category~="type"] ,
 #filter-photo:checked ~ .filter-items > [data-category~="photography"] ,
 #filter-experience:checked ~ .filter-items > [data-category~="experience"]  {
-  opacity: .5;
 }
+
 
 #filter-branding:checked ~ .filter-items > [data-category~="branding"]:hover div img, #filter-branding:checked ~ .filter-items > [data-category~="branding"] a:focus img,
 #filter-ux:checked ~ .filter-items > [data-category~="ux-ui"]:hover div img,
@@ -118,7 +110,6 @@
 #filter-type:checked ~ .filter-items > [data-category~="type"] a:focus div img,
 #filter-photo:checked ~ .filter-items > [data-category~="photography"]:hover div img,
 #filter-photo:checked ~ .filter-items > [data-category~="photography"] a:focus div img {
-  width: 120%;
 }
 
 ul li {
@@ -137,4 +128,12 @@ ul li {
   position: absolute;
   left: 50%;
   height: 40px;
+}
+
+.select-special {
+  border-bottom: 20px solid #f16462;
+}
+
+@media only screen and (min-width: 38em) {
+
 }

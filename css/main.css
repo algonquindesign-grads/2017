@@ -201,4 +201,14 @@ color: #000
 		font-size: 4rem;
 		margin: auto 1rem;
 	}
+
+	.gp-photo {
+		width: 33.33333%;
+	}
 }
+
+/*
+[data-category*=branding] {
+	opacity: .4;
+}
+*/
