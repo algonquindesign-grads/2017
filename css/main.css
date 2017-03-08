@@ -73,8 +73,10 @@ color: #000
 
 .about {
   height: auto;
-	background-image: url("https://grads.images.algonquindesign.ca/2017/textures/ink-texture-pink.jpg");
-	background-size: contain;
+	background-image: url("https://grads.images.algonquindesign.ca/2017/textures/ink-texture-pink-.jpg");
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	background-position: right top;
 }
 
 .about-head {
@@ -99,8 +101,9 @@ color: #000
 
 .nav {
 	position: fixed;
-	height: 120px;
+	height: 140px;
 	z-index: 1000000;
+	width: 100%;
 }
 
 .overlay {
@@ -331,4 +334,3 @@ select {
 		font-size: 6rem;
 	}
 }
-

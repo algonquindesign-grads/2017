@@ -42,15 +42,19 @@
     </div>
   </div>
 
-  <ul class="gp-designer filter-items unit unit-xs-1 grid">
+  <ul class="gp-designer filter-items unit unit-xs-1 grid list-group">
     {% for designer in site.designers %}
     <li class="gp-photo" data-category="{{designer.specialization[0]}} {{designer.specialization[1]}} {{designer.specialization[2]}}">
-      <a href="{{site.baseurl}}/{{designer.slug}}">
+      {% unless designer.disabled %}
+        <a href="{{site.baseurl}}/designers/{{designer.slug}}">
+      {% endunless %}
         <div class="embed embed-1by1">
           <img class="img-flex embed-item" src="https://grads.images.algonquindesign.ca/2017/portraits-square/{{designer.slug}}-square.jpg" alt="Portrait of {{designer.longname-oneline}}">
         </div>
-        <p class="gp-shortname">{{designer.shortname}}</p>
-      </a>
+        {% unless designer.disabled %}
+          <p class="gp-shortname">{{designer.shortname}}</p>
+        </a>
+      {% endunless %}
     </li>
     {% endfor %}
   </ul>

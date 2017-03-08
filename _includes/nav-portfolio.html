@@ -30,16 +30,26 @@
     {% assign document = site[designers]  %}
   {% endif %}
 {% for links in document  %}
-  {% if links.title == page.title %}
-    {% unless forloop.first %}
-      {% assign prevurl = prev.url %}
-    {% endunless %}
-    {% unless forloop.last %}
-      {% assign next = document[forloop.index] %}
-      {% assign nexturl = next.url %}
-    {% endunless %}
-  {% endif %}
+
+    {% if links.title == page.title %}
+      {% unless forloop.first %}
+      {% unless prev.disabled %}
+        {% assign prevurl = prev.url %}
+      {% endunless%}
+      {% endunless %}
+      {% unless forloop.last %}
+        {% assign next = document[forloop.index] %}
+        {% unless next.disabled %}
+        {% assign nexturl = next.url %}
+        {% endunless %}
+      {% endunless %}
+    {% endif %}
+
+    {% unless links.disabled %}
   {% assign prev = links %}
+{% endunless %}
+
+
 {% endfor %}
 
 
