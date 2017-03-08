@@ -25,30 +25,35 @@
   <div class="unit menu milli text-white text-upper unit-xs-hidden m-1-2 l-1-2 pad-b">
     <ul class="push-0 list-group-inline">
 
-{% capture designers %}{{page.collection}}{% endcapture %}
-  {% if page.collection %}
-    {% assign document = site[designers]  %}
-  {% endif %}
-{% for links in document  %}
+{% assign incoming = false %}
+{% assign last = false %}
+{% assign prevurl = false %}
+{% assign nexturl = false %}
 
-    {% if links.title == page.title %}
-      {% unless forloop.first %}
-      {% unless prev.disabled %}
-        {% assign prevurl = prev.url %}
-      {% endunless%}
-      {% endunless %}
-      {% unless forloop.last %}
-        {% assign next = document[forloop.index] %}
-        {% unless next.disabled %}
-        {% assign nexturl = next.url %}
-        {% endunless %}
-      {% endunless %}
+{% for item in site.designers %}
+
+  {% if item.disabled %}
+    {% continue %}
+  {% endif %}
+
+  {% if item.slug == page.slug %}
+    {% assign incoming = true %}
+  {% else %}
+
+    {% if incoming %}
+      {% assign prevurl = last.url %}
+      {% assign nexturl = item.url %}
+      {% break %}
+    {% else %}
+      {% assign last = item %}
     {% endif %}
 
-    {% unless links.disabled %}
-  {% assign prev = links %}
-{% endunless %}
+  {% endif %}
 
+  {% if forloop.last %}
+    {% assign prevurl = last.url %}
+    {% break %}
+  {% endif %}
 
 {% endfor %}
 
