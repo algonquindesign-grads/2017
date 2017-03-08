@@ -1,0 +1,117 @@
+
+figure {
+  margin: 0 auto;
+  padding: 0;
+}
+
+
+.bottom-logo i {
+  margin: 0 auto;
+}
+
+.nav-portfolio{
+  overflow: hidden;
+}
+.nav-portfolio  {
+  transition: all 500ms linear;
+}
+
+
+.nav-portfolio a {
+  color: #fff;
+}
+
+.nav-portfolio li a:hover, .footer a:hover {
+  opacity: 1;
+  border-bottom: 1px dashed rgba(255,255,255, 0.5);
+  animation: lamp 500ms ease-out forwards;
+}
+
+
+.footer-social a:hover {
+  animation: none;
+
+}
+
+
+@keyframes lamp {
+  0% {
+      opacity: .5;
+  -webkit-filter: blur(0px);
+  filter: blur(0px);
+  }
+
+
+  13% {
+    -webkit-filter: blur(2px);
+  filter: blur(2px);
+  }
+
+  15% {
+    -webkit-filter: blur(8px);
+  filter: blur(8px);
+  }
+
+
+  20% {
+      opacity: .95;
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
+
+  }
+
+  70% {
+
+  -webkit-filter: blur(0px);
+  filter: blur(0px);
+  }
+
+  90% {
+    color: rgba(255,255,255,.5);
+  }
+
+  100% {
+  opacity: 1;
+  }
+}
+
+
+
+.menu ul li {
+  text-align: right;
+}
+
+/*sm*/
+@media only screen and (min-width: 25em) {
+
+.menu {
+  text-align: center;
+}
+
+}
+
+/* med */
+@media only screen and (min-width: 38em) {
+
+.menu {
+  text-align: right;
+
+}
+
+.menu li {
+  padding: 0 1em;
+}
+.nav-portfolio {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+/* l */
+@media only screen and (min-width: 60em) {
+
+.nav-portfolio {
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+}
