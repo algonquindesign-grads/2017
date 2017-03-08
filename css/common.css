@@ -10,6 +10,12 @@ a {
 
 }
 
+.logo-top {
+  position: absolute;
+  left: 30px;
+  top: -6px;
+}
+
 .bio-med-name {
 line-height: .8;
 }
@@ -136,4 +142,3 @@ ul li:hover{
 .bio-portfolio figure {
   padding: 0;
 }
-

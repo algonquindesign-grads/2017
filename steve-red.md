@@ -4,7 +4,8 @@ layout: grads
 longname:
 longname-oneline:
 shortname:
-images: true
+images:
+disabled: true
 specialty-1:
 specialty-2:
 specialty-3:
