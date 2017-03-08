@@ -9,9 +9,9 @@ specialty-1: Branding/
 specialty-2: Motion/
 specialty-3: Photography
 specialization:
-  - branding
-  - motion
-  - photography
+ - branding
+ - motion
+ - photography
 link: "http://erinmillingdesign.ca"
 linkname: "erinmillingdesign.ca"
 email: "erin@erinmillingdesign.ca"

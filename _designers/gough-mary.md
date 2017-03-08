@@ -9,9 +9,9 @@ specialty-1: Branding/
 specialty-2: Illustration/
 specialty-3: Print
 specialization:
-  - branding
-  - illustration
-  - print
+ - illustration
+ - print
+ - branding
 link: "http://marygough.ca"
 linkname: marygough.ca
 email: "mary.gough@live.com"

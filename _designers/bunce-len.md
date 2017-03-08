@@ -7,7 +7,7 @@ shortname: "Len B."
 images: true
 specialty-1: Experience Design
 specialization:
-  - experience
+ - experience
 email: "lenbunce@gmail.com"
 instagram: "https://www.instagram.com/lennifer_layne/"
 linkedin: "https://www.linkedin.com/in/lenbunce/"

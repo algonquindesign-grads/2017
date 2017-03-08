@@ -9,9 +9,9 @@ specialty-1: Branding/
 specialty-2: Illustration/
 specialty-3: Photography
 specialization:
-  - branding
-  - illustration
-  - photography
+ - illustration
+ - photography
+ - illustration
 link: "http://evanthefive.com"
 linkname: "evanthefive.com"
 email: "evanthefive@gmail.com"

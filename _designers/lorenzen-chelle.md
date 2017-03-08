@@ -9,9 +9,9 @@ specialty-1: Illustration/
 specialty-2: Motion/
 specialty-3: Web
 specialization:
-  - illustration
-  - motion
-  - web
+ - illustration
+ - motion
+ - web
 link: "http://www.chellelorenzen.com"
 linkname: "chellelorenzen.com"
 email: "hello@chellelorenzen.com"

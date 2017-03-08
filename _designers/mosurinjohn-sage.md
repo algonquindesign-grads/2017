@@ -9,9 +9,9 @@ specialty-1: Print/
 specialty-2: Typography/
 specialty-3: Branding
 specialization:
-  - branding
-  - print
-  - type
+ - print
+ - type
+ - branding
 link: "http://designedbysage.ca"
 linkname: "designedbysage.ca"
 email: "sage.hartly@gmail.com"

@@ -9,9 +9,9 @@ specialty-1: Branding/
 specialty-2: Motion/
 specialty-3: Illustration
 specialization:
-  - branding
-  - motion
-  - illustration
+ - illustration
+ - motion
+ - branding
 link: "http://dingchangxu.myportfolio.com"
 linkname: portfolio
 email: "dingchangxu@gmail.com"

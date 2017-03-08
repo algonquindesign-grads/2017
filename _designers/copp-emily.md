@@ -9,9 +9,9 @@ specialty-1: Branding/
 specialty-2: Motion/
 specialty-3: Illustration
 specialization:
-  - branding
-  - motion
-  - illustration
+ - illustration
+ - motion
+ - branding
 link: "https://emilycopp.myportfolio.com"
 linkname: "portfolio"
 email: "emily.copp@bell.net"

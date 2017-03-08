@@ -8,8 +8,8 @@ images: true
 specialty-1: Experience Design/
 specialty-2: Motion
 specialization:
-  - experience
-  - motion
+ - ux-ui
+ - motion
 link: "http://shogo.ca"
 linkname: "http://shogo.ca"
 email: "shogoluc@gmail.com"

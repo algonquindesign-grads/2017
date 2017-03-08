@@ -40,19 +40,6 @@
 }
 
 
-/* add .grid selector because that is now the sibling element of the filter. call .grid and its child .filters */
-#filter-all:checked ~ .grid .filters [for="filter-all"],
-#filter-branding:checked ~ .grid .filters [for="filter-branding"],
-#filter-ux:checked ~ .grid .filters [for="filter-ux"],
-#filter-web:checked ~ .grid .filters [for="filter-web"],
-#filter-illustration:checked ~ .grid .filters [for="filter-illustration"],
-#filter-motion:checked ~ .grid .filters [for="filter-motion"],
-#filter-print:checked ~ .grid .filters [for="filter-print"],
-#filter-type:checked ~ .grid .filters [for="filter-type"],
-#filter-photo:checked ~ .grid .filters [for="filter-photo"] {
-  box-shadow: none;
-}
-
 /* The ~ sibling selector will select all .filters elements, as long as they follow the preceding value*/
 .filter-items li {
   transition: opacity 500ms ease-in-out;
@@ -69,8 +56,8 @@
 
 .filter-items li:hover img, .filter-items li a:focus img {
   transition: all 500ms ease-in-out;
-  width: 120%;
-  transform: translate(-5%,-5%);
+  width: 105%;
+  transform: translate(-2%,-2%);
 }
 
 .filter-items > li > a > p {
@@ -79,37 +66,6 @@
 
 .filter-items > li > a:focus {
   z-index: 2000;
-}
-
-
-/* > will only select direct child descendant */
-#filter-branding:checked ~ .filter-items > [data-category~="branding"] ,
-#filter-ux:checked ~ .filter-items > [data-category~="ux-ui"] ,
-#filter-web:checked ~ .filter-items > [data-category~="web"] ,
-#filter-illustration:checked ~ .filter-items > [data-category~="illustration"] ,
-#filter-motion:checked ~ .filter-items > [data-category~="motion"] ,
-#filter-print:checked ~ .filter-items > [data-category~="print"] ,
-#filter-type:checked ~ .filter-items > [data-category~="type"] ,
-#filter-photo:checked ~ .filter-items > [data-category~="photography"] ,
-#filter-experience:checked ~ .filter-items > [data-category~="experience"]  {
-}
-
-
-#filter-branding:checked ~ .filter-items > [data-category~="branding"]:hover div img, #filter-branding:checked ~ .filter-items > [data-category~="branding"] a:focus img,
-#filter-ux:checked ~ .filter-items > [data-category~="ux-ui"]:hover div img,
-#filter-ux:checked ~ .filter-items > [data-category~="ux-ui"] a:focus div img,
-#filter-web:checked ~ .filter-items > [data-category~="web"]:hover div img,
-#filter-web:checked ~ .filter-items > [data-category~="web"] a:focus div img,
-#filter-illustration:checked ~ .filter-items > [data-category~="illustration"]:hover div img,
-#filter-illustration:checked ~ .filter-items > [data-category~="illustration"] a:focus div img,
-#filter-motion:checked ~ .filter-items > [data-category~="motion"]:hover div img,
-#filter-motion:checked ~ .filter-items > [data-category~="motion"] a:focus div img,
-#filter-print:checked ~ .filter-items > [data-category~="print"]:hover div img,
-#filter-print:checked ~ .filter-items > [data-category~="print"] a:focus div img,
-#filter-type:checked ~ .filter-items > [data-category~="type"]:hover div img,
-#filter-type:checked ~ .filter-items > [data-category~="type"] a:focus div img,
-#filter-photo:checked ~ .filter-items > [data-category~="photography"]:hover div img,
-#filter-photo:checked ~ .filter-items > [data-category~="photography"] a:focus div img {
 }
 
 ul li {

@@ -9,9 +9,9 @@ specialty-1: Motion/
 specialty-2: UI/UX/
 specialty-3: Illustration
 specialization:
-  - motion
-  - ux-ui
-  - illustration
+ - illustration
+ - motion
+ - ux-ui
 link: "http://mattkemball.ca"
 linkname: mattkemball.ca
 email: "mattkemball@gmail.com"

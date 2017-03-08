@@ -9,9 +9,9 @@ specialty-1: Branding/
 specialty-2: Illustration/
 specialty-3: Print
 specialization:
-  - branding
-  - illustration
-  - print
+ - illustration
+ - branding
+ - print
 link: "http://desireedesigns.ca"
 linkname: "desireedesigns.ca"
 email: "desiree-deschenes@live.ca"

@@ -9,9 +9,9 @@ specialty-1: UI/UX/
 specialty-2: Branding/
 specialty-3: Illustration
 specialization:
-  - branding
-  - ux-ui
-  - illustration
+ - illustration
+ - ux-ui
+ - branding
 link: "http://kaybow.design"
 linkname: "kaybow.design"
 email: "hello@kaybow.design"

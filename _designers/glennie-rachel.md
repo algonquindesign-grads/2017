@@ -9,9 +9,9 @@ specialty-1: UI/UX/
 specialty-2: Branding/
 specialty-3: Motion
 specialization:
-  - branding
-  - ux-ui
-  - motion
+ - ux-ui
+ - motion
+ - branding
 link: "http://rachelglennie.design"
 linkname: "rachelglennie.design"
 email: "rachelgglennie@gmail.com"

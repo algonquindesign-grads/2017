@@ -9,9 +9,9 @@ specialty-1: Branding/
 specialty-2: Illustration/
 specialty-3: Print
 specialization:
-  - branding
-  - illustration
-  - print
+ - illustration
+ - branding
+ - print
 link: "http://erynjones.ca"
 linkname: "erynjones.ca"
 email: "eryn.jones146@gmail.com"

@@ -9,9 +9,9 @@ specialty-1: Motion/
 specialty-2: UI/UX/
 specialty-3: Branding
 specialization:
-  - branding
-  - motion
-  - ux-ui
+ - ux-ui
+ - motion
+ - branding
 link: "http://samzahir.ca"
 linkname: "http://samzahir.ca"
 email: "zahi0004@algonquinlive.com"

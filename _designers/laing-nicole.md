@@ -9,9 +9,9 @@ specialty-1: Web Design/
 specialty-2: UI/UX/
 specialty-3: Print
 specialization:
-  - print
-  - ux-ui
-  - web
+ - web
+ - ux-ui
+ - print
 link: "http://nicolelaing.ca"
 linkname: "nicolelaing.ca"
 email: "nicole@nicolelaing.ca"

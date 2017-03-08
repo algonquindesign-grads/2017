@@ -9,9 +9,9 @@ specialty-1: Branding/
 specialty-2: Print/
 specialty-3: Typography
 specialization:
-  - branding
-  - print
-  - typography
+ - branding
+ - print
+ - type
 link: "http://jenniferyaya.ca"
 linkname: "jenniferyaya.ca"
 email: "jennifalanga@gmail.com"

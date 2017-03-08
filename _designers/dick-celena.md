@@ -9,9 +9,9 @@ specialty-1: Branding/
 specialty-2: Print/
 specialty-3: Illustration
 specialization:
-  - branding
-  - print
-  - illustration
+ - illustration
+ - branding
+ - print
 link: "http://celenastefanie.ca"
 linkname: celenastefanie.ca
 email: "celenastefanie@gmail.com"

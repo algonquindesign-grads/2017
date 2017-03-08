@@ -9,9 +9,9 @@ specialty-1: Web Design/
 specialty-2: Branding/
 specialty-3: Illustration
 specialization:
-  - branding
-  - illustration
-  - web
+ - illustration
+ - branding
+ - web
 link: "http://pamelaazzi.ca"
 linkname: "pamelaazzi.ca"
 email: "pamelaazzi93@gmail.com"

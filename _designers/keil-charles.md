@@ -8,8 +8,8 @@ images: true
 specialty-1: UI/UX/
 specialty-2: Motion
 specialization:
-  - motion
-  - ux-ui
+ - ux-ui
+ - motion
 link: "http://charleskeil.ca"
 linkname: "charleskeil.ca"
 email: "ckeil@charleskeil.ca"

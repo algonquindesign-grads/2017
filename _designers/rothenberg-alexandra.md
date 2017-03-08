@@ -9,9 +9,9 @@ specialty-1: UI/UX/
 specialty-2: Motion/
 specialty-3: Print
 specialization:
-  - motion
-  - ux-ui
-  - print
+ - ui-ux
+ - motion
+ - print
 link: "http://alexdesign.rocks"
 linkname: "alexdesign.rocks"
 email: "alexandra.rothenberg12@gmail.com"

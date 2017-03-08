@@ -9,9 +9,9 @@ specialty-1: Branding/
 specialty-2: UI/UX/
 specialty-3: Print
 specialization:
-  - branding
-  - ux-ui
-  - print
+ - branding
+ - ux-ui
+ - print
 link: "http://www.gamizvaleria.com"
 linkname: gamizvaleria.com
 email: "gamizvaleria@gmail.com"

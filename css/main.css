@@ -72,7 +72,15 @@ color: #000
 }
 
 .about {
-  height: 100vh;
+  height: auto;
+}
+
+.about-head {
+	padding: 0 2rem;
+}
+
+.about-splash {
+	height: auto;
 }
 
 .title {
@@ -84,7 +92,7 @@ color: #000
   position: absolute;
   left: 0;
   width: 40px;
-  top: 35px;
+  top: 32px;
 }
 
 .nav {
@@ -159,7 +167,21 @@ color: #000
 	z-index: 100000000;
 }
 
+.about-date p {
+	font-size: 14px;
+}
+
+.opacity-pseven {
+	opacity: .7;
+}
+
 .work {
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 900;
+	line-height: 1.1;
+}
+.work-sm {
+	font-size: 60px;
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 900;
 	line-height: 1.1;
@@ -178,7 +200,7 @@ color: #000
 .gp-shortname {
 	position: absolute;
 	bottom: 5px;
-	left: 5px;
+	left: 15px;
 	text-decoration: none;
 	color: white;
 }
@@ -202,8 +224,16 @@ select {
 		height: auto;
 	}
 
-	.about-splash {
-		height: 100vh;
+	.about-date p {
+		font-size: 16px;
+	}
+
+	.about-date h2 {
+		font-size: 3rem;
+	}
+
+	.about-head {
+		padding: 0 4rem;
 	}
 
 	.about .unit .work {
@@ -216,7 +246,7 @@ select {
 	}
 
 	.title-line {
-		top: 42px;
+		top: 38px;
 	}
 }
 
@@ -238,7 +268,11 @@ select {
 	}
 
 	.title-line {
-		top: 52px;
+		top: 42px;
+	}
+
+	.about-date p {
+		font-size: 16px;
 	}
 
 	.grad-selector-title {
@@ -249,11 +283,13 @@ select {
 	.about-date {
 		text-align: right;
 		padding-right: 2rem;
+		margin-bottom: 1rem;
 	}
 
 	.about-date h2 {
 		float: right;
-		width: 30%;
+		width: 40%;
+		font-size: 4rem;
 	}
 
 	.about-date p {
@@ -266,9 +302,15 @@ select {
 		height: auto;
 	}
 
-	.about {
-		height: 100vh;
+	.about-head {
+		padding: 0 7rem;
 	}
+
+	.about .unit .work {
+		font-size: 5rem;
+		margin: auto 1rem;
+	}
+
 }
 
 @media only screen and (min-width: 75em) {
@@ -278,5 +320,13 @@ select {
 
 	.about-date {
 		padding-top: 3rem;
+	}
+
+	.about-head {
+		padding: 0 12rem;
+	}
+
+	.about .unit .work {
+		font-size: 6rem;
 	}
 }

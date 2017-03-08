@@ -9,9 +9,9 @@ specialty-1: Motion/
 specialty-2: UI/UX/
 specialty-3: Photography
 specialization:
-  - photography
-  - motion
-  - ux-ui
+ - ux-ui
+ - motion
+ - photography
 link: "http://mattskinner.design"
 linkname: "mattskinner.design"
 email: "contact@mattskinner.design"

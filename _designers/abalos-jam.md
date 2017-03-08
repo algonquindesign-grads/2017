@@ -9,9 +9,9 @@ specialty-1: Motion/
 specialty-2: Print/
 specialty-3: Branding
 specialization:
-  - motion
-  - print
-  - branding
+ - motion
+ - print
+ - branding
 link: "http://jamabalos.ca"
 linkname: "jamabalos.ca"
 email: "jam.abalos@hotmail.com"
