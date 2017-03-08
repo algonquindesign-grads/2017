@@ -1,0 +1,53 @@
+.error-404-wrapper {
+  width: 50%;
+  margin: 5em auto;
+  padding:  auto;
+  color: #666;
+}
+
+.error-404 h1 {
+  animation: blinky 1s forwards infinite;
+}
+
+@keyframes blinky {
+
+0% {
+    opacity:.2;
+  }
+
+49% {
+  opacity: .2;
+}
+
+50% {
+  opacity: 1;
+}
+
+99% {
+  opacity: 1;
+}
+
+100% {
+  opacity: 0;
+}
+}
+
+
+
+
+ /*sm*/
+
+ @media only screen and (min-width: 25em) {
+
+
+ /* med */
+
+ @media only screen and (min-width: 38em) {
+
+.error-404 figure img{
+
+  width: 60%;
+  margin: 0 auto;
+}
+
+}
