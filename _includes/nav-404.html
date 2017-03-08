@@ -1,4 +1,4 @@
-<div class="nav-portfolio grid grid-bottom gutter-2 bg-dark-grey">
+<div class="nav-portfolio grid grid-bottom gutter-2 bg-ultra-dark-grey">
   <div class="unit xs-1-2">
     <div class="grid grid-bottom">
 
@@ -60,19 +60,9 @@
 
 
 
-    {% if prevurl %}
-
-    <li><a href="{{prevurl}}" class="prev">Prev</a></li>
-
-    {% endif %}
 
       <li class="gutter-1-2"><a href="{{site.baseurl}}/">Home</a></li>
 
-      {% if nexturl %}
-
-      <li><a href="{{nexturl}}" class="nxt">Next</a></li>
-
-      {% endif %}
 
     </ul>
   </div>
@@ -81,9 +71,7 @@
 <!--sm screen menu-->
     <div class="unit menu mega text-white text-upper xs-1 s-1 unit-m-hidden">
     <ul class="push-0 list-group-inline">
-    {% if prevurl %}
-        <li class="pad-b pad-t"><a href="{{prevurl}}" class="prev">Prev <span class="hidden">{{prevurl}}</span></a></li>
-    {% endif %}
+
 
       <li class="pad-t"><a href="{{site.baseurl}}/"">
         <figure class="gutter push-0">
@@ -113,19 +101,8 @@
             fill="#ff6460"></path>
           </g></svg>
        </figure>
-      </a></li class="pad-b pad-t">
-
-      {% if nexturl %}
-      <li><a href="{{nexturl}}" class="nxt">Next <span class="hidden">{{nexturl}}</span></a></li>
-      {% endif %}
+      </a>
     </ul>
   </div>
 </div>
 
-
-<script>
-document.body.onkeyup = function(e){
-  if (e.keyCode == '37') { window.location = '{{base}}{{prevurl}}'; }
-  if (e.keyCode == '39') { window.location = '{{base}}{{nexturl}}'; }
-};
-</script>
