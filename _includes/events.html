@@ -1,0 +1,18 @@
+<section class="events grid clearfix bg-dark-grey text-white">
+
+  <div class="title unit unit-xs-1-2 island">
+    <img class="title-line" src="{{site.baseurl}}/img/rectangle.svg">
+    <h2 class="gutter mega">Events</h2>
+  </div>
+
+  {% for data in site.data.events %}
+    {% assign item = data[1] %}
+      <div class="event-info unit unit-xs-1 island">
+        <h3 class="event-title">{{item.title}}</h2>
+        <p class="event-date">{{item.date}}</p>
+        <p class="event-desc">{{item.desc}}</p>
+        <p class="event-loc">{{item.loc}}</p>
+      </div>
+  {% endfor %}
+
+</section>
