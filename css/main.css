@@ -73,6 +73,8 @@ color: #000
 
 .about {
   height: auto;
+	background-image: url("https://grads.images.algonquindesign.ca/2017/textures/ink-texture-pink.jpg");
+	background-size: contain;
 }
 
 .about-head {
@@ -283,7 +285,6 @@ select {
 	.about-date {
 		text-align: right;
 		padding-right: 2rem;
-		margin-bottom: 1rem;
 	}
 
 	.about-date h2 {
