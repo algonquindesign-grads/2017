@@ -67,8 +67,32 @@ color: #000
 
 .hero {
   height: 100vh;
-  background-image: url("http://placehold.it/32x32");
-  background-size: cover;
+}
+
+.video-overlay {
+	background-color: #000;
+	z-index: 1000;
+	opacity: .5;
+	width: 100%;
+}
+
+.fullscreen-bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+}
+
+.fullscreen-bg__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+	object-fit: cover;
 }
 
 .about {
@@ -267,6 +291,7 @@ select {
 	}
 
 	.specialization-select {
+		text-align: left;
 		position: absolute;
 		width: 50%;
 		right: 0;
@@ -292,13 +317,13 @@ select {
 
 	.about-date h2 {
 		float: right;
-		width: 40%;
+		width: 60%;
 		font-size: 4rem;
 	}
 
 	.about-date p {
 		float: right;
-		width: 50%;
+		width: 40%;
 		font-size: 18px;
 	}
 
