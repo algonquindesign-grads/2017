@@ -67,13 +67,28 @@ color: #000
 
 .hero {
   height: 100vh;
+	position: relative;
 }
 
+.hero-title {
+	font-size: 4rem;
+}
+/*
 .video-overlay {
 	background-color: #000;
 	z-index: 1000;
-	opacity: .5;
+	opacity: .6;
 	width: 100%;
+}
+*/
+
+.video-text-overlay {
+	text-align: center;
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	padding:
 }
 
 .fullscreen-bg {
@@ -248,7 +263,63 @@ select {
 	cursor: pointer;
 }
 
+.footer li a {
+	text-decoration: none;
+}
+
+.footer li a:hover {
+  opacity: 1;
+  border-bottom: 1px dashed rgba(255,255,255, 0.5);
+  animation: lamp 500ms ease-out forwards;
+}
+
+@keyframes lamp {
+  0% {
+      opacity: .5;
+  -webkit-filter: blur(0px);
+  filter: blur(0px);
+  }
+
+
+  13% {
+    -webkit-filter: blur(2px);
+  filter: blur(2px);
+  }
+
+  15% {
+    -webkit-filter: blur(8px);
+  filter: blur(8px);
+  }
+
+
+  20% {
+      opacity: .95;
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
+
+  }
+
+  70% {
+
+  -webkit-filter: blur(0px);
+  filter: blur(0px);
+  }
+
+  90% {
+    color: rgba(255,255,255,.5);
+  }
+
+  100% {
+  opacity: 1;
+  }
+}
+
 @media only screen and (min-width: 38em) {
+
+	.hero-title {
+		font-size: 6rem;
+	}
+
 	.about {
 		height: auto;
 	}
