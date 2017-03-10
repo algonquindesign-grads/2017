@@ -17,6 +17,12 @@ html {
 	box-sizing: inherit;
 }
 
+.wrapper {
+  max-width: 90em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .bg-black {
 background-color: #000;
 }
@@ -112,10 +118,6 @@ color: #000
 
 .about {
   height: auto;
-	background-image: url("https://grads.images.algonquindesign.ca/2017/textures/ink-texture-pink-.jpeg");
-	background-size: auto 100%;
-	background-repeat: no-repeat;
-	background-position: right top;
 }
 
 .about-head {
@@ -152,7 +154,7 @@ color: #000
 	z-index: 100000;
 	top: 0;
 	right: 0;
-	background-color: #fff;
+	background-color: #333;
 	overflow-x: hidden;
 	transition: all 0.3s ease-in;
 	opacity: .9;
@@ -171,10 +173,10 @@ color: #000
 .overlay a {
 	padding: 10px;
 	text-decoration: none;
-	font-size: 100px;
+	font-size: 40px;
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 900;
-	color: #464646;
+	color: #fff;
 	display: block;
 	transition: all 0.2s ease-in-out;
 }
@@ -187,7 +189,7 @@ color: #000
 .overlay .closebtn {
 	position: absolute;
   font-size: 40px;
-  top: 5px;
+  top: -10px;
   right: 40px;
 	font-size: 70px;
 }
@@ -273,6 +275,10 @@ select {
   animation: lamp 500ms ease-out forwards;
 }
 
+.bottom-logo i {
+  margin: 0 auto;
+}
+
 @keyframes lamp {
   0% {
       opacity: .5;
@@ -314,10 +320,28 @@ select {
   }
 }
 
+.sponsors {
+	padding-bottom: 2rem;
+}
+
+.thank-yous {
+	padding: 0 1rem;
+	column-count: 2;
+}
+
+.sponsor-name {
+	margin-bottom: 7px;
+	font-size: 14px;
+}
+
 @media only screen and (min-width: 38em) {
 
 	.hero-title {
 		font-size: 6rem;
+	}
+
+	.overlay a {
+		font-size: 80px;
 	}
 
 	.about {
@@ -348,6 +372,22 @@ select {
 	.title-line {
 		top: 38px;
 	}
+
+	.overlay .closebtn {
+		top: -15px;
+		right: 49px;
+	}
+
+	.thank-yous {
+		padding: 0 2rem;
+		column-count: 3;
+		column-fill: balance;
+	}
+
+	.sponsor-name {
+		margin-bottom: 7px;
+		font-size: 16px;
+	}
 }
 
 /*
@@ -359,6 +399,10 @@ select {
 @media only screen and (min-width: 60em) {
 	.gp-photo {
 		width: 25%;
+	}
+
+	.overlay a {
+		font-size: 100px;
 	}
 
 	.specialization-select {
@@ -379,6 +423,7 @@ select {
 	.grad-selector-title {
 		margin-bottom: 10px;
 		margin-top: 1rem;
+		margin-left: 2.2rem;
 	}
 
 	.about-date {
@@ -411,6 +456,17 @@ select {
 		margin: auto 1rem;
 	}
 
+	.thank-yous {
+		padding: 0 3rem;
+		column-count: 3;
+		column-gap: 3rem;
+	}
+
+	.sponsor-name {
+		margin-bottom: 7px;
+		font-size: 16px;
+	}
+
 }
 
 @media only screen and (min-width: 75em) {
@@ -428,5 +484,9 @@ select {
 
 	.about .unit .work {
 		font-size: 6rem;
+	}
+
+	.grad-selector-title {
+		margin-left: 3.5rem;
 	}
 }
