@@ -222,3 +222,10 @@
 
   }
  }
+
+@media only screen and (min-width: 80em) {
+  .bio-blurb {
+    max-width: 60%;
+  }
+
+}
