@@ -235,6 +235,7 @@ color: #000
 	width: 50%;
 	float: left;
 	position: relative;
+	overflow: hidden;
 }
 
 .gp-shortname {
