@@ -2,7 +2,7 @@
 
 layout: grads
 longname: "Sam <br> Zahir"
-longname-oneline: "Sam <br> Zahir"
+longname-oneline: "Sam Zahir"
 shortname: "Sam Z."
 images: true
 specialty-1: Motion/
