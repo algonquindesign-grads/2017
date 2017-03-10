@@ -10,6 +10,7 @@ specialty-2: Motion
 specialization:
  - ux-ui
  - motion
+ - experience
 link: "http://shogo.ca"
 linkname: "http://shogo.ca"
 email: "shogoluc@gmail.com"
