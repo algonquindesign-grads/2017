@@ -70,7 +70,7 @@
 
       {% if nexturl %}
 
-      <li><a href="{{nexturl}}" class="nxt">Next</a></li>
+      <li><a href="{{site.baseurl}}/{{nexturl}}" class="nxt">Next</a></li>
 
       {% endif %}
 
@@ -82,7 +82,7 @@
     <div class="unit menu mega text-white text-upper xs-1 s-1 unit-m-hidden">
     <ul class="push-0 list-group-inline">
     {% if prevurl %}
-        <li class="pad-b pad-t"><a href="{{prevurl}}" class="prev">Prev <span class="hidden">{{prevurl}}</span></a></li>
+        <li class="pad-b pad-t"><a href="{{site.baseurl}}/{{prevurl}}" class="prev">Prev <span class="hidden">{{prevurl}}</span></a></li>
     {% endif %}
 
       <li class="pad-t"><a href="{{site.baseurl}}/"">
@@ -116,7 +116,7 @@
       </a></li class="pad-b pad-t">
 
       {% if nexturl %}
-      <li><a href="{{nexturl}}" class="nxt">Next <span class="hidden">{{nexturl}}</span></a></li>
+      <li><a href="{{site.baseurl}}/{{nexturl}}" class="nxt">Next <span class="hidden">{{nexturl}}</span></a></li>
       {% endif %}
     </ul>
   </div>
