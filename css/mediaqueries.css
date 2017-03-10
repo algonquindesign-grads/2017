@@ -6,8 +6,6 @@
   color: #ff6460;
  }
 
-
-
 .bio-specialty {
   font-size: 1rem;
   padding:  .4em 1em 1em 1em;
@@ -99,6 +97,15 @@
   @keyframes moveblock {
     0% {
       top: -10em;
+      opacity: 0;
+    }
+
+    58% {
+      opacity: 0;
+    }
+
+    60% {
+      opacity: .3;
     }
 
     80% {
