@@ -152,6 +152,7 @@
   .bio-name {
     top: 1em;
       mix-blend-mode: multiply;
+      z-index: 1000000;
   }
   .bio-name h2 {
     line-height: 5.75rem;
