@@ -74,27 +74,21 @@ color: #000
 .hero {
   height: 100vh;
 	position: relative;
+	border: 40px solid #fff;
+	border-top: 140px solid #fff;
 }
 
 .hero-title {
 	font-size: 4rem;
 }
-/*
-.video-overlay {
-	background-color: #000;
-	z-index: 1000;
-	opacity: .6;
-	width: 100%;
-}
-*/
 
-.video-text-overlay {
-	text-align: center;
+.title-rotate {
+	font-family: 'Work Sans', sans-serif;
+	transform: rotate(90deg);
+	font-size: 38px;
 	position: absolute;
-	top: 60%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	padding:
+	top: 40%;
+	right: -9rem;
 }
 
 .fullscreen-bg {
@@ -334,10 +328,17 @@ select {
 	font-size: 14px;
 }
 
+
 @media only screen and (min-width: 38em) {
 
 	.hero-title {
 		font-size: 6rem;
+	}
+
+	.title-rotate {
+		font-size: 45px;
+		top: 40%;
+		right: -10rem;
 	}
 
 	.overlay a {
@@ -388,6 +389,10 @@ select {
 		margin-bottom: 7px;
 		font-size: 16px;
 	}
+
+	.bio-name h2 {
+		z-index: 10000000;
+	}
 }
 
 /*
@@ -397,6 +402,13 @@ select {
 */
 
 @media only screen and (min-width: 60em) {
+
+	.title-rotate {
+		font-size: 55px;
+		top: 40%;
+		right: -11.5rem;
+	}
+
 	.gp-photo {
 		width: 25%;
 	}
@@ -466,7 +478,6 @@ select {
 		margin-bottom: 7px;
 		font-size: 16px;
 	}
-
 }
 
 @media only screen and (min-width: 75em) {
