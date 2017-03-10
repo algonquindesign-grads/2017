@@ -8,6 +8,8 @@ var $dataPhoto = $('[data-category*=photo]');
 var $dataIll = $('[data-category*=illustration]');
 var $dataMotion = $('[data-category*=motion]');
 var $dataAll = $('[data-category]');
+var $soundsBtn = $('.play-sound');
+var $video = $('.fullscreen-bg__video');
 
 var $all = $('.gp-photo');
 
