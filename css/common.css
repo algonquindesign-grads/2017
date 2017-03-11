@@ -10,6 +10,57 @@ a {
 
 }
 
+.title-rotate-inpage-l {
+
+  transform: rotate(-90deg);
+  position: absolute;
+  top: 45%;
+  left: -8.2em;
+  line-height: 1em;
+  mix-blend-mode: multiply;
+  z-index: 10000;
+  width: 900px;
+}
+
+.title-rotate-inpage-offset-l {
+
+  transform: rotate(-90deg);
+  position: absolute;
+  top: 45%;
+  left: -8.2em;
+  line-height: 1em;
+  opacity: .4;
+  z-index: 10000;
+ width: 900px;
+}
+
+.title-rotate-inpage-m {
+
+  transform: rotate(-90deg);
+  position: absolute;
+  font-size: 1.6rem;
+  top: 50%;
+  left: -13.6em;
+  line-height: 1em;
+  mix-blend-mode: screen;
+  z-index: 10000;
+  width: 900px;
+}
+
+.title-rotate-inpage-offset-m {
+
+  transform: rotate(-90deg);
+  color: #fff;
+  position: absolute;
+  font-size: 1.6rem;
+  top: 50%;
+  left: -13.6em;
+  line-height: 1em;
+  opacity: .4;
+  z-index: 10000;
+ width: 900px;
+}
+
 .logo-top {
   position: absolute;
   left: 30px;
