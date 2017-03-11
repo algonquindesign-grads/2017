@@ -519,13 +519,10 @@ select {
 
 
   .profs-pic img{
-    padding: 5px;
+    padding: 0;
     display: block;
-
   }
 
-    .profs-pic figure{
-   margin: 0;
-
-
+  .profs-pic figure{
+    margin: 0;
   }
