@@ -38,26 +38,28 @@ a {
 
   transform: rotate(-90deg);
   position: absolute;
-  font-size: 1.7rem;
-  top: 50%;
-  left: -12.7em;
+  font-size: 1.1rem;
+  text-align: right;
+  top: 9em;
+  left: -7.9em;
   line-height: 1em;
   mix-blend-mode: multiply;
   z-index: 10000;
-  width: 900px;
+  width: 400px;
 }
 
 .title-rotate-inpage-offset-m {
 
   transform: rotate(-90deg);
   position: absolute;
-  font-size: 1.7rem;
-  top: 50%;
-  left: -12.7em;
+  font-size: 1.1rem;
+  text-align: right;
+  top: 9em;
+  left: -7.9em;
   line-height: 1em;
   opacity: .4;
   z-index: 9999;
-  width: 900px;
+  width: 400px;
 }
 
 .logo-top {
