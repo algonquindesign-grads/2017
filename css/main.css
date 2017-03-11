@@ -516,3 +516,16 @@ select {
 		margin-left: 3.5rem;
 	}
 }
+
+
+  .profs-pic img{
+    padding: 5px;
+    display: block;
+
+  }
+
+    .profs-pic figure{
+   margin: 0;
+
+
+  }
