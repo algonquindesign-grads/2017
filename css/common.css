@@ -30,7 +30,7 @@ a {
   left: -8.2em;
   line-height: 1em;
   opacity: .4;
-  z-index: 10000;
+  z-index: 9999;
  width: 900px;
 }
 
@@ -50,7 +50,6 @@ a {
 .title-rotate-inpage-offset-m {
 
   transform: rotate(-90deg);
-  color: #fff;
   position: absolute;
   font-size: 1.7rem;
   top: 50%;
@@ -58,7 +57,7 @@ a {
   line-height: 1em;
   opacity: .4;
   z-index: 9999;
- width: 900px;
+  width: 900px;
 }
 
 .logo-top {
