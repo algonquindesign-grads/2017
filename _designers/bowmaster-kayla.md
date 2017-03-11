@@ -1,7 +1,7 @@
 ---
 
 layout: grads
-longname: "<div class='text-right gutter-2'><span class='m-name push-0'>Kayla<br>Bowmaster</span></div>"
+longname: "Kayla<br>Bowmaster"
 longname-oneline: "Kayla Bowmaster"
 shortname: "Kayla B."
 images: true
