@@ -63,8 +63,9 @@
 
   .circle {
     background-color: #ff6460;
-    top: 2em;
-    left: 40%;
+    top: 13em;
+    left: 41%;
+    z-index: 110000;
     height: 3.5em;
     opacity: .8;
     mix-blend-mode: screen;
@@ -87,7 +88,7 @@
    .circle3 {
 
     left: 35%;
-    opacity: .5;
+    opacity: .3;
     height: 6em;
     animation: moveblock 1700ms ease-in-out;
     animation-delay: 2.1s;
@@ -151,19 +152,14 @@
   }
   .bio-name {
     top: 1em;
-      mix-blend-mode: multiply;
+
       z-index: 1000000;
   }
   .bio-name h2 {
     line-height: 5.75rem;
     padding: 0 0 0 3em;
   }
-  .bio-blurb {
-    font-size: .6944rem;
-    line-height: 1.3rem;
 
-    padding: 0 1em 0 0;
-  }
   .bio-portfolio {
     padding: 0em;
   }
@@ -181,11 +177,8 @@
   height: 600px;
   padding: 0 1.5em;
   }
-  .bio-blurb {
 
-      font-size: .8333rem;
-  line-height: 1.3rem;
-  }
+
   .bio-image {
     padding: 2em 1.25em 0em 3em;
   }
@@ -193,6 +186,9 @@
     top: 4em;
   }
 
+  .bio-blurb {
+    max-width: 70%;
+  }
 
   .bio-name h2 {
     font-size: 4.5832rem;
@@ -235,12 +231,6 @@
  }
 
 @media only screen and (min-width: 80em) {
-  .bio-blurb {
-    max-width: 60%;
-  }
 
-  .bio-name {
-top: 12em;
-}
 
 }

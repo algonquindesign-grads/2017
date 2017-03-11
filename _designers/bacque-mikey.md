@@ -3,11 +3,11 @@
 layout: grads
 longname: "Mikey <br>Bacque"
 longname-oneline: "Mikey Bacque"
-shortname: "<i class='push-0 icon i-48'><img src='https://grads.images.algonquindesign.ca/2017/icons/mikey.gif' alt='new designer'></i>Mikey B."
+shortname: "Mikey B."
 images: true
 specialty-1: Typography/
 specialty-2: Branding/
-specialty-3: Motion
+specialty-3: Motion <i class='push-0 icon i-32'><img src='https://grads.images.algonquindesign.ca/2017/icons/mikey.gif' alt='new designer'></i>
 specialization:
  - type
  - motion

@@ -29,15 +29,15 @@ layout: gradlayout
     </div>
 
     <div class="unit unit-xs-hidden unit-s-hidden l-1">
-      <h2 class="display-font title-rotate-inpage-offset-l grad-name text-upper text-red text-center push-0 giga">{{ page.longname-oneline }}</h2>
+      <h2 class="display-font title-rotate-inpage-offset-l grad-name text-upper text-red text-center push-0">{{ page.longname-oneline }}</h2>
     </div>
 
-    <div class="unit unit-xs-hidden unit-s-hidden m-1 unit-l-hidden bio-name">
+    <div class="unit unit-xs-hidden unit-s-hidden m-1 unit-l-hidden">
       <h2 class="display-font title-rotate-inpage-m grad-name bio-med-name text-upper text-center text-red push-0">{{ page.longname-oneline }}</h2>
     </div>
 
-    <div class="unit unit-xs-hidden unit-s-hidden m-1 unit-l-hidden bio-name">
-      <h2 class="display-font title-rotate-inpage-offset-m grad-name bio-med-name text-upper text-center text-white push-0">{{ page.longname-oneline }}</h2>
+    <div class="unit unit-xs-hidden unit-s-hidden m-1 unit-l-hidden">
+      <h2 class="display-font title-rotate-inpage-offset-m grad-name bio-med-name text-upper text-center text-white giga push-0">{{ page.longname-oneline }}</h2>
     </div>
 
 
@@ -52,16 +52,16 @@ layout: gradlayout
 
 <!--Page blurb, specialy & social media-->
   <div class="milli unit kilo island-1-2 bio-specialty xs-1 s-1 m-1-2 l-1-2">
-    <h2 class="bio-name-sm exa push-l unit-s-1 unit-m-hidden unit-l-hidden push-0 display-font text-red">{{ page.shortname }}</h2>
-    <hr class="bio-hr push-1-2 unit-xs-hidden l-1">
+    <h2 class="bio-name-sm exa pad-t-1-4 push-l unit-s-1 unit-m-hidden unit-l-hidden push-0 display-font text-red">{{ page.shortname }}</h2>
+    <hr class="bio-hr push-1-2">
     <p class="push-0 text-bold text-upper ">{{ page.specialty-1 }}{{ page.specialty-2 }}{{ page.specialty-3 }}</p>
     {% if page.link %}
-    <a href="{{ page.link }}"><p class="push-0 kilo"><span class="milli text-grey text-bold">www — </span> {{ page.linkname }}</p></a>
+    <a href="{{ page.link }}"><p class="push-0 milli"><span class="milli text-grey text-bold">www — </span> {{ page.linkname }}</p></a>
     {% endif %}
     {% if page.email %}
-    <a class="pushi-0 kilo" href="mailto:{{ page.email }}"1 target="_top"><span class="milli text-grey text-bold">email — </span> {{ page.longname-oneline }}</a>
+    <a class="pushi-0 milli" href="mailto:{{ page.email }}"1 target="_top"><span class="milli text-grey text-bold">email — </span> {{ page.longname-oneline }}</a>
     {% endif %}
-    <p class="kilo push-1-4 bio-blurb text-left">{{ page.description }}</p>
+    <p class="milli push-1-4 bio-blurb text-left">{{ page.description }}</p>
     <ul class="list-group-inline bio-social-media push-0">
       {% if page.linkedin %}
         <li>
