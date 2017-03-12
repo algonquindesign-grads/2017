@@ -5,6 +5,7 @@ figure {
 }
 
 
+
 .bottom-logo i {
   margin: 0 auto;
 }
@@ -13,7 +14,7 @@ figure {
   overflow: hidden;
   position: relative;
   height: 100px;
-  z-index: 120002;
+
 }
 .nav-portfolio  {
   transition: all 500ms linear;
@@ -115,6 +116,11 @@ figure {
 .nav-portfolio {
   padding-left: 3em;
   padding-right: 3em;
+}
+
+
+logo-top {
+  padding-left: 1em;
 }
 
 }
