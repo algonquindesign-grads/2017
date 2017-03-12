@@ -3,7 +3,7 @@
   padding-bottom: .5em;
   mix-blend-mode: multiply;
   text-transform: uppercase;
-  color: #ff6460;
+  color: #f16462;
  }
 
 .bio-specialty {
@@ -62,7 +62,7 @@
   }
 
   .circle {
-    background-color: #ff6460;
+    background-color: #f16462;
     top: 13em;
     left: 41%;
     z-index: 110000;
@@ -235,7 +235,7 @@
 .title-rotate-inpage-l {
   font-size: 2.986rem;
   line-height: 3.9rem;
-  top: 5.5em;
+  top: 8em;
   left: -6.2em;
   width: 900px;
 }
@@ -243,7 +243,7 @@
 .title-rotate-inpage-offset-l {
   font-size: 2.986rem;
   line-height: 3.9rem;
-  top: 5.5em;
+  top: 8em;
   left: -6.2em;
 
 
