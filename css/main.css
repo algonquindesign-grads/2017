@@ -238,6 +238,7 @@ color: #000
 	overflow: hidden;
 }
 
+/*
 .gp-shortname {
 	position: absolute;
 	bottom: 5px;
@@ -245,6 +246,25 @@ color: #000
 	text-decoration: none;
 	color: white;
 }
+*/
+
+.gp-shortname {
+  position: absolute;
+  bottom: -10px;
+  font-family: 'Work', sans-serif;
+  font-weight: 900;
+  font-size: 1.3rem;
+  text-align: left;
+  left: 1em;
+  width: 90%;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.gp-name {
+  color: black;
+}
+
 
 .specialization-select {
 	text-align: center;
