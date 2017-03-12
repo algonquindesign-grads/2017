@@ -315,6 +315,7 @@ select {
   }
 }
 
+/*
 .sponsors {
 	padding-bottom: 2rem;
 }
@@ -327,7 +328,17 @@ select {
 .sponsor-name {
 	margin-bottom: 7px;
 	font-size: 14px;
+}*/
+
+.thank-yous {
+  line-height: 2em;
+  column-count: 2;
 }
+
+.sponsor-name {
+  color: #d3d3d3;
+}
+
 
 .play-sound {
 	position: absolute;
