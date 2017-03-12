@@ -250,12 +250,12 @@ color: #000
 
 .gp-shortname {
   position: absolute;
-  bottom: -10px;
+  bottom: -15px;
+  left: 15px;
   font-family: 'Work', sans-serif;
   font-weight: 900;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   text-align: left;
-  left: 1em;
   width: 90%;
   text-transform: uppercase;
   text-decoration: none;
