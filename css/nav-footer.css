@@ -13,6 +13,7 @@ figure {
   overflow: hidden;
   position: relative;
   height: 100px;
+  z-index: 120002;
 }
 .nav-portfolio  {
   transition: all 500ms linear;
