@@ -47,11 +47,15 @@
 }
 
 .filter-items li:hover p, .filter-items li a:focus p {
-  transition: border-bottom 300ms ease-in-out;
+  transition: border-bottom 300ms ease;
   border-bottom: 5px solid #f16462;
+  border-bottom: 125px solid #f16462;
   color: #fff;
+  mix-blend-mode: screen;
   z-index: 3000;
   width: 80%;
+  opacity: .9;
+
 }
 
 .filter-items li:hover img, .filter-items li a:focus img {
@@ -62,6 +66,7 @@
 
 .filter-items > li > a > p {
   color: #f16462;
+  color: #cf514e;
 }
 
 .filter-items > li > a:focus {
