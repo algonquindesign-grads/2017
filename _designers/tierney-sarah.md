@@ -19,5 +19,5 @@ linkedin: "https://www.linkedin.com/in/sarah-tierney-b37117114/"
 vimeo: "https://vimeo.com/user48221120"
 description: "I’m from Spencerville, and I love illustration, camping and raccoons."
 meta: "I’m from Spencerville, and I love illustration, camping and raccoons."
-vimeo-link: "163494429"
+vimeo-link: "208034480"
 ---

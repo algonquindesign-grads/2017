@@ -20,5 +20,5 @@ behance: "https://www.behance.net/StephaniePaiement"
 vimeo: "https://vimeo.com/user48448121"
 description: "Animator, illustrator & synesthete. I am a firm believer in the power of storytelling, learning and gumption."
 meta: "Animator, illustrator & synesthete. I am a firm believer in the power of storytelling, learning and gumption."
-vimeo-link: "164036421"
+vimeo-link: "208042012"
 ---
