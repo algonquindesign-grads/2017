@@ -6,7 +6,7 @@ html {
 
 a {
   text-decoration: none;
-  color: #ff6460;
+  color: #f16462;
 
 }
 
@@ -34,24 +34,26 @@ a {
 
   transform: rotate(-90deg);
   position: absolute;
-  top: 45%;
+  top: 10.5em;
   left: -8.2em;
   line-height: 1em;
   mix-blend-mode: multiply;
   z-index: 10000;
   width: 900px;
+  text-align: right;
 }
 
 .title-rotate-inpage-offset-l {
 
   transform: rotate(-90deg);
   position: absolute;
-  top: 45%;
+  top: 10.5em;
   left: -8.2em;
   line-height: 1em;
   opacity: .4;
   z-index: 9999;
- width: 900px;
+  width: 900px;
+  text-align: right;
 }
 
 .title-rotate-inpage-m {
@@ -60,7 +62,7 @@ a {
   position: absolute;
   font-size: 1.1rem;
   text-align: right;
-  top: 9em;
+  top: 9.8em;
   left: -7.9em;
   line-height: 1em;
   mix-blend-mode: multiply;
@@ -74,7 +76,7 @@ a {
   position: absolute;
   font-size: 1.1rem;
   text-align: right;
-  top: 9em;
+  top: 9.8em;
   left: -7.9em;
   line-height: 1em;
   opacity: .4;
@@ -96,7 +98,7 @@ line-height: .8;
   width: 10%;
   border: 0;
   padding: 5px;
-  background-color: #ff6460;
+  background-color: #f16462;
   padding: 0 0 .25em 0;
 }
 
@@ -169,7 +171,7 @@ ul li:hover{
 }
 
 .bg-red {
-  background-color: #ff6460;
+  background-color: #f16462;
 }
 
 .bg-pale-red {
@@ -184,12 +186,16 @@ ul li:hover{
   color: #464646;
 }
 
+.text-light-grey {
+  color: #4e4e4e;
+}
+
 .text-white {
   color: #fff;
 }
 
 .text-red {
-  color: #ff6460;
+  color: #f16462;
 }
 
 .text-black {
