@@ -8,8 +8,6 @@ var $dataPhoto = $('[data-category*=photo]');
 var $dataIll = $('[data-category*=illustration]');
 var $dataMotion = $('[data-category*=motion]');
 var $dataAll = $('[data-category]');
-var $soundsBtn = $('.play-sound');
-var $video = $('.fullscreen-bg__video');
 
 var $all = $('.gp-photo');
 
@@ -57,6 +55,15 @@ function openNav() {
 function closeNav() {
   document.getElementById("myNav").style.width = "0%";
 };
+
+$('.play-sound').click(function() {
+  if ($('video').get(0).muted == true) {
+    $('video').get(0).muted = false;
+  }
+  else {
+    $('video').get(0).muted = true;
+  }
+});
 
 $(window).load(function() {
 	$("#loader").fadeOut("slow");
