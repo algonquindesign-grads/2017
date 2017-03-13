@@ -367,15 +367,6 @@ select {
 	cursor: pointer;
 	font-size: 14px;
 	opacity: .7;
-	display: none;
-}
-
-video {
-	display: none;
-}
-
-.hero-gif {
-	width: 200%;
 }
 
 .page-loader {
