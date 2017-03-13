@@ -85,5 +85,20 @@ swiper.js
 
   window.swiper = swiper;
 
+  var elem = document.body;
+
+swiper(elem, function (e) {
+  {% if prevurl %}
+  if (e.direction === 'left') {
+    {% endif %}
+    // Do something when swiped in the leftwards direction
+      {% if nexturl %}
+  } else {
+        if (e.keyCode == '39') { window.location = '{{site.baseurl}}{{nexturl}}'; }
+  {% endif %}
+    // Do something when swiped in the rightwards direction
+  }
+});
+
 }());
 
