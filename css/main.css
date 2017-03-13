@@ -378,8 +378,6 @@ video {
 	width: 200%;
 }
 
-
-
 @media only screen and (min-width: 38em) {
 
 	video {
@@ -480,11 +478,20 @@ video {
 		font-size: 100px;
 	}
 
+	.grads {
+		position: relative;
+	}
+
 	.specialization-select {
 		text-align: left;
 		position: absolute;
 		width: 50%;
-		right: 0;
+		left: -15px;
+		top: 2.5rem;
+	}
+
+	.grads .title {
+		margin-bottom: 3rem;
 	}
 
 	.title-line {
@@ -545,6 +552,11 @@ video {
 }
 
 @media only screen and (min-width: 75em) {
+
+	.specialization-select {
+		left: -35px;
+	}
+
 	.gp-photo {
 		width: calc(100% / 6);
 	}
