@@ -44,14 +44,14 @@ layout: gradlayout
 
 <!--m & l blurb-->
 
-    <p class="kilo unit-xs-hidden unit-s-hidden m-1 l-1 text-bold push-1-4">{{ page.specialty-1 }}{{ page.specialty-2 }}{{ page.specialty-3 }}</p>
+    <p class="kilo unit-xs-hidden unit-s-hidden m-1 l-1 text-bold push-0">{{ page.specialty-1 }}{{ page.specialty-2 }}{{ page.specialty-3 }}</p>
 
     {% if page.link %}
     <p class="unit-xs-hidden milli unit-s-hidden m-1 push-0"><span class="text-grey micro text-bold">www — </span> <a href="{{ page.link }}">{{ page.linkname }}</a></p>
     {% endif %}
 
     {% if page.email %}
-    <p class="milli unit-xs-hidden unit-s-hidden m-1 push-0"><a  href="mailto:{{ page.email }}"1 target="_top"><span class="micro text-grey text-bold">email — </span> {{ page.longname-oneline }}</a></p>
+    <p class="milli unit-xs-hidden unit-s-hidden m-1 push-1-4"><a  href="mailto:{{ page.email }}"1 target="_top"><span class="micro text-grey text-bold">email — </span> {{ page.longname-oneline }}</a></p>
     {% endif %}
 
     <p class="milli push-1-4 push-right-2 bio-blurb text-left unit-xs-hidden unit-s-hidden m-1 unit-l-hidden">{{ page.description }}</p>
@@ -62,7 +62,7 @@ layout: gradlayout
     <ul class="unit-xs-hidden unit-s-hidden m-1 list-group-inline pad-t bio-social-media push-0">
       {% if page.linkedin %}
         <li>
-          <i class="icon i-32 push-0">
+          <i class="icon i-48 push-0">
             <a href="{{ page.linkedin }}"><img src="https://grads.images.algonquindesign.ca/2017/icons/linkedin.svg" alt="linkedin icon"></a>
           </i>
         </li>
@@ -71,7 +71,7 @@ layout: gradlayout
 
       {% if page.behance %}
         <li>
-          <i class="icon i-32 push-0">
+          <i class="icon i-48 push-0">
             <a href="{{ page.behance }}"><img src="https://grads.images.algonquindesign.ca/2017/icons/behance.svg" alt="behance icon"></a>
           </i>
         </li>
@@ -79,7 +79,7 @@ layout: gradlayout
 
       {% if page.twitter %}
         <li>
-          <i class="icon i-32 push-0">
+          <i class="icon i-48 push-0">
             <a href="{{ page.twitter }}"><img src="https://grads.images.algonquindesign.ca/2017/icons/twitter.svg" alt="twitter icon"></a>
           </i>
         </li>
@@ -87,7 +87,7 @@ layout: gradlayout
 
       {% if page.vimeo %}
         <li>
-          <i class="icon i-32 push-0">
+          <i class="icon i-48 push-0">
             <a href="{{ page.vimeo }}"><img src="https://grads.images.algonquindesign.ca/2017/icons/vimeo.svg" alt="vimeo icon"></a>
           </i>
         </li>
@@ -95,7 +95,7 @@ layout: gradlayout
 
       {% if page.instagram %}
       <li class="instagram push-0">
-        <i class="icon i-32">
+        <i class="icon i-48">
           <a href="{{ page.instagram }}"><img src="https://grads.images.algonquindesign.ca/2017/icons/instagram.svg" alt="facebook icon"></a>
         </i>
        </li>
