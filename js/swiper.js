@@ -87,13 +87,3 @@ swiper.js
 
 }());
 
-
-var elem = document.body;
-
-swiper(elem, function (e) {
-  if (e.direction === 'left') {
-    // Do something when swiped in the leftwards direction
-  } else {
-    // Do something when swiped in the rightwards direction
-  }
-});
