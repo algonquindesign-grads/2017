@@ -367,10 +367,32 @@ select {
 	cursor: pointer;
 	font-size: 14px;
 	opacity: .7;
+	display: none;
+}
+
+video {
+	display: none;
+}
+
+.hero-gif {
+	width: 200%;
 }
 
 
+
 @media only screen and (min-width: 38em) {
+
+	video {
+		display: block;
+	}
+
+	.hero-gif {
+		display: none;
+	}
+
+	.play-sound {
+		display: block;
+	}
 
 	.hero-title {
 		font-size: 6rem;
