@@ -48,7 +48,16 @@
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
-<script src="../../js/swiper.js"></script>
+<script src="{{site.baseurl}}/js/swiper.js"></script>
+<script>
+  swiper(document.body, function (e) {
+    if (e.direction === 'left') {
+      window.location = document.querySelector('.nxt').href;
+    } else {
+      window.location = document.querySelector('.prev').href;
+    }
+  });
+</script>
 
 </body>
 
