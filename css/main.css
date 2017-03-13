@@ -419,6 +419,7 @@ video {
 		font-size: 45px;
 		top: 40%;
 		right: -10rem;
+		line-height: 1;
 	}
 
 	.overlay a {
@@ -482,6 +483,11 @@ video {
 */
 
 @media only screen and (min-width: 60em) {
+
+	#loader {
+		height: 80vh;
+		padding: 4rem;
+	}
 
 	.title-rotate {
 		font-size: 55px;
