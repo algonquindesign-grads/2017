@@ -1,8 +1,9 @@
-
 /*
  * (c) 2017 Thomas J Bradley
  * Licensed under the MIT License
  */
+
+
 (function () {
   'use strict';
 
@@ -82,8 +83,6 @@
       directions : directions
     };
   };
-
-
 
 }());
 
