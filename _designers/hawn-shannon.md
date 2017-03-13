@@ -15,8 +15,8 @@ specialization:
 link: "http://shannonhawn.myportfolio.com"
 linkname: portfolio
 email: "shannonhawn@hotmail.com"
-instagram: "https://www.instagram.com/shannonsauve_design/"
-linkedin: "www.linkedin.com/in/shannonhawn/"
+instagram: "https://www.instagram.com/shannonsauve_design"
+linkedin: "http://www.linkedin.com/in/shannonhawn/"
 vimeo: "https://vimeo.com/shannonhawn"
 description: "I love incorporating my love of animals into my designs. When I'm not illustrating I go on adventures with my two pugs."
 meta: "I love incorporating my love of animals into my designs. When I'm not illustrating I go on adventures with my two pugs."

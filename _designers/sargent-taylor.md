@@ -15,8 +15,8 @@ specialization:
 link: "http://taylorsargent.ca"
 linkname: "http://taylorsargent.ca"
 email: "mail@taylorsargent.ca"
-instagram: "https://www.instagram.com/taylorsargent95/"
-linkedin: "www.linkedin.com/in/taylor-sargent-5b18a5b5"
+instagram: "https://www.instagram.com/taylor.sargentt/"
+linkedin: "http://www.linkedin.com/in/taylor-sargent-5b18a5b5"
 description: "Coffee enthusiast, pasta lover, cat lady & aspiring world traveler."
 meta: "Coffee enthusiast, pasta lover, cat lady & aspiring world traveler."
 
