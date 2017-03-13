@@ -381,14 +381,15 @@ video {
 .page-loader {
 	z-index: 20000000000;
 	position: absolute;
+	width: 200px;
+	height: 200px;
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%,-50%);
 }
 
 #loader {
-	height: 80vh;
-	padding: 5rem;
+	width: 200px;
 }
 
 @media only screen and (min-width: 38em) {
@@ -396,12 +397,6 @@ video {
 	video {
 		display: block;
 	}
-
-	#loader {
-		height: 100vh;
-		padding: 5rem;
-	}
-
 
 	.hero-gif {
 		display: none;
@@ -483,11 +478,6 @@ video {
 */
 
 @media only screen and (min-width: 60em) {
-
-	#loader {
-		height: 80vh;
-		padding: 4rem;
-	}
 
 	.title-rotate {
 		font-size: 55px;
