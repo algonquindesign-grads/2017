@@ -16,7 +16,7 @@ link: "http://jenniferyaya.ca"
 linkname: "jenniferyaya.ca"
 email: "jennifalanga@gmail.com"
 instagram: "https://www.instagram.com/jenniyayafalanga/"
-linkedin: "www.linkedin.com/in/jennifer-falanga"
+linkedin: "https://www.linkedin.com/in/jennifer-falanga/"
 description: "I'm Jennifer, a nice graphic designer. I am passionate about analyzing ideas and problems in the pursuit of unique insights and their fundamental truths. Outside of this, I like to chase adventure and read."
 meta: "I'm Jennifer, a nice graphic designer. I am passionate about analyzing ideas and problems in the pursuit of unique insights and their fundamental truths. Outside of this, I like to chase adventure and read."
 
