@@ -37,22 +37,20 @@
 
 
 
+
+
  /*sm*/
 
  @media only screen and (min-width: 25em) {
 
   .bio-vid iframe {
-
   height: 400px;
-}
-
+  }
  }
 
  /* med */
 
  @media only screen and (min-width: 38em) {
-
-
 
 
   .bio-vid iframe {

@@ -53,16 +53,37 @@ layout: gradlayout
 <!--Page blurb, specialy & social media-->
   <div class="milli unit kilo island-1-2 bio-specialty xs-1 s-1 m-1-2 l-1-2">
     <h2 class="bio-name-sm exa pad-t-1-4 push-l unit-s-1 unit-m-hidden unit-l-hidden push-0 display-font text-red">{{ page.shortname }}</h2>
-    <hr class="bio-hr push-1-2 unit-m-hidden l-1">
-    <p class="push-1-2 text-bold text-upper ">{{ page.specialty-1 }}{{ page.specialty-2 }}{{ page.specialty-3 }}</p>
+    <hr class="bio-hr push-1-4 unit-m-hidden l-1">
+    <p class="text-bold">{{ page.specialty-1 }}{{ page.specialty-2 }}{{ page.specialty-3 }}</p>
+
+<!--m & l blurb-->
+
+
     {% if page.link %}
-    <a href="{{ page.link }}"><p class="push-1-2 milli"><span class="milli text-grey text-bold">www — </span> {{ page.linkname }}</p></a>
+    <a class="unit-xs-hidden unit-s-hidden" href="{{ page.link }}"><p class="www-grad"><span class="text-grey micro text-bold">www — </span> {{ page.linkname }}</p></a>
     {% endif %}
+
     {% if page.email %}
-    <a class="pushi-0 milli" href="mailto:{{ page.email }}"1 target="_top"><span class="milli text-grey text-bold">email — </span> {{ page.longname-oneline }}</a>
+    <a class="email-grad unit-xs-hidden unit-s-hidden" href="mailto:{{ page.email }}"1 target="_top"><span class="micro text-grey text-bold">email — </span> {{ page.longname-oneline }}</a>
     {% endif %}
+
+    <p class="kilo push-1-4 bio-blurb text-left unit-xs-hidden unit-s-hidden">{{ page.description }}</p>
+
+<!--xs & s blurb -->
+
     <p class="kilo push-1-4 bio-blurb text-left">{{ page.description }}</p>
-    <ul class="list-group-inline bio-social-media push-0">
+
+    {% if page.link %}
+    <p class="unit-m-hidden unit-l-hidden push-1-2"><span class="text-grey milli text-bold">www — </span><a href="{{ page.link }}">{{ page.linkname }}</a></p>
+    {% endif %}
+
+    {% if page.email %}
+    <p class="unit-m-hidden unit-l-hidden"><a href="mailto:{{ page.email }}"1 target="_top"><span class="milli text-grey text-bold">email — </span> {{ page.longname-oneline }}</a></p>
+    {% endif %}
+
+  <!--soc media icons-->
+
+    <ul class="list-group-inline pad-t bio-social-media push-0">
       {% if page.linkedin %}
         <li>
           <i class="icon i-32 push-0">
@@ -70,6 +91,7 @@ layout: gradlayout
           </i>
         </li>
       {% endif %}
+
 
       {% if page.behance %}
         <li>
