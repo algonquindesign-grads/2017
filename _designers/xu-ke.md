@@ -5,7 +5,7 @@ longname: "Ke <br> Xu"
 longname-oneline: "Ke Xu"
 shortname: "Ke X."
 images: true
-specialty-1: Web Design/
+specialty-1: Web/
 specialty-2: Motion/
 specialty-3: Illustration
 specialization:

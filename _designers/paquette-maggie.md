@@ -5,7 +5,7 @@ longname: "Maggie <br> Paquette"
 longname-oneline: "Maggie Paquette"
 shortname: "Maggie P."
 images: true
-specialty-1: Web Design/
+specialty-1: Web/
 specialty-2: UI/UX/
 specialty-3: Illustration
 specialization:

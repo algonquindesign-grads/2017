@@ -5,7 +5,7 @@ longname: "Ryan <br> Purdy"
 longname-oneline: "Ryan Purdy"
 shortname: "Ryan P."
 images: true
-specialty-1: Web Design/
+specialty-1: Web/
 specialty-2: UI/UX
 specialization:
  - ux-ui

@@ -7,7 +7,7 @@ shortname: "Erin B."
 images: true
 specialty-1: Branding/
 specialty-2: Typography/
-specialty-3: Web Design
+specialty-3: Web
 specialization:
  - branding
  - type

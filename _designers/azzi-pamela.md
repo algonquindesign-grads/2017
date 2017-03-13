@@ -5,7 +5,7 @@ longname: "Pamela <br> Azzi"
 longname-oneline: "Pamela Azzi"
 shortname: "Pamela A."
 images: true
-specialty-1: Web Design/
+specialty-1: Web/
 specialty-2: Branding/
 specialty-3: Illustration
 specialization:

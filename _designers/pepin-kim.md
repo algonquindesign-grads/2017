@@ -5,7 +5,7 @@ longname: "Kim <br> Pepin"
 longname-oneline: "Kim Pepin"
 shortname: "Kim P."
 images: true
-specialty-1: Web Design/
+specialty-1: Web/
 specialty-2: UI/UX/
 specialty-3: Photography
 specialization:
