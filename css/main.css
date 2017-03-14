@@ -394,6 +394,11 @@ select {
 		display: block;
 	}
 
+	.title-rotate {
+		bottom: -3.5rem;
+		font-size: 40px;
+	}
+
 	.hero-gif {
 		display: none;
 	}
@@ -469,23 +474,15 @@ select {
 }
 */
 
-@media only screen and (min-width: 42em) {
-	.title-rotate {
-		font-size: 45px;
-		top: 10%;
-		right: 3.5rem;
-		line-height: 1;
-		transform: rotate(90deg);
-	}
-
-}
-
 @media only screen and (min-width: 60em) {
+
 
 	.title-rotate {
 		font-size: 55px;
 		top: 10%;
 		right: 1rem;
+		line-height: 1;
+		transform: rotate(90deg);
 	}
 
 	.gp-photo {
