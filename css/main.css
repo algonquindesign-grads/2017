@@ -354,10 +354,7 @@ select {
 
 .thank-yous {
   line-height: 2.5em;
-  column-count: 3;
-      -webkit-column-count: 3; /* Chrome, Safari, Opera */
-    -moz-column-count: 3; /* Firefox */
-    column-count: 3;
+
 }
 
 .sponsor-name {
@@ -458,6 +455,9 @@ select {
 	.thank-yous {
 		padding: 0 2rem;
 		column-count: 3;
+      column-count: 3;
+      -webkit-column-count: 3; /* Chrome, Safari, Opera */
+      -moz-column-count: 3; /* Firefox */
 		column-fill: balance;
 	}
 
