@@ -12,7 +12,7 @@ specialization:
  - branding
  - ui-ux
  - print
-link: "http://arialalisha.ca"
+link: "https://www.behance.net/aria002364bb"
 linkname: "arialalisha.ca"
 email: "aria0023@algonquinlive.com"
 instagram: "https://www.instagram.com/arialalisha/"

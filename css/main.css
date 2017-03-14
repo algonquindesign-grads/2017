@@ -127,6 +127,10 @@ color: #000
 	height: auto;
 }
 
+.about-p {
+    text-align: left;
+}
+
 .title {
   position: relative;
   padding-left: 2rem;
