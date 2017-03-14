@@ -91,7 +91,7 @@ color: #000
 .title-rotate {
 	font-family: 'Work Sans', sans-serif;
 	transform: rotate(90deg);
-	font-size: 38px;
+	font-size: 20px;
 	position: absolute;
 	top: 40%;
 	right: -9rem;
