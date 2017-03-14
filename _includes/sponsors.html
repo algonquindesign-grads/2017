@@ -5,6 +5,7 @@
     <h2 class="gutter kilo text-white text-upper">Thank you</h2>
   </div>
 
+<!--
   <div class="thank-yous micro push-2 text-grey unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
     <ul class="sponsor-listn gutter list-group">
       {% for sponsor in site.data.sponsors%}
@@ -14,5 +15,16 @@
       {% endfor %}
     </ul>
   </div>
+-->
 
+
+  <div class="thank-yous micro push-2 text-grey unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
+    <div class="sponsor-listn gutter list-group">
+      {% for sponsor in site.data.sponsors%}
+
+          <p class="sponsor-name text-white">{{sponsor.name}}</p>
+
+      {% endfor %}
+    </div>
+  </div>
 </section>
