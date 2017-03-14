@@ -17,6 +17,12 @@ html {
 	box-sizing: inherit;
 }
 
+.studio-n {
+  font-family: "Overpass", sans-serif;
+  font-weight: bolder;
+  max-width: 60%;
+}
+
 .wrapper {
   max-width: 90em;
   margin-left: auto;
