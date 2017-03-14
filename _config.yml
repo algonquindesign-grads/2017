@@ -1,5 +1,5 @@
 permalink: pretty
-baseurl: "/2017"
+baseurl: ""
 exclude: ['README.md']
 cdn: http://grads.images.algonquindesign.ca/2017
 
