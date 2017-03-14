@@ -13,7 +13,7 @@ specialization:
  - photography
  - type
 link: "https://www.behance.net/marissaboswall"
-linkname: "marissaboswall.ca"
+linkname: "portfolio"
 email: "marissa.boswall96@gmail.com"
 instagram: "https://www.instagram.com/boswall_photography/"
 facebook: "https://www.facebook.com/marissa.boswall"
