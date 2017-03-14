@@ -90,11 +90,9 @@ color: #000
 
 .title-rotate {
 	font-family: 'Work Sans', sans-serif;
-	transform: rotate(90deg);
 	font-size: 20px;
 	position: absolute;
-	top: 40%;
-	right: -5.3rem;
+	bottom: -3rem;
 }
 
 .fullscreen-bg {
@@ -409,9 +407,10 @@ select {
 
 	.title-rotate {
 		font-size: 45px;
-		top: 40%;
-		right: -10rem;
+		top: 10%;
+		right: 3.5rem;
 		line-height: 1;
+		transform: rotate(90deg);
 	}
 
 	.overlay a {
@@ -481,8 +480,8 @@ select {
 
 	.title-rotate {
 		font-size: 55px;
-		top: 40%;
-		right: -11.5rem;
+		top: 10%;
+		right: 1rem;
 	}
 
 	.gp-photo {
