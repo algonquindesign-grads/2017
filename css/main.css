@@ -406,14 +406,6 @@ select {
 		font-size: 6rem;
 	}
 
-	.title-rotate {
-		font-size: 45px;
-		top: 10%;
-		right: 3.5rem;
-		line-height: 1;
-		transform: rotate(90deg);
-	}
-
 	.overlay a {
 		font-size: 80px;
 	}
@@ -476,6 +468,17 @@ select {
 	opacity: .4;
 }
 */
+
+@media only screen and (min-width: 42em) {
+	.title-rotate {
+		font-size: 45px;
+		top: 10%;
+		right: 3.5rem;
+		line-height: 1;
+		transform: rotate(90deg);
+	}
+
+}
 
 @media only screen and (min-width: 60em) {
 
