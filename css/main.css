@@ -395,7 +395,7 @@ select {
 @media only screen and (min-width: 38em) {
 
 	video {
-		display: block;
+		display: block ;
 	}
 
 	.title-rotate {
@@ -484,7 +484,7 @@ select {
 	.title-rotate {
 		font-size: 55px;
 		top: 10%;
-		right: 1rem;
+		right: 4rem;
 		line-height: 1;
 		transform: rotate(90deg);
 	}
@@ -575,6 +575,11 @@ select {
 
 @media only screen and (min-width: 75em) {
 
+	.title-rotate {
+		line-height: 1;
+		right: 4rem;
+	}
+
 	.specialization-select {
 		left: -35px;
 	}
@@ -608,3 +613,10 @@ select {
   .profs-pic figure{
     margin: 0;
   }
+
+@media only screen and (min-width: 90em) {
+	.title-rotate {
+		right: 4rem;
+		line-height: 1;
+	}
+}
