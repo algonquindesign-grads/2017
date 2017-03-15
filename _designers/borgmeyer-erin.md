@@ -12,8 +12,8 @@ specialization:
  - branding
  - type
  - web
-link: "http://erinelizabethb.ca"
-linkname: "erinelizabethb.ca"
+link: "https://borg0027.myportfolio.com/projects"
+linkname: "portfolio"
 email: "erin.borgmeyer@gmail.com"
 behance: "https://www.behance.net/erinelizabethb"
 vimeo: "https://vimeo.com/erinelizabethb"
