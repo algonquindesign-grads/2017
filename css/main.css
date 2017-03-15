@@ -93,7 +93,13 @@ color: #000
 	font-family: 'Work Sans', sans-serif;
 	font-size: 20px;
 	position: absolute;
-	bottom: -3rem;
+	bottom: -1.5rem;
+	line-height: 0;
+}
+
+.gradshow-rotated {
+	width: 50px;
+	display: none;
 }
 
 .fullscreen-bg {
@@ -399,7 +405,7 @@ select {
 	}
 
 	.title-rotate {
-		bottom: -3.5rem;
+		bottom: -1.5rem;
 		font-size: 40px;
 	}
 
@@ -483,10 +489,17 @@ select {
 
 	.title-rotate {
 		font-size: 55px;
-		top: 10%;
+		top: 0;
 		right: 4rem;
-		line-height: 1;
 		transform: rotate(90deg);
+	}
+
+	.gradshow-rotated {
+		position: absolute;
+		right: -1rem;
+		top: 3rem;
+		width: 40px;
+		display: block;
 	}
 
 	.gp-photo {
