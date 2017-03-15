@@ -12,7 +12,7 @@ specialization:
  - motion
 link: "http://ashtastic.ca"
 linkname: "ashtastic.ca"
-email: "hello@ashtastic.ca"
+email: "amurr20@gmail.com"
 instagram: "https://www.instagram.com/tastic.ash/"
 facebook: "https://www.facebook.com/tastic.ash"
 linkedin: "https://www.linkedin.com/in/ashmurray"
