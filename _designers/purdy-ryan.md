@@ -7,9 +7,11 @@ shortname: "Ryan P."
 images: true
 specialty-1: Web/
 specialty-2: UI/UX
+specialty-3: Experience
 specialization:
  - ux-ui
  - web
+ - experience
 link: "http://ryanpurdy.ca"
 linkname: "ryanpurdy.ca"
 email: "ryan.nicholas.purdy@gmail.com"
