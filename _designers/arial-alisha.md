@@ -13,7 +13,7 @@ specialization:
  - ui-ux
  - print
 link: "https://aria0023.myportfolio.com"
-linkname: "arialalisha.ca"
+linkname: "portfolio"
 email: "aria0023@algonquinlive.com"
 instagram: "https://www.instagram.com/arialalisha/"
 linkedin: "https://ca.linkedin.com/in/alisha-arial-7685137a"
