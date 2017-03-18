@@ -12,7 +12,7 @@ specialization:
  - illustration
  - branding
  - print
-link: "http://domrichichi.ca"
+link: "https://www.behance.net/domrichichi"
 linkname: "http://domrichichi.ca"
 email: "domrichichi@gmail.com"
 instagram: "https://www.instagram.com/cultfather/"
