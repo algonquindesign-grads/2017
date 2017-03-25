@@ -12,7 +12,7 @@ specialization:
  - branding
  - ui-ux
  - print
-link: "https://aria0023.myportfolio.com"
+link: "https://arialalisha.myportfolio.com"
 linkname: "portfolio"
 email: "aria0023@algonquinlive.com"
 instagram: "https://www.instagram.com/arialalisha/"
