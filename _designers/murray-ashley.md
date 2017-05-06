@@ -10,8 +10,8 @@ specialty-2: Motion
 specialization:
  - ux-ui
  - motion
-link: "http://ashtastic.ca"
-linkname: "ashtastic.ca"
+link: "https://ashleymurray.myportfolio.com/"
+linkname: "My Portfolio"
 email: "amurr20@gmail.com"
 instagram: "https://www.instagram.com/tastic.ash/"
 facebook: "https://www.facebook.com/tastic.ash"
