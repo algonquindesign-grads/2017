@@ -1,6 +1,5 @@
 ---
-
-layout: grads
+# layout: grads
 longname: "Shannon <br> Hawn"
 longname-oneline: "Shannon Hawn"
 shortname: "Shannon H."
@@ -9,9 +8,9 @@ specialty-1: Branding/
 specialty-2: Illustration/
 specialty-3: Print
 specialization:
- - illustration
- - branding
- - print
+  - illustration
+  - branding
+  - print
 link: "http://shannonhawn.myportfolio.com"
 linkname: portfolio
 email: "shannonhawn@hotmail.com"
@@ -21,4 +20,7 @@ vimeo: "https://vimeo.com/shannonhawn"
 description: "I love incorporating my love of animals into my designs. When I'm not illustrating I go on adventures with my two pugs."
 meta: "I love incorporating my love of animals into my designs. When I'm not illustrating I go on adventures with my two pugs."
 
+# Requested removal from website; 2020-10-09
+layout: redirect
+redirect_to: "/"
 ---
